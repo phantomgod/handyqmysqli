@@ -1,0 +1,464 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML; 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+<head>
+<title>PHP Random Text script - README</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<style type="text/css">
+/* Style sheet and XHTML code
+Author: Mauricio Samy Silva http://www.maujor.com/ A Web Standard evangelist site
+City: Rio de Janeiro - Brazil
+Contact: maujorcss[at]maujor[dot]com
+Date: 2006-05-11
+*/
+body {
+        margin:5px 0;
+        padding:0;
+        background:#eee;
+        color: black;
+        font : 68.8%/1.5 Verdana, Geneva, Arial, Helvetica, sans-serif;
+        text-align:center;
+        }
+#wrapper {
+        width:700px;
+        background:#fff;
+        margin:0 auto;
+        text-align:left;
+        border:1px solid #ccc;
+        padding:10px 20px;
+        }
+h1 {
+        font-size:1.5em;
+        }
+h2 {
+        font-size:1.2em;
+        border-top:1px solid #999;
+        padding-top:1.8em;
+        }
+h3 {
+        font-size:1.0em;
+        }
+span.dest { color:#f00;}
+span.tip { color:#008000; font-weight:bold;}
+p {
+        color : black;
+        font-family : Verdana, Geneva, Arial, Helvetica, sans-serif;
+        font-size: 1.0em;
+        }
+address {
+        font-weight:bold;
+        font-style:normal;
+        }
+ul.nobullets {
+        margin:0 0 1.0em;
+        padding:0;
+        list-style:none;
+        }
+ol li {margin-bottom:1.0em;}
+samp, code {
+        font-size:1.3em;
+        font-weight:bold;
+        }
+a:hover {
+        color : red;
+        background:#ccc;
+        text-decoration : none;
+        }
+table#installation {
+        border-collapse:collapse;
+        margin: 5px 15px 10px -25px;
+        border: 2px solid #999;
+        }
+table#installation thead {
+        text-align:center;
+        text-transform:uppercase;
+        }
+table#installation tr td, table#installation tr th {
+        padding: 2px 5px;
+        border: 1px solid #ccc;
+        }
+table#installation tr th {
+        border-bottom-width:2px;
+        border-bottom-color:#999;
+        }
+
+table#installation tr td var {
+        font-weight:bold;
+        font-style:normal;
+        }
+table#installation tr.odd {
+        background: #fafafa;
+        }
+
+table.code
+{
+ color: #000000;
+ background-color: #f1f1f1;
+ font-size: 100%;
+ padding:0px;
+ border-top: 1px solid gray;
+ border-left: 1px solid gray;
+ border-bottom: 0px solid gray;
+ border-right: 0px solid gray;
+}
+table.code th, table.code td
+{
+ padding-bottom:2px;
+ border-top: 0px solid gray;
+ border-left: 0px solid gray;
+ border-bottom: 1px solid gray;
+ border-right: 1px solid gray;
+}
+pre
+{
+ font-family:"Courier New",monospace;
+ font-size:110%;
+ margin-left: 0;
+ margin-bottom: 0;
+}
+</style>
+</head>
+<body>
+<div id="wrapper">
+<div id="main">
+<h1><span class="dest">RanTex</span><br />
+PHP Random Text script</h1>
+
+<ul class="nobullets">
+<li>Random Text (RanTex)</li>
+<li>Version: 1.0 from 4th January 2009</li>
+<li>Author: Klemen Stirn</li>
+<li><a href="http://www.phpjunkyard.com" target="_blank">PHPJunkYard.com - Free PHP scripts</a></li>
+<li><a href="http://www.phpjunkyard.com/random-text.php" target="_blank">Random Text</a></li>
+<li><a href="http://developers.phpjunkyard.com/" target="_blank">Support and developers forum</a></li>
+</ul>
+
+<p><b>PLEASE NOTE:</b> I <span class="dest">cannot</span> provide free installation support for this free script! Please contact me ONLY about possible bug reports, suggestions or comments! Thank you!</p>
+
+<h2>INDEX</h2>
+
+<ul class="nobullets">
+    <li><a href="#copy">Copyright notice and license</a></li>
+    <li><a href="#desc">Description &amp; requirements</a></li>
+    <li><a href="#install">Installation</a></li>
+    <li><a href="#links">Link to RanTex</a></li>
+    <li><a href="#help">HELP and Troubleshooting</a></li>
+    <li><a href="#other">Newsletter, rating this script and other</a></li>
+</ul>
+
+<h2 id="copy">COPYRIGHT NOTICE</h2>
+
+<p>Copyright 2009 Klemen Stirn. All Rights Reserved.</p>
+
+<p>This script may be used and modified free of charge by anyone
+AS LONG AS COPYRIGHT NOTICES AND ALL THE COMMENTS REMAIN INTACT.
+By using this code you agree to indemnify Klemen Stirn from any
+liability that might arise from it's use.</p>
+
+<p>Using this script requires attribution. In other words: if you are using this
+script you are required to place a link to PHPJunkyard on your website.
+You will find some link suggestions <a href="#links">here</a>.</p>
+
+<p>Selling the code for this program, in part or full, without prior
+written consent is expressly forbidden.</p>
+
+<p>Obtain permission before redistributing this software over the Internet
+or in any other medium. In all cases copyright and header must remain
+intact. This Copyright is in full effect in any country that has
+International Trade Agreements with the United States of America or
+with the European Union.</p>
+
+<h2 id="desc">DESCRIPTION</h2>
+
+<p>RanTex is a simple PHP Random Text/Quotes script. Use it to display Random Text or Quotes from a file of your choice on your web pages.
+RanTex can also display random blocks of HTML code.</p>
+
+<h2>REQUIREMENTS</h2>
+
+<ul>
+    <li>Any server with working PHP 4.3 (or newer)</li>
+    <li>FTP access and a FTP program</li>
+</ul>
+
+<h2 id="install">&raquo; Installation</h2>
+
+<p style="font-weight:bold"><span class="dest">Please take 5 minutes time and read installation instructions carefully and completely! This will ensure a proper and easy installation.</span></p>
+
+<p style="font-weight:bold"><span class="dest">If you have problems/questions see the &quot;Troubleshooting and HELP&quot; section further down.</span></p>
+
+<p><b>-&gt; Quick install</b></p>
+
+<ol>
+<li>
+<p>FTP to the public folder of your server (where the rest of your website is;
+usually called &quot;public_html&quot;, &quot;www&quot; or &quot;site&quot;) and create
+a folder where you will install RanTex (for example named &quot;rantex&quot;).<br />
+Example: /public_html/rantex<br />
+Corresponding URL: http://www.yourdomain.com/rantex</p>
+<p><span class="tip">TIP:</span> If you don't know how to FTP files read my simple
+<a href="http://www.phpjunkyard.com/ftp-chmod-tutorial.php" target="_blank">FTP tutorial</a></p>
+</li>
+<li>
+<p>Upload all RanTex files to your server. They should be transferred in ASCII mode.</p>
+</li>
+</ol>
+
+<p>That's it. To test if RanTex works fine on your server open <i>rantex/test.php</i> in your browser, for example:<br />
+http://www.yourdomain.com/rantex/test.php</p>
+
+<p>Your browser should show a sample page with 2 random quotes displayed. Try refreshing the page to see images change.</p>
+
+<p>Got an error message? A few solutions can be found below under <a href="#help">HELP and Troubleshooting</a>.</p>
+
+<p><b>-&gt; Using Random Text script</b></p>
+
+<p>Now that the script is up and running it's time to choose the text/quotes that should be randomly displayed.
+You can do so by adding them <b>one per line</b> inside the <b>quotes.txt</b> file. Make
+sure you don't leave any empty lines between different quotes!</p>
+
+<p>Alternatively you can enter a list of text/quotes inside rantex.php file directly.
+This is useful if you have large chunks of text that don't fit in one line only.
+To learn how to this read further down under &quot;Modifying default settings&quot;.</p>
+
+<p>To display Random Text/Quote on your website using the default settings paste this
+code into your web page where you want the text to appear (<a href="#help">not sure how?</a>):</p>
+
+<table width="100%" border="1" class="code" cellspacing="0">
+<tr>
+<td>
+<pre>&lt;script type=&quot;text/javascript&quot; src=&quot;http://yourdomain.com/rantex/rantex.php&quot;&gt;&lt;/script&gt;</pre>
+</td>
+</tr>
+</table>
+
+<p>If you are using RanTex in a PHP file you can include the text directly (without using Javascript)
+like this:</p>
+
+<table width="100%" border="1" class="code" cellspacing="0">
+<tr>
+<td>
+<pre>&lt;?php $_GET['type'] = 0; include 'rantex.php'; ?&gt;</pre>
+</td>
+</tr>
+</table>
+
+<p>As simple as that!</p>
+
+<p><span class="dest"><b>Important!</b></span> Using this script requires attribution. In other words: if you are using this
+script you are required to place a link to PHPJunkyard on your website.
+This is all I require in exchange for this free script, please support my work
+by placing a link on your website. You will find some link suggestions <a href="#links">here</a>.</p>
+
+<p><b>-&gt; Modifying default settings</b></p>
+
+<p>To modify default settings open <b>rantex.php</b> in a plain text editor (like Notepad or Wordpad on Windows, DO NOT use Microsoft Word!)
+and scroll down to where it says SETTINGS. Available settings are:</p>
+
+<ol>
+
+<table id="installation" summary="This is a simple two columns table - the first column names a variable and in second one has a descripton and the settings for the varible">
+<thead>
+<tr>
+<th>Variable</th>
+<th>Description/Setup</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td valign="top" nowrap="nowrap"><var>$settings['text_from_file']</var></td>
+<td>Name (path) of the file where random text/quotes are located. Text should be
+listed one per line. You can use any HTML code you wish inside the text.</td>
+</tr>
+<tr>
+<td valign="top" nowrap="nowrap"><var>$settings['quotes']</var></td>
+<td>If you prefer not to choose text from a file you can hard code the text/quotes
+to choose from in this variable.<br /><br />
+To use the hard-coded quotes you need to set above
+variable to <var>$settings['text_from_file'] = '';</var><br /><br />
+All quotes must start and end with a single quote ( ' ) and be separated
+with a comma ( , ). Text can stretch over multiple lines. Any single quotes inside the text must be escaped with
+a backslash ( \ ). In other words: replace any  '  with  \'  <br /><br />
+Example:<br><br />
+<table width="100%" border="1" class="code" cellspacing="0">
+<tr>
+<td>
+<pre>$settings['quotes'] = array(
+'First quote',
+'Multi
+line
+quote',
+'Third quote',
+'Some text with &lt;b&gt;HTML&lt;/b&gt; code!',
+'Any single quotes \' must be escaped with a backslash',
+'A quote with a &lt;a href=&quot;http://www.phpjunkyard.com&quot;&gt;link&lt;/a&gt;!',
+'Some long text
+that stretches over several
+lines and contains some
+&lt;b&gt;HTML&lt;/b&gt; code and ends
+with a &lt;a href=&quot;http://www.phpjunkyard.com&quot;&gt;link&lt;/a&gt;',
+);</pre>
+</td>
+</tr>
+</table>
+<br /><br />
+</td>
+</tr>
+<tr class="odd">
+<td valign="top" nowrap="nowrap"><var>$settings['display_type']</var></td>
+<td>If set to <b>1</b> RanTex will print out valid Javascript code.
+This is useful if you want to print random text/quotes on static HTML
+pages using Javascript:<br /><br />
+<table width="100%" border="1" class="code" cellspacing="0">
+<tr>
+<td>
+<pre>&lt;script type=&quot;text/javascript&quot; src=&quot;rantex.php&quot;&gt;&lt;/script&gt;</pre>
+</td>
+</tr>
+</table>
+<br /><br />
+If set to <b>0</b> RanTex will print just the text as received without any formatting.
+Use this mode if you are using RanTex as a PHP include or with SSI (*.shtml files):<br /><br />
+<table width="100%" border="1" class="code" cellspacing="0">
+<tr>
+<td>
+<pre>&quot;&lt;?php include 'rantex.php'; ?&gt;</pre>
+</td>
+</tr>
+</table>
+<br />
+</td>
+</tr>
+<tr>
+<td valign="top" nowrap="nowrap"><var>$settings['allow_otf']</var></td>
+<td>If set to <b>1</b> RanTex will allow changing display_type setting on-the-fly (see below)
+Set to <b>0</b> to only allow hard-coded settings (as set in the rantex.php file).<br /><br />
+</td>
+</tr>
+</tbody>
+</table>
+
+</ol>
+
+<p>Save changes and upload the edited rantex.php file to your server.</p>
+
+<p><b>-&gt; Changing settings on-the-fly</b></p>
+
+<p>You can also modify RanTex display_type settings on-the-fly simply by passing proper values to the script
+using query string (when using RanTex as Javascript SRC URL) or variables (when using RanTex as a PHP include).</p>
+
+<p>For changing settings on-the-fly to work variable <var>$settings['allow_otf']</var>
+must be set to <b>1</b> (see above)!</p>
+
+<p>Operating mode ($settings['display_type']) can be changed using $_GET['type'] variable. This might sound a bit confusing,
+but here are a few examples:</p>
+
+<p>If your default $settings['display_type'] is 0 (PHP include) but would like
+to use the same script to show quotes in Javascript you can use this code:</p>
+
+<table width="100%" border="1" class="code" cellspacing="0">
+<tr>
+<td>
+<pre>&lt;script type=&quot;text/javascript&quot; src=&quot;rantex.php?type=1&quot;&gt;&lt;/script&gt;</pre>
+</td>
+</tr>
+</table>
+
+<p>On the other hand if your default mode is 1 (Javascript) you can use the same
+script as an include like this:</p>
+
+<table width="100%" border="1" class="code" cellspacing="0">
+<tr>
+<td>
+<pre>&lt;?php $_GET['type'] = 0; include 'rantex.php'; ?&gt;</pre>
+</td>
+</tr>
+</table>
+
+<p>The same code is used in the <b>test.php</b> file, have a look if interested.</p>
+
+<h2 id="links">&raquo; Link to RanTex</h2>
+
+<p>A lot of time and effort went into developing RanTex and other PHPJunkyard scripts.
+That's why this script requires attribution. In other words: if you are using this
+script you are required to place a link to PHPJunkyard on your website.
+This is all I require in exchange for this free script, please support my work
+by placing a link on your website. It can be as simple as a short text link.</p>
+
+<p><b>-&gt; Don't want to place a link?</b></p>
+
+<p>If you want to use RanTex but would prefer (for any reason) not to place a link
+to PHPJunkyard on your website you can attribute by sending a
+<a href="http://www.phpjunkyard.com/donations/donations.php" target="_blank">small donation</a>.
+Any amount. Donations help keep PHPJunkyard website and scripts alive.</p>
+
+<p><b>-&gt; Link suggestions</b></p>
+
+<p>1. Simple text link<br>
+<a href="http://www.phpjunkyard.com/random-text.php">Random Text</a><br>
+<textarea cols="40" rows="3" onclick="this.focus();this.select()">&lt;a href=&quot;http://www.phpjunkyard.com/random-text.php&quot;&gt;Random Text&lt;/a&gt;</textarea></p>
+
+<p>2 &quot;Powered by&quot; simple text link<br>
+Powered by <a href="http://www.phpjunkyard.com/random-text.php">Random Text</a><br>
+<textarea cols="40" rows="3" onclick="this.focus();this.select()">Powered by &lt;a href=&quot;http://www.phpjunkyard.com/random-text.php&quot;&gt;Random Text&lt;/a&gt;</textarea></p>
+
+<p>3. Text link with description<br>
+<a href="http://www.phpjunkyard.com/random-text.php">Random Text</a> - get this and other free PHP scripts from PHPJunkyard.<br>
+<textarea cols="40" rows="3" onclick="this.focus();this.select()">&lt;a href=&quot;http://www.phpjunkyard.com/random-text.php&quot;&gt;Random Text&lt;/a&gt; - get this and other free PHP scripts from PHPJunkyard.</textarea></p>
+
+<p><span class="tip">TIP:</span> Get more link suggestions on the <a href="http://www.phpjunkyard.com/link2us.php">PHPJunkyard link to us</a> page!</p>
+
+<h2 id="help">&raquo; HELP and Troubleshooting</h2>
+
+<h3>1. What is CHMOD and FTP?</h3>
+
+<p>I have prepared a simple <a href="http://www.phpjunkyard.com/ftp-chmod-tutorial.php" target="_blank">FTP
+and CHMOD tutorial</a> which will help you FTP files to your server and set correct CHMOD settings.</p>
+
+<h3>2. How do I paste Javascript code into my web page? I tried pasting it but it only shows code, not
+random links?</h3>
+
+<p>Try using a simple trick from my <a href="http://www.phpjunkyard.com/tutorials/cut-paste-code.php" target="_blank">Cut and paste code into HTML document</a> tutorial.</p>
+
+<h3>3. I get an error message when I open rantex.php in the browser?</h3>
+
+<p>You probably made an error when editing rantex.php file. Double-check all the instructions
+in the <b>Modifying default settings</b> section above. Try to follow the original
+script setup/examples and
+modify the script step-by-step (make one change, test it, make another change, test it, ...)</p>
+
+<h3>4. The on-the-fly changes have no effect</h3>
+
+<p>Make sure you have <var>$settings['allow_otf']</var> set to <b>1</b> and are
+passing correct values to the script. If you pass invalid values the default settings
+will be used</p>
+
+<p>&nbsp;</p>
+
+<p>Since these scripts are free no support is guaranteed. If you can't get the script to work please go
+through this readme file again carefully and repeat the installation step-by-step (also delete old
+files and folders from the server). Also please feel free to post any questions or problems you might have
+in <a href="http://developers.phpjunkyard.com">PHPJunkyard forum</a>!</p>
+
+<h2 id="other">&raquo; Stay updated!</h2>
+
+<p>Join my FREE newsletter and you will be notified about new scripts, new versions of the existing scripts and other important news from PHPJunkYard.<br />
+<a href="http://www.phpjunkyard.com/newsletter.php" target="_blank">Click here for more info</a></p>
+
+<h2>&raquo; Please rate this script</h2>
+
+<p>If you like this script please rate it or even write a review at:</p>
+
+<p><a href="http://www.hotscripts.com/Detailed/86774.html" target="_blank" rel="nofollow">Rate
+this Script @ Hot Scripts</a></p>
+
+<p><a href="http://php.resourceindex.com/rate?07953" target="_blank" rel="nofollow">Rate
+this Script @ The PHP Resource Index</a></p>
+
+<p>Best regards,</p>
+<address>Klemen Stirn<br />
+PHP JunkYard<br />
+<a href="http://www.phpjunkyard.com">http://www.PHPJunkYard.com</a></address>
+
+</div>
+</div>
+</body>
+</html>

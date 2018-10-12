@@ -1,0 +1,3 @@
+[26-Dec-2012 02:56:49] PHP Fatal error:  Smarty error: the $compile_dir '/home/entro/public_html/opendocman/templates_c/' does not exist, or is not a directory. in /home/entro/public_html/opendocman/includes/smarty/Smarty.class.php on line 1093
+[26-Jan-2013 01:50:53] PHP Fatal error:  Class 'Reports' not found in /home/entro/public_html/opendocman/functions.php on line 781
+[26-Jan-2013 01:58:21] PHP Fatal error:  Class 'Reports' not found in /home/entro/public_html/opendocman/functions.php on line 781

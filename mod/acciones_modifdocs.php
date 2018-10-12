@@ -1,0 +1,9 @@
+<?php
+include('acciones.php');
+?>
+<div onMouseOver="showdiv(event,'<?php echo MENU_ALT_MODIFDOC; ?>');" onMouseOut="hiddenDiv()" style='display:table;margin-top3px;'><a href="?seccion=modifdoc_admin"><img src="images/coffe_edit.gif" style="position:absolute; left:0px; top:0px;" alt="" /></a></div>
+<div onMouseOver="showdiv(event,'<?php echo MENU_ALT_MODIFDOCPRINT; ?>');" onMouseOut="hiddenDiv()" style='display:table;margin-top3px;'><a href="?seccion=modifdoc_print&aktion=print"><img src="images/coffe_print.gif" style="position:absolute; left:30px; top:0px;" alt="" /></a></div>
+<div onMouseOver="showdiv(event,'<?php echo MENU_ALT_BORRAR_MODIFDOC; ?>');" onMouseOut="hiddenDiv()" style='display:table;margin-top3px;'><a href="?seccion=checkbox3_modifdoc"><img src="images/coffe_delete.gif" style="position:absolute; left:60px; top:0px;" alt="" /></a></div>
+<div onMouseOver="showdiv(event,'<?php echo DOCUMENTOS_JOIN; ?>');" onMouseOut="hiddenDiv()" style='display:table;margin-top3px;'><a href="?seccion=modificaciones_por_documento&aktion=print"><img src="images/coffe_join.gif" style="position:absolute; left:90px; top:0px;" alt="" /></a></div>
+<div onMouseOver="showdiv(event,'<?php echo MENU_ALT_MODIFDOC; ?>');" onMouseOut="hiddenDiv()" style='display:table;margin-top3px;'><a href="?seccion=editdeletemodifdocs"><img src="images/coffe_rayo.gif" style="position:absolute; left:120px; top:0px;" alt="" /></a></div>
+<div onMouseOver="showdiv(event,'<?php echo MENU_DOCUMENTOS; ?>');" onMouseOut="hiddenDiv()" style='display:table;margin-top3px;'><a href="?seccion=tabsframesdocumentos"><img src="images/menu_docs_blanck.png" style="position:absolute; left:150px; top:0px;" alt="" /></a></div>

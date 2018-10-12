@@ -1,0 +1,8 @@
+$Id: history.txt,v 1.1 2004/07/20 11:58:12 jfenin Exp $
+
+HISTORY
+=======
+
+1.0     - 20-Jul-2004:  first officially published version
+
+0.5     - 16-Jul-2004:  first uploaded version (never really published)

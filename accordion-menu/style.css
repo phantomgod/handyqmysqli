@@ -1,0 +1,31 @@
+body {
+    margin: 10px auto;
+    font: 75%/120% Verdana,Arial, Helvetica, sans-serif;
+}
+.menu_list {    
+    width: 80px;
+}
+.menu_head {
+    padding: 5px 10px;
+    cursor: pointer;
+    position: relative;
+    top: 10px;
+    margin:1px;
+    font-weight:bold;
+    /**background: transparent url(left.png) center right no-repeat;*/
+}
+.menu_body {
+    display:none;
+}
+.menu_body a{
+  display:block;
+  color:#006699;
+  background-color:transparent;
+  padding-left:10px;
+  font-weight:bold;
+  text-decoration:none;
+}
+.menu_body a:hover{
+  color: #000000;
+  text-decoration:underline;
+  }

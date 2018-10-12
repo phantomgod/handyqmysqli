@@ -1,0 +1,1806 @@
+/* IE6 css fixer v0.95: Fri, 22 Nov 2013 13:23:11 +0100 */
+
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+﻿#cabecera,#topmenu,#acciones,#dir,ul#tabs li,#flotante,.ToolTextHover span,#container .pagination ul li,.total
+    {
+    display: inline;
+}
+
+img {
+    border: 0;
+}
+
+/* fix negative margins */
+.go_button {
+    position: relative;
+    zoom: 1;
+}
+
+/* add zoom:1 to overflow:hidden */
+div#panel #paneles,#contenedor {
+    zoom: 1;
+}
+
+/* add zoom:1 to pos:relative elements */
+div#panel,#rightChildLayer,.ToolText,.ToolTextHover {
+    zoom: 1;
+}
+
+/* add transparancy */
+﻿#cabecera {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+}
+
+#bloque {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+}
+
+#variante {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+}
+
+#variantepxlr {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+#fileupload {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+select {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+}
+
+.tooltip {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+.ToolTextHover span {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
+
+/* add zoom:1; display:inline; to inline-block elements */
+﻿#cabecera,#topmenu,#acciones,#dir,#image_selector_wrapper,ul#tabs li a,select
+    {
+    zoom: 1;
+    display: inline;
+}
+
+
+#cabecera {
+    position: relative;
+    left: 0%;
+    top: -2%;
+    float: left;
+    width: 100%;
+    height: 10%;
+    display: inline-block;
+    z-index: 1031;
+    /*filter: alpha(opacity =   75) -moz-opacity:0.75;
+    opacity: 0.75;
+    border: 2px solid black;
+    border: 1px solid #696;
+    padding: 5px 0;
+    text-align: center;
+    -webkit-box-shadow: #666 0px 2px 3px;
+    -moz-box-shadow: #666 0px 2px 3px;
+    box-shadow: #666 0px 2px 3px;
+    background: #301736;
+    behavior: url("pie/PIE.htc");*/
+}
+
+#topmenu {
+    position: fixed;
+    left: 700px;
+    top: 80px;
+    float: left;
+    width: 500px;
+    height: 25px;
+    display: inline-block;
+    z-index: -1;
+    /*border: 1px solid #696;padding: 5px 0;text-align: center;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;-webkit-box-shadow: #666 0px 2px 3px;-moz-box-shadow: #666 0px 2px 3px;box-shadow: #666 0px 2px 3px;background: #ff8f32;behavior: url(pie/PIE.htc);*/
+}
+
+#bloque {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: auto;
+    z-index: -10;
+    width: 10%;
+    text-indent: 5px;
+    margin: 0px;
+    padding: 5px;
+    /*filter: alpha(opacity =   75) -moz-opacity:0.75;
+    opacity: 0.75;*/
+    /*border: 2px solid black;
+    border: 1px solid #404040;*/
+    text-align: center;
+    /*-webkit-box-shadow: #666 0px 5px 7px;
+    -moz-box-shadow: #666 0px 5px 7px;
+    box-shadow: #666 0px 5px 7px;
+    background: #b567fc;
+    behavior: url("pie/PIE.htc");*/
+}
+
+#variante {
+    position: absolute;
+    left: 18%;
+    top: 15%;
+    width: 79%;
+    height: auto;
+
+    margin: 5px;
+    text-indent: 0px;
+    padding: 20px;
+    background: transparent;
+    /*background: url(../images/bg_300643.png);    
+    filter: alpha(opacity =   85) -moz-opacity:0.85;
+    opacity: 0.85;
+    border: 1px solid #404040;
+    text-align: left;
+    -webkit-box-shadow: #666 0px 5px 7px;
+    -moz-box-shadow: #666 0px 5px 7px;
+    box-shadow: #666 0px 5px 7px;
+    behavior: url("pie/PIE.htc");*/
+}
+
+
+
+#fileupload {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 60%;
+    height: auto;
+    margin: 5px;
+    text-indent: 20px;
+    padding: 20px;
+    filter: alpha(opacity =   90) -moz-opacity:0.90;
+    opacity: 0.90;
+}
+
+#lang {
+    top: 2%;
+    left: 76%;
+    position: absolute;
+    width: 150px;
+    z-index: 3;
+}
+
+#print {
+    top: 19%;
+    left: 123%;
+    position: absolute;
+    width: 50px;
+    z-index: 2;
+}
+
+#backup {
+    top: 40%;
+    left: 60%;
+    position: absolute;
+    width: 20px;
+    z-index: 3;
+}
+
+#admin {
+    top: 4%;
+    left: 77%;
+    position: absolute;
+    width: 120px;
+    z-index: 3;
+}
+
+#escarabajo {
+    top: 2%;
+    left: 77%;
+    position: relative;
+    width: 180px;
+    z-index: 12;
+}
+
+#avion {
+    top: 3%;
+    left: 10%;
+    position: absolute;
+    width: 300px;
+    z-index: 15;
+}
+
+#contactiframe {
+    top: 3%;
+    left: 70%;
+    height: 210px;
+    position: absolute;
+    z-index: 14;
+}
+
+#acciones {
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    float: left;
+    width: 60%;
+    height: 2%;
+    display: inline-block;
+    z-index: 1;
+	}
+#skeleton {
+    position: absolute;
+    left: 60%;
+    top: 5%;
+}
+
+#dir {
+    background-color: #cccccc;
+    display: inline-block;
+    vertical-align: top;
+    clear: left;
+    float: left;
+    left: 0%;
+    top: 0%;
+    height: 100px;
+    z-index: -10;
+}
+
+
+p {
+margin: 0 0 2px;
+}
+
+.img {
+    border: 0;
+}
+
+.documenttitle {
+    color: #DD3308;
+    font-family: arial;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.darkorange {
+    color: #ba746c;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.yellow {
+    color: #FFFF00;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.spangreen {
+    color: #006600;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.spanred {
+    color: #ff0000;
+    font-family: arial;
+    font-size: 11px;
+	font-weight: bold;
+}
+
+.spanblue {
+    color: #1944c3;
+    font-family: arial;
+    font-size: 11px;
+	font-weight: bold;
+	margin-left: 5px;
+}
+
+
+.analisis_revsistema {
+    color: #b5a694;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.resaltartexto {
+    color: #889393;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.resaltartexto2 {
+    color: #FD3220;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.resaltartexto3 {
+    color: #26B500;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.resaltartexto4 {
+    color: #7FAFEC;
+    font-family: arial;
+    font-size: 16px;
+	font-weight: bold;
+}
+
+.even {
+    background-color: #CCCCCC;
+}
+
+
+#para1 {
+    text-align: center;
+    color: green;
+}
+
+#pright {
+    text-align: right;
+}
+
+#pcenter {
+    text-align: center;
+}
+
+#pleft {
+    text-align: left;
+}
+.left
+{
+text-align: left;
+
+}
+
+
+
+/*IMAGE SELECTOR*/
+#image_selector_wrapper {
+    display: inline-block;
+}
+
+/*FIN IMAGE SELECTOR*/
+
+/*SISTEMA DE PESTAÑAS*/
+
+/* tamaño y forma del panel principal */
+div#panel {
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+
+/* configuracion de las pestañas */
+ul#tabs {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 24px;
+    z-index: 20;
+}
+
+ul#tabs li {
+    float: left;
+    height: 23px;
+    padding-left: 8px;
+    list-style: none;
+    margin-right: 1px;
+    /*background: url("../images/tabs.png") left -48px;*/
+}
+
+ul#tabs li.actual {
+    height: 24px;
+    /*background: url("../images/tabs.png") left -72px;*/
+}
+
+ul#tabs li a {
+    display: block;
+    /* hack para ie6 */ .
+    display: inline-block;
+    /* fin del hack */
+    height: 23px;
+    line-height: 23px;
+    padding-right: 8px;
+    outline: 0px none;
+    font-family: arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.61);
+    /*background: url("../images/tabs.png") right 0px;*/
+}
+
+ul#tabs li.actual a {
+    height: 24px;
+    line-height: 24px;
+    /*background: url("../images/tabs.png") right -24px;*/
+    cursor: default;
+}
+
+/* Configuración de los paneles */
+div#panel #paneles {
+    position: absolute;
+    left: 0px;
+    top: 23px;
+    width: 100%;
+    height: 500px;
+    /*border: 1px solid #91a7b4;
+    background: #fff;*/
+    overflow: hidden;
+    z-index: 10;
+}
+
+div#panel #paneles div {
+    margin: 10px;
+    width: 1000px;
+    height: 1000px;
+    font-family: arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    overflow: auto;
+}
+
+/*FIN.....................SISTEMA DE PESTAÑAS*/
+
+/*Estilos para la edición de datos desde las tablas*/
+.editbox {
+    display: none
+}
+
+td {
+    padding: 7px;
+}
+
+iframe {
+    background-color: transparent;
+}
+
+.editbox {
+    font-size: 14px;
+    width: 270px;
+    background-color: #ffffcc;
+    border: solid 1px #000;
+    padding: 4px;
+}
+
+.edit_tr:hover {
+    background: url("edit.png") right no-repeat #80C8E5;
+    cursor: pointer;
+}
+
+/*FIN de Estilos para la edición de datos desde las tablas*/
+#cab1 {
+    top: 35px;
+    left: 27%;
+    position: absolute;
+    width: 160px;
+    z-index: 4;
+}
+
+#cab11 {
+    top: 6px;
+    left: 48%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab12 {
+    top: 6px;
+    left: 52%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab13 {
+    top: 6px;
+    left: 56%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab14 {
+    top: 6px;
+    left: 60%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab15 {
+    top: 6px;
+    left: 64%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab16 {
+    top: 6px;
+    left: 68%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab17 {
+    top: 6px;
+    left: 72%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab18 {
+    top: 6px;
+    left: 76%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab19 {
+    top: 6px;
+    left: 80%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab20 {
+    top: 6px;
+    left: 84%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab2 {
+    top: 35px;
+    left: 42%;
+    position: absolute;
+    width: 20px;
+    z-index: 5;
+}
+
+#cab3 {
+    top: 35px;
+    left: 44%;
+    position: absolute;
+    width: 20px;
+    z-index: 6;
+}
+
+#cab4 {
+    top: 35px;
+    left: 46%;
+    position: absolute;
+    width: 20px;
+    z-index: 7;
+}
+
+#cab5 {
+    top: 35px;
+    left: 48%;
+    position: absolute;
+    width: 20px;
+    z-index: 8;
+}
+
+#handyq {
+    top: 20px;
+    left: 75%;
+    z-index: 11;
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    z-index: 9;
+}
+
+#wc3 {
+    top: 20px;
+    left: 30%;
+    z-index: 11;
+    position: absolute;
+    width: 150px;
+    height: 75px;
+}
+
+/* Estilo que muestra la capa flotante */
+#flotante {
+    /*position: absolute;
+    left: 50px;
+    top: 0px;
+    display: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+    width: 15%;
+    border: 1px solid #59A7FC;
+    background-color: #59A7FC;
+    box-shadow: 3px 3px 3px #000;
+    padding: 10px;
+    z-index: 10;*/
+    
+    border-bottom: 1px dotted #000000; color: #000000; outline: none;
+            cursor: help; text-decoration: none;
+            background: Gold; 
+            border: 1px solid Goldenrod;
+            margin-left: -999em;
+            color: #000;
+            border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+            font-family: Calibri, Tahoma, Geneva, sans-serif;
+            position: absolute; left: 10px; top: 100px;
+            margin-left: 0; 
+			width: 150px;
+            padding: 0.5em 0.8em 0.8em 2em;
+            z-index: 10;
+            display: none;
+            behavior: url(pie/PIE.htc);
+        }
+
+
+/*Tabla print*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xx  CSS Table Gallery            xx
+xx  Author: Mauricio Samy Silva  xx
+xx  URL: http://www.maujor.com/  xx
+xx  Country: Brazil              xx
+xx  Date: 2005-09-28             xx
+xx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.print{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.print th,
+.print td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 0px solid #dddddd;
+}
+
+
+.print th {
+  font-weight: bold;
+}
+
+.print thead th {
+  vertical-align: bottom;
+}
+
+.print caption + thead tr:first-child th,
+.print caption + thead tr:first-child td,
+.print colgroup + thead tr:first-child th,
+.print colgroup + thead tr:first-child td,
+.print thead:first-child tr:first-child th,
+.print thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.print tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+.print .print {
+  background-color: #ffffff;
+}
+
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 5px;
+}
+
+.table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border-left: 1px solid #dddddd;
+}
+
+.table-bordered caption + thead tr:first-child th,
+.table-bordered caption + tbody tr:first-child th,
+.table-bordered caption + tbody tr:first-child td,
+.table-bordered colgroup + thead tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child td,
+.table-bordered thead:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table-bordered thead:first-child tr:first-child > th:first-child,
+.table-bordered tbody:first-child tr:first-child > td:first-child,
+.table-bordered tbody:first-child tr:first-child > th:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.table-bordered thead:first-child tr:first-child > th:last-child,
+.table-bordered tbody:first-child tr:first-child > td:last-child,
+.table-bordered tbody:first-child tr:first-child > th:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.table-bordered thead:last-child tr:last-child > th:first-child,
+.table-bordered tbody:last-child tr:last-child > td:first-child,
+.table-bordered tbody:last-child tr:last-child > th:first-child,
+.table-bordered tfoot:last-child tr:last-child > td:first-child,
+.table-bordered tfoot:last-child tr:last-child > th:first-child {
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+
+.table-bordered thead:last-child tr:last-child > th:last-child,
+.table-bordered tbody:last-child tr:last-child > td:last-child,
+.table-bordered tbody:last-child tr:last-child > th:last-child,
+.table-bordered tfoot:last-child tr:last-child > td:last-child,
+.table-bordered tfoot:last-child tr:last-child > th:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+.table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+}
+
+.table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 0;
+          border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+}
+
+.table-bordered caption + thead tr:first-child th:first-child,
+.table-bordered caption + tbody tr:first-child td:first-child,
+.table-bordered colgroup + thead tr:first-child th:first-child,
+.table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.table-bordered caption + thead tr:first-child th:last-child,
+.table-bordered caption + tbody tr:first-child td:last-child,
+.table-bordered colgroup + thead tr:first-child th:last-child,
+.table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color: #f5f5f5;
+}
+
+table td[class*="span"],
+table th[class*="span"],
+.row-fluid table td[class*="span"],
+.row-fluid table th[class*="span"] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+.print td.span1,
+.print th.span1 {
+  float: none;
+  width: 44px;
+  margin-left: 0;
+}
+
+.print td.span2,
+.print th.span2 {
+  float: none;
+  width: 124px;
+  margin-left: 0;
+}
+
+.print td.span3,
+.print th.span3 {
+  float: none;
+  width: 204px;
+  margin-left: 0;
+}
+
+.print td.span4,
+.print th.span4 {
+  float: none;
+  width: 284px;
+  margin-left: 0;
+}
+
+.print td.span5,
+.print th.span5 {
+  float: none;
+  width: 364px;
+  margin-left: 0;
+}
+
+.print td.span6,
+.print th.span6 {
+  float: none;
+  width: 444px;
+  margin-left: 0;
+}
+
+.print td.span7,
+.print th.span7 {
+  float: none;
+  width: 524px;
+  margin-left: 0;
+}
+
+.print td.span8,
+.print th.span8 {
+  float: none;
+  width: 604px;
+  margin-left: 0;
+}
+
+.print td.span9,
+.print th.span9 {
+  float: none;
+  width: 684px;
+  margin-left: 0;
+}
+
+.print td.span10,
+.print th.span10 {
+  float: none;
+  width: 764px;
+  margin-left: 0;
+}
+
+.print td.span11,
+.print th.span11 {
+  float: none;
+  width: 844px;
+  margin-left: 0;
+}
+
+.print td.span12,
+.print th.span12 {
+  float: none;
+  width: 924px;
+  margin-left: 0;
+}
+
+.print tbody tr.success > td {
+  background-color: #dff0d8;
+}
+
+.print tbody tr.error > td {
+  background-color: #f2dede;
+}
+
+.print tbody tr.warning > td {
+  background-color: #fcf8e3;
+}
+
+.print tbody tr.info > td {
+  background-color: #d9edf7;
+}
+
+.print-hover tbody tr.success:hover > td {
+  background-color: #d0e9c6;
+}
+
+.print-hover tbody tr.error:hover > td {
+  background-color: #ebcccc;
+}
+
+.print-hover tbody tr.warning:hover > td {
+  background-color: #faf2cc;
+}
+
+.print-hover tbody tr.info:hover > td {
+  background-color: #c4e3f3;
+}
+
+/* fin de la tabla print*/
+
+
+
+
+
+/*Tabla print2*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xx  CSS Table Gallery            xx
+xx  Author: Mauricio Samy Silva  xx
+xx  URL: http://www.maujor.com/  xx
+xx  Country: Brazil              xx
+xx  Date: 2005-09-28             xx
+xx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.print2{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.print2 th,
+.print2 td {
+  padding: 4px;
+  line-height: 15px;
+  text-align: left;
+  vertical-align: middle;
+  border-top: 1px solid #dddddd;
+}
+
+.print2 th {
+  font-weight: bold;
+}
+
+.print2 thead th {
+  vertical-align: bottom;
+}
+
+.print2 caption + thead tr:first-child th,
+.print2 caption + thead tr:first-child td,
+.print2 colgroup + thead tr:first-child th,
+.print2 colgroup + thead tr:first-child td,
+.print2 thead:first-child tr:first-child th,
+.print2 thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.print2 tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+.print2 .print2 {
+  background-color: #ffffff;
+}
+
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 5px;
+}
+
+.table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border-left: 1px solid #dddddd;
+}
+
+.table-bordered caption + thead tr:first-child th,
+.table-bordered caption + tbody tr:first-child th,
+.table-bordered caption + tbody tr:first-child td,
+.table-bordered colgroup + thead tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child td,
+.table-bordered thead:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table-bordered thead:first-child tr:first-child > th:first-child,
+.table-bordered tbody:first-child tr:first-child > td:first-child,
+.table-bordered tbody:first-child tr:first-child > th:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.table-bordered thead:first-child tr:first-child > th:last-child,
+.table-bordered tbody:first-child tr:first-child > td:last-child,
+.table-bordered tbody:first-child tr:first-child > th:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.table-bordered thead:last-child tr:last-child > th:first-child,
+.table-bordered tbody:last-child tr:last-child > td:first-child,
+.table-bordered tbody:last-child tr:last-child > th:first-child,
+.table-bordered tfoot:last-child tr:last-child > td:first-child,
+.table-bordered tfoot:last-child tr:last-child > th:first-child {
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+
+.table-bordered thead:last-child tr:last-child > th:last-child,
+.table-bordered tbody:last-child tr:last-child > td:last-child,
+.table-bordered tbody:last-child tr:last-child > th:last-child,
+.table-bordered tfoot:last-child tr:last-child > td:last-child,
+.table-bordered tfoot:last-child tr:last-child > th:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+.table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+}
+
+.table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 0;
+          border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+}
+
+.table-bordered caption + thead tr:first-child th:first-child,
+.table-bordered caption + tbody tr:first-child td:first-child,
+.table-bordered colgroup + thead tr:first-child th:first-child,
+.table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.table-bordered caption + thead tr:first-child th:last-child,
+.table-bordered caption + tbody tr:first-child td:last-child,
+.table-bordered colgroup + thead tr:first-child th:last-child,
+.table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color: #f5f5f5;
+}
+
+table td[class*="span"],
+table th[class*="span"],
+.row-fluid table td[class*="span"],
+.row-fluid table th[class*="span"] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+.print2 td.span1,
+.print2 th.span1 {
+  float: none;
+  width: 44px;
+  margin-left: 0;
+}
+
+.print2 td.span2,
+.print2 th.span2 {
+  float: none;
+  width: 124px;
+  margin-left: 0;
+}
+
+.print2 td.span3,
+.print2 th.span3 {
+  float: none;
+  width: 204px;
+  margin-left: 0;
+}
+
+.print2 td.span4,
+.print2 th.span4 {
+  float: none;
+  width: 284px;
+  margin-left: 0;
+}
+
+.print2 td.span5,
+.print2 th.span5 {
+  float: none;
+  width: 364px;
+  margin-left: 0;
+}
+
+.print2 td.span6,
+.print2 th.span6 {
+  float: none;
+  width: 444px;
+  margin-left: 0;
+}
+
+.print2 td.span7,
+.print2 th.span7 {
+  float: none;
+  width: 524px;
+  margin-left: 0;
+}
+
+.print2 td.span8,
+.print2 th.span8 {
+  float: none;
+  width: 604px;
+  margin-left: 0;
+}
+
+.print2 td.span9,
+.print2 th.span9 {
+  float: none;
+  width: 684px;
+  margin-left: 0;
+}
+
+.print2 td.span10,
+.print2 th.span10 {
+  float: none;
+  width: 764px;
+  margin-left: 0;
+}
+
+.print2 td.span11,
+.print2 th.span11 {
+  float: none;
+  width: 844px;
+  margin-left: 0;
+}
+
+.print2 td.span12,
+.print2 th.span12 {
+  float: none;
+  width: 924px;
+  margin-left: 0;
+}
+
+.print2 tbody tr.success > td {
+  background-color: #dff0d8;
+}
+
+.print2 tbody tr.error > td {
+  background-color: #f2dede;
+}
+
+.print2 tbody tr.warning > td {
+  background-color: #fcf8e3;
+}
+
+.print2 tbody tr.info > td {
+  background-color: #d9edf7;
+}
+
+.print2-hover tbody tr.success:hover > td {
+  background-color: #d0e9c6;
+}
+
+.print2-hover tbody tr.error:hover > td {
+  background-color: #ebcccc;
+}
+
+.print2-hover tbody tr.warning:hover > td {
+  background-color: #faf2cc;
+}
+
+.print2-hover tbody tr.info:hover > td {
+  background-color: #c4e3f3;
+}
+/* fin de la tabla print2*/
+
+
+
+
+
+/* Sortable tables */
+.sortable{
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.sortable th,
+.sortable td {
+  padding: 8px;
+  line-height: 20px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #dddddd;
+}
+
+.sortable th {
+  font-weight: bold;
+}
+
+.sortable thead th {
+  vertical-align: bottom;
+}
+
+.sortable caption + thead tr:first-child th,
+.sortable caption + thead tr:first-child td,
+.sortable colgroup + thead tr:first-child th,
+.sortable colgroup + thead tr:first-child td,
+.sortable thead:first-child tr:first-child th,
+.sortable thead:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.sortable tbody + tbody {
+  border-top: 2px solid #dddddd;
+}
+
+.sortable .sortable {
+  background-color: #ffffff;
+}
+
+.table-condensed th,
+.table-condensed td {
+  padding: 4px 5px;
+}
+
+.table-bordered {
+  border: 1px solid #dddddd;
+  border-collapse: separate;
+  *border-collapse: collapse;
+  border-left: 0;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border-left: 1px solid #dddddd;
+}
+
+.table-bordered caption + thead tr:first-child th,
+.table-bordered caption + tbody tr:first-child th,
+.table-bordered caption + tbody tr:first-child td,
+.table-bordered colgroup + thead tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child th,
+.table-bordered colgroup + tbody tr:first-child td,
+.table-bordered thead:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child th,
+.table-bordered tbody:first-child tr:first-child td {
+  border-top: 0;
+}
+
+.table-bordered thead:first-child tr:first-child > th:first-child,
+.table-bordered tbody:first-child tr:first-child > td:first-child,
+.table-bordered tbody:first-child tr:first-child > th:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.table-bordered thead:first-child tr:first-child > th:last-child,
+.table-bordered tbody:first-child tr:first-child > td:last-child,
+.table-bordered tbody:first-child tr:first-child > th:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.table-bordered thead:last-child tr:last-child > th:first-child,
+.table-bordered tbody:last-child tr:last-child > td:first-child,
+.table-bordered tbody:last-child tr:last-child > th:first-child,
+.table-bordered tfoot:last-child tr:last-child > td:first-child,
+.table-bordered tfoot:last-child tr:last-child > th:first-child {
+  -webkit-border-bottom-left-radius: 4px;
+          border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+}
+
+.table-bordered thead:last-child tr:last-child > th:last-child,
+.table-bordered tbody:last-child tr:last-child > td:last-child,
+.table-bordered tbody:last-child tr:last-child > th:last-child,
+.table-bordered tfoot:last-child tr:last-child > td:last-child,
+.table-bordered tfoot:last-child tr:last-child > th:last-child {
+  -webkit-border-bottom-right-radius: 4px;
+          border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+}
+
+.table-bordered tfoot + tbody:last-child tr:last-child td:first-child {
+  -webkit-border-bottom-left-radius: 0;
+          border-bottom-left-radius: 0;
+  -moz-border-radius-bottomleft: 0;
+}
+
+.table-bordered tfoot + tbody:last-child tr:last-child td:last-child {
+  -webkit-border-bottom-right-radius: 0;
+          border-bottom-right-radius: 0;
+  -moz-border-radius-bottomright: 0;
+}
+
+.table-bordered caption + thead tr:first-child th:first-child,
+.table-bordered caption + tbody tr:first-child td:first-child,
+.table-bordered colgroup + thead tr:first-child th:first-child,
+.table-bordered colgroup + tbody tr:first-child td:first-child {
+  -webkit-border-top-left-radius: 4px;
+          border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+}
+
+.table-bordered caption + thead tr:first-child th:last-child,
+.table-bordered caption + tbody tr:first-child td:last-child,
+.table-bordered colgroup + thead tr:first-child th:last-child,
+.table-bordered colgroup + tbody tr:first-child td:last-child {
+  -webkit-border-top-right-radius: 4px;
+          border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+}
+
+.table-striped tbody > tr:nth-child(odd) > td,
+.table-striped tbody > tr:nth-child(odd) > th {
+  background-color: #f9f9f9;
+}
+
+.table-hover tbody tr:hover > td,
+.table-hover tbody tr:hover > th {
+  background-color: #f5f5f5;
+}
+
+table td[class*="span"],
+table th[class*="span"],
+.row-fluid table td[class*="span"],
+.row-fluid table th[class*="span"] {
+  display: table-cell;
+  float: none;
+  margin-left: 0;
+}
+
+.sortable td.span1,
+.sortable th.span1 {
+  float: none;
+  width: 44px;
+  margin-left: 0;
+}
+
+.sortable td.span2,
+.sortable th.span2 {
+  float: none;
+  width: 124px;
+  margin-left: 0;
+}
+
+.sortable td.span3,
+.sortable th.span3 {
+  float: none;
+  width: 204px;
+  margin-left: 0;
+}
+
+.sortable td.span4,
+.sortable th.span4 {
+  float: none;
+  width: 284px;
+  margin-left: 0;
+}
+
+.sortable td.span5,
+.sortable th.span5 {
+  float: none;
+  width: 364px;
+  margin-left: 0;
+}
+
+.sortable td.span6,
+.sortable th.span6 {
+  float: none;
+  width: 444px;
+  margin-left: 0;
+}
+
+.sortable td.span7,
+.sortable th.span7 {
+  float: none;
+  width: 524px;
+  margin-left: 0;
+}
+
+.sortable td.span8,
+.sortable th.span8 {
+  float: none;
+  width: 604px;
+  margin-left: 0;
+}
+
+.sortable td.span9,
+.sortable th.span9 {
+  float: none;
+  width: 684px;
+  margin-left: 0;
+}
+
+.sortable td.span10,
+.sortable th.span10 {
+  float: none;
+  width: 764px;
+  margin-left: 0;
+}
+
+.sortable td.span11,
+.sortable th.span11 {
+  float: none;
+  width: 844px;
+  margin-left: 0;
+}
+
+.sortable td.span12,
+.sortable th.span12 {
+  float: none;
+  width: 924px;
+  margin-left: 0;
+}
+
+.sortable tbody tr.success > td {
+  background-color: #dff0d8 !important;
+}
+
+.sortable tbody tr.error > td {
+  background-color: #f2dede;
+}
+
+.sortable tbody tr.warning > td {
+  background-color: #fcf8e3;
+}
+
+.sortable tbody tr.info > td {
+  background-color: #d9edf7;
+}
+
+.sortable-hover tbody tr.success:hover > td {
+  background-color: #d0e9c6  !important;
+}
+
+.sortable-hover tbody tr.error:hover > td {
+  background-color: #ebcccc;
+}
+
+.sortable-hover tbody tr.warning:hover > td {
+  background-color: #faf2cc;
+}
+
+.sortable-hover tbody tr.info:hover > td {
+  background-color: #c4e3f3;
+}
+
+/* FIN DE LA TABLA SORTABLE */
+
+/* TOOLTIP2 <a class="tooltip2" href="#">Critical<span class="custom critical"><img src="Critical.png" alt="Error" height="48" width="48" /> */
+
+.tooltip2 {
+            /*border-bottom: 1px dotted #000000; color: #000000; outline: none;*/
+            cursor: help; text-decoration: none;
+            position: relative;
+        }
+        .tooltip2 span {
+            margin-left: -999em;
+            position: absolute;
+            color: #000;
+        }
+        .tooltip2:hover span {
+            border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+            /*box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);*/
+            font-family: Calibri, Tahoma, Geneva, sans-serif;
+            position: absolute; left: 1em; top: 2em; z-index: 99;
+            margin-left: 0; width: 250px;
+            behavior: url(pie/PIE.htc);
+        }
+        .tooltip2:hover img {
+            border: 0; margin: -10px 0 0 -55px;
+            float: left; position: absolute;
+        }
+        .tooltip2:hover em {
+            font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1em; font-weight: bold;
+            display: block; padding: 0.2em 0 0.6em 0;
+        }
+        .classic { padding: 0.8em 1em; }
+        .custom { padding: 0.5em 0.8em 0.8em 2em; }
+        * html a:hover { background: transparent; }
+        .classic {background: #FFFFAA; border: 1px solid #FFAD33; }
+        .critical { background: #FFCCAA; border: 1px solid #FF3334;    }
+        .help { background: #9FDAEE; border: 1px solid #2BB0D7;    }
+        .info { background: #9FDAEE; border: 1px solid #2BB0D7;    }
+        .warning { background: #FFFFAA; border: 1px solid #FFAD33; }
+        
+/* FINB TOOLTIP2 <a class="tooltip2" href="#">Critical<span class="custom critical"><img src="Critical.png" alt="Error" height="48" width="48" /> */
+
+
+
+/* TOOLTIP PARA CONSULTAS MYSQL. */
+.tooltip {
+    position: absolute;
+    width: 700px;
+    padding: 5px 5px 5px 18px;
+    z-index: 1100;
+    font-family: Verdana, Geneva, sans-serif;
+    filter: alpha(opacity =   90) -moz-opacity:0.90;
+    opacity: 0.90;
+    border: 1px solid #404040;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+   /* -webkit-box-shadow: #666 0px 5px 7px;
+    -moz-box-shadow: #666 0px 5px 7px;
+    box-shadow: #666 0px 5px 7px;*/
+    background: #fff;
+    behavior: url("pie/PIE.htc");
+}
+
+.tooltip th {
+    font-weight: 900;
+    color: #2e6c9e;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.tooltip td {
+    font-weight: 700;
+    color: #505050;
+    font-size: 12px;
+    text-transform: none;
+}
+
+/* FIN TOOLTIP PARA CONSULTAS MYSQL. */
+
+
+
+/**
+* Generated by www.formstylegenerator.com
+**/
+
+/** You can use this style for your INPUT, TEXTAREA, SELECT elements **/
+.myinputstyle {
+    border: 1px solid #5b047b;
+    /** remember to change image path **/
+    background: url("none") no-repeat #d2def2;
+    font-family: tahoma, helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #454743;
+}
+
+/** You can use this style for your LABEL elements **/
+.mylabelstyle {
+    font-family: tahoma, helvetica, sans-serif;
+    font-style: bold;
+    font-size: 13px;
+    color: #82983e;
+}
+
+/**
+*  You can use this style for your INPUT, TEXTAREA, SELECT elements
+*  for onmousehover event
+**/
+.myinputstyle:hover {
+    border: 1px solid #FFFFFF;
+    /** remember to change image path **/
+    background: url("none") no-repeat #FFFFFF;
+    color: #454743;
+}
+
+/* FIN.........DE TOOLTIP PARA INSTALL (TOOLTEXT). */
+
+/** Edit-delete de ajax. */
+#loading {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    margin-top: 0px;
+}
+
+#container .pagination ul li.inactive,#container .pagination ul li.inactive:hover
+    {
+    background-color: #ededed;
+    color: #bababa;
+    border: 1px solid #bababa;
+    cursor: default;
+}
+
+#container .data ul li {
+    list-style: none;
+    font-family: verdana;
+    margin: 5px 0 5px 0;
+    color: #000;
+    font-size: 13px;
+}
+
+#container .pagination {
+    width: 800px;
+    height: 25px;
+}
+
+#container .pagination ul li {
+    list-style: none;
+    float: left;
+    border: 1px solid #006699;
+    padding: 2px 6px 2px 6px;
+    margin: 0 3px 0 3px;
+    font-family: arial;
+    font-size: 14px;
+    color: #006699;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+#container .pagination ul li:hover {
+    color: #fff;
+    background-color: #006699;
+    cursor: pointer;
+}
+
+.go_button {
+    background-color: #f2f2f2;
+    border: 1px solid #006699;
+    color: #cc0000;
+    padding: 2px 6px 2px 6px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -1px;
+}
+
+.total {
+    float: right;
+    font-family: arial;
+    color: #999;
+}
+
+.editbox {
+    display: none;
+    font-size: 14px;
+    width: 150px;
+    background-color: #ffffcc;
+    border: solid 1px #000;
+    padding: 4px;
+}
+
+.editbox2 {
+    display: none;
+    font-size: 14px;
+    width: 300px;
+    background-color: #ffffcc;
+    border: solid 1px #000;
+    padding: 4px;
+}
+
+
+.edit_tr:hover {
+    background: url("edit.png") right no-repeat #80C8E5;
+    cursor: pointer;
+}
+
+/*FIN de Estilos para la edición de datos desde las tablas*/
+
+/** FIN Edit-delete de ajax. */
+
+/* TOOLTIP PARA CONSULTAS MYSQL. */
+.tooltip {
+    position: absolute;
+    width: 650px;
+    padding: 2px 2px 2px 2px;
+    z-index: 1100;
+    font-family: Verdana, Geneva, sans-serif;
+    filter: alpha(opacity =   90) -moz-opacity:0.90;
+    opacity: 0.90;
+    border: 5px solid #4b4b4b;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    /*-webkit-box-shadow: #CCC 5px 5px 5px;
+    -moz-box-shadow: #CCC 5px 5px 5px;
+    box-shadow: #CCC 0px 5px 5px;*/
+    background: #FFF;
+    behavior: url("pie/PIE.htc");
+}
+
+.tooltip th {
+    font-weight: 900;
+    color: #000;
+    font-size: 14px;
+    text-transform: none;
+	text-align: left;
+}
+
+.tooltip td {
+    font-weight: 300;
+    color: red;
+    font-size: 12px;
+    text-transform: none;
+	text-align: left;
+}
+
+/* FIN TOOLTIP PARA CONSULTAS MYSQL. */
+
+/* TOOLTIP QUE SE USABA EN EL INSTALL CON LINKS INSIDE. *********************/
+
+
+.ToolText{position:relative; } 
+.ToolTextHover{position:relative;} 
+.ToolText span{display: none;} 
+
+.ToolTextHover span {
+    zoom: 1;
+    filter: alpha(opacity=60);
+    opacity: 0.90;
+    display: block;
+    position: absolute;
+    border: 4px solid #90610B;
+    -webkit-border-radius: 10px;
+    top: 10px;
+    left: -400px;
+    background-color: rgb(230, 230, 178);
+    color: #222222;
+    text-align: left;
+    padding: 10px;
+    font-weight: 600;
+	font-size: 11px;
+    width: 500px;
+	z-index: 1;
+}
+
+/** 
+* Generated by www.formstylegenerator.com 
+**/
+
+/** You can use this style for your INPUT, TEXTAREA, SELECT elements **/
+.myinputstyle {
+    border: 1px solid #5b047b;
+    /** remember to change image path **/
+    background: #d2def2;
+    font-family: tahoma, helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #454743;
+}
+
+/** You can use this style for your LABEL elements **/
+.mylabelstyle {
+    font-family: tahoma, helvetica, sans-serif;
+    font-style: bold;
+    font-size: 13px;
+    color: #82983e;
+}
+
+/** 
+*  You can use this style for your INPUT, TEXTAREA, SELECT elements 
+*  for onmousehover event
+**/
+.myinputstyle:hover {
+    border: 1px solid #FFFFFF;
+    /** remember to change image path **/
+    background: #FFFFFF;
+    color: #454743;
+}
+
+/* FIN DE TOOLTIP QUE SE USABA EN EL INSTALL CON LINKS INSIDE. */

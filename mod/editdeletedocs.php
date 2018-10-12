@@ -1,0 +1,1 @@
+<iframe  src="mod/editdeletedocs/index.php" height="1000px" width="100%" seamless></iframe>

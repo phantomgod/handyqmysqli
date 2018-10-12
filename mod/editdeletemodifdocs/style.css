@@ -1,0 +1,981 @@
+ .box-shadow {
+      -moz-box-shadow: 0 5px 10px #ccc;
+      -webkit-box-shadow: 0 5px 10px #ccc;
+      box-shadow: 0 5px 10px #ccc;
+      zoom: 1;
+      filter:
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=0,strength=1),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=45,strength=1),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=90,strength=2),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=135,strength=3),
+          progid:DXImageTransform.Microsoft.Shadow(color=#cccccc,direction=180,strength=10),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=225,strength=3),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=270,strength=2),
+          progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=315,strength=1);
+          
+    }
+    body:last-child .box-shadow {
+      /* Remove filter from IE9 */
+      filter: none;
+    }
+    
+    .cabecera {
+    position: absolute;
+    left:2%;
+    top:2%;
+    float: left;
+    width:95%;
+    height: 5%;
+    display: inline-block;
+    z-index:-1;
+    background-color: #ff8f32;
+    -moz-border-radius:7px 15px 2px;
+    -webkit-border-radius: 7px 15px 2px;
+}
+
+     
+.bloque {
+    position: absolute;
+    left:2%;    
+    top: 14%;
+    height:auto;
+    z-index:-10;    
+    width:90px;    
+    background-color: #5EAF00;
+    text-indent:5px ; margin:0px ; padding:5px ; border:0px
+    -moz-border-radius:15px 30px 5px;
+    -webkit-border-radius: 15px 30px 5px;
+}
+
+.documenttitle { 
+  color: #0066FF; 
+  font-family:arial; 
+  font-size: 20px; 
+} 
+
+.analisis_revsistema{ 
+    color: #b5a694;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+} 
+     
+  .resaltartexto { 
+  color: #889393; 
+  font-family:arial; 
+  font-size: 14px; 
+}    
+
+body {
+    
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+
+.variante {
+    position: absolute;
+     left: 13%;
+    top: 14%;    
+    width:81%;
+    height:auto;
+    z-index:-9;
+    background-color: #F2F2F2;
+    text-indent:20px ; margin:0px ; padding:20px ; border:0px
+    -moz-border-radius:15px 30px 5px;
+    -webkit-border-radius: 15px 30px 5px;
+    }
+    
+    
+.even {
+    background-color: #CCCCCC;
+
+
+}
+
+
+/*Estilos para la edición de datos desde las tablas*/
+
+.editbox
+{
+display:none
+}
+td
+{
+padding:7px;
+}
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+.editbox
+{
+font-size:14px;
+width:270px;
+background-color:#ffffcc;
+
+border:solid 1px #000;
+padding:4px;
+}
+.edit_tr:hover
+{
+background:url(edit.png) right no-repeat #80C8E5;
+cursor:pointer;
+}
+
+
+/*FIN de Estilos para la edición de datos desde las tablas*/
+
+#lang {
+     top:4px;
+     left:40%;
+     position: absolute;
+     width:200px;
+     z-index:1;
+}
+
+
+#print {
+     top:12px;
+     left:67%;
+     position: absolute;
+     width:50px;
+     z-index:2;
+}
+
+#backup {
+ top:12px;
+ left:72%;
+ position: absolute;
+ width:20px;
+ z-index:3;
+}
+
+#admin{
+ top:12px;
+ left:77%;
+ position: absolute;
+ width:120px;
+ z-index:3;
+}
+
+#cab1 {
+ top:35px;
+ left:27%;
+ position: absolute;
+ width:160px;
+
+  z-index:4;
+}
+
+#cab11 {
+ top:6px;
+ left:48%;
+ position: absolute;
+ width:20px;
+
+}
+
+#cab12 {
+ top:6px;
+ left:52%;
+ position: absolute;
+ width:20px;
+
+}
+
+#cab13 {
+ top:6px;
+ left:56%;
+ position: absolute;
+ width:20px;
+
+}
+
+#cab14 {
+ top:6px;
+ left:60%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab15 {
+ top:6px;
+ left:64%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab16 {
+ top:6px;
+ left:68%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab17 {
+ top:6px;
+ left:72%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab18 {
+ top:6px;
+ left:76%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab19 {
+ top:6px;
+ left:80%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab20 {
+ top:6px;
+ left:84%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab2 {
+ top:35px;
+ left:42%;
+ position: absolute;
+ width:20px;
+ z-index:5;
+}
+
+#cab3 {
+ top:35px;
+ left:44%;
+ position: absolute;
+ width:20px;
+ z-index:6;
+}
+
+#cab4 {
+ top:35px;
+ left:46%;
+ position: absolute;
+ width:20px;
+
+ z-index:7;
+}
+
+#cab5 {
+ top:35px;
+ left:48%;
+ position: absolute;
+ width:20px;
+
+ z-index:8;
+}
+
+#escarabajo {
+ top:27px;
+ left:86%;
+ position: fixed;
+ width:150px;
+ z-index:12;
+}
+
+#handyq {
+ top:20px;
+ left:75%;
+ z-index:11;
+ position: absolute;
+ width:150px;
+ height: 75px;
+ z-index:9;
+
+}
+
+    
+
+    /* Estilo que muestra la capa flotante */
+#flotante
+    {
+        position: absolute;
+        left: 50px;
+        top: 0px;
+        display:none;
+        float: left;
+        font-family:Arial;
+        font-weight: bold;
+        font-size:1em;
+        color: #fff;
+        width:15%;
+        border:1px solid #ff8f33;
+        background-color:#ff8f33;
+        box-shadow: 3px 3px 3px #000;
+        padding:10px;
+        z-index: 10;
+    }
+
+#contenedor{
+    position:absolute;
+    left:5%;
+    /*border: 1px solid #473c55;*/
+    width:700px;
+    overflow:hidden;
+    float:none;
+}
+    
+#rightChildLayer {
+    position:relative;
+    height: 1000px;
+    left: 300px;
+    top: 50px;
+    width: 70%;
+    
+}
+
+#leftChildLayer {
+    position:absolute;
+    left: 400px;
+    top: 100px;
+    left:0px;
+    top:100px;
+    height: 1000px;
+    width:100%;
+    
+}
+
+.titulonormal1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.linkStyle{
+    font-size:12px;
+    color:#00F;
+    text-decoration:underline;
+}
+
+
+a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #64649b;
+    font-size: 12px;
+}
+
+a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #99668b;
+}
+
+a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+a:active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #f3a30c;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    color: #51020A;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: #542C02;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color: #806669;
+}
+
+
+
+.framefont_red {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: lighter;
+    color: #FF0033;
+}
+
+.framefont_#9fff30 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: lighter;
+    color: #E14732;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+
+.textareasmall {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    border:2px dashed #D1C7AC;
+    background-color: transparent;
+    height: 60px;
+    width: 150px;
+}
+
+.textareanormal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border:2px dashed #D1C7AC;
+    background-color: transparent;
+    height: 100px;
+    width: 80%;
+}
+
+
+.textareagrande {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border:2px dashed #D1C7AC;
+    background-color: transparent;
+    height: 400px;
+    width: 80%;
+}
+
+
+.textareacambiarinspeccion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border:2px dashed #D1C7AC;
+    background-color: transparent;
+    height: 100px;
+    width: 150px;
+}
+
+.textareapartes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    border:2px dashed #D1C7AC;
+    background-color: transparent;
+    height: 55px;
+    width: 540px;
+
+}
+
+.inputfecha {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 20%;
+    height: auto;
+}
+
+.inputpartes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 30%;
+    height: auto;
+}
+
+.inputid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 10%;
+    height: auto;
+}
+
+.inputnormal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 25%;
+
+    height: auto;
+}
+
+.inputlargo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 80%;
+    height: auto;
+}
+
+
+#mainDiv{
+    margin-top:100px;
+    padding:10px;
+}
+
+#diseno1{
+    border:1px solid #000;
+}
+
+.link2c2 {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:hover.link2c2 {
+    color:#FF0000;
+}
+
+.titulonormal1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.normal2bl {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:35px}
+}
+
+/*select language cabecera index dentro del div id=lang*/
+
+/* The CSS */
+select {
+    padding:2px;
+    margin: 0;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    
+    background: #ff8f32;
+    color:#fff;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+    appearance:none;
+    cursor:pointer;
+}
+
+
+
+
+/*Tabla print*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xx  CSS Table Gallery            xx          
+xx  Author: Mauricio Samy Silva  xx
+xx  URL: http://www.maujor.com/  xx
+xx  Country: Brazil              xx
+xx  Date: 2005-09-28             xx
+xx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+table.print{ 
+    font: 0.8em Arial, Helvetica, sans-serif;
+    border-collapse:collapse;    
+    background:transparent;
+    color:#000; 
+    width: 100%;
+    box-shadow:0px 0px 18px #000000;
+    -moz-box-shadow:0px 0px 18px #000000;
+    -webkit-box-shadow:0px 0px 18px #000000;
+    border-radius: 8px;-moz-border-radius: 8px; -webkit-border-radius: 8px;
+    }
+#itsthetable > table {width:99%;}
+#itsthetable {
+    height:350px;
+    overflow:auto;
+    background:#c6dbff; 
+    padding-bottom:3px;
+    }
+caption { 
+    height:52px;
+    font-size:3em;  
+    color:#000;
+    text-align: left;
+    background:#c6dbff url("../images/tablaico.png") right top  no-repeat;  
+    }
+caption:hover{ 
+    font-size:3em; 
+    color:#333333;
+    text-align: left;
+    background: #E1ECFF url("../images/tablaico2.png") right top no-repeat;
+    }
+th {font-weight:900; color:#2e6c9e; font-size:1.05em; text-transform: uppercase;}
+tr th, tr td {border-bottom:1px solid #ccc;}
+table a, table a:link {text-decoration:none; color:#666;}
+table a:visited {color:#999;} 
+table a:hover {color:#f00; background:#fafafa; display:block;} 
+tbody tr th  {
+    width:80px;
+    vertical-align:top;
+    padding-left: 10px;
+    text-align: left;
+    background:transparent url("../images/det1gmail.png") left top no-repeat;
+    }
+tbody tr td  {
+    height:1.7em;
+    vertical-align:top;
+    text-align: left;
+    padding-left:10px; 
+    background:transparent url("../images/det2gmail.png") left top no-repeat; 
+    }
+thead { background:#fff;}
+tr th + td + td + td + td {
+    width:60px; 
+    padding-left:20px;
+    font-size:0.9em; 
+    background:transparent url("http://www.maujor.com/temp/chris/det3gmail.gif") 0 0  no-repeat;
+    } 
+tr.odd th + td + td + td + td {
+    width:60px; 
+    padding-left:20px;
+    font-size:0.9em; 
+    background:none;
+    } 
+tfoot th, tfoot td {
+    height:105px;
+    font-weight:bold; 
+    height:2.0em; 
+    padding-left:10px; 
+    vertical-align: top;
+    }
+tfoot th{
+    height:102px;
+    background:#c6dbff url("footerth.gif") right top no-repeat; 
+    }
+tfoot td {height:102px;
+    background:#c6dbff url("footertd.gif") left top no-repeat; 
+    }
+
+
+/* fin de la tabla print*/
+
+
+
+/* Sortable tables */
+table.sortable{ 
+    font: 0.8em Arial, Helvetica, sans-serif;
+    border-collapse:collapse;    
+    background:transparent;
+    color:#000; 
+    width: 100%;
+    }
+#itsthetable > table {width:99%;}
+#itsthetable {
+    height:350px;
+    overflow:auto;
+    background:#c6dbff; 
+    padding-bottom:3px;
+    }
+caption { 
+    height:52px;
+    font-size:3em;  
+    color:#000;
+    text-align: left;
+    background:#c6dbff url("../images/tablaico.png") right top  no-repeat;  
+    }
+caption:hover{ 
+    font-size:3em; 
+    color:#333333;
+    text-align: left;
+    background: #E1ECFF url("../images/tablaico2.png") right top no-repeat;
+    }
+th {font-weight:900; color:#2e6c9e; font-size:1.05em; text-transform: uppercase;}
+tr th, tr td {border-bottom:1px solid #ccc;}
+table a, table a:link {text-decoration:none; color:#1A66EE;}
+table a:visited {color:#9D3399;} 
+table a:hover {color:#f00; background:#fafafa; display:block;} 
+tbody tr th  {
+    width:80px;
+    vertical-align:top;
+    padding-left: 10px;
+    text-align: left;
+    background:transparent url("../images/det1gmail.png") left top no-repeat;
+    }
+tbody tr td  {
+    height:1.7em;
+    vertical-align:top;
+    text-align: left;
+    padding-left:10px; 
+    background:transparent url("../images/det2gmail.png") left top no-repeat; 
+    }
+thead { background:#fff;}
+tr th + td + td + td + td {
+    width:60px; 
+    padding-left:20px;
+    font-size:0.9em; 
+    background:transparent url("http://www.maujor.com/temp/chris/det3gmail.gif") 0 0  no-repeat;
+    } 
+tr.odd th + td + td + td + td {
+    width:60px; 
+    padding-left:20px;
+    font-size:0.9em; 
+    background:none;
+    } 
+tfoot th, tfoot td {
+    height:105px;
+    font-weight:bold; 
+    height:2.0em; 
+    padding-left:10px; 
+    vertical-align: top;
+    }
+tfoot th{
+    height:102px;
+    background:#c6dbff url("footerth.gif") right top no-repeat; 
+    }
+tfoot td {height:102px;
+    background:#c6dbff url("footertd.gif") left top no-repeat; 
+    }
+
+
+
+    
+/* TOOLTIP PARA CONSULTAS MYSQL. */
+
+.tooltip{
+    position:absolute;
+    width:800px;
+    /*background-image:url(../../../handyq/images/tip-bg.png);*/
+    /*background: #c6dbff;*/
+    /*background-color:rgba(0,128,220,0.9);*/
+    /*background: #c6dbff;*/
+    background-position:left center;
+    background-repeat:no-repeat;
+    color:#FFF;
+    padding:5px 5px 5px 18px;
+    font-size:12px;
+    font-family:Verdana, Geneva, sans-serif;
+    border-top: 0px solid #FFF;  
+    border-left: 0px solid #FFF;  
+    border-right: 0px solid #FFF;
+    border-bottom: 0px solid #FFF;    
+    border-radius: 10px; 
+    -webkit-border-radius: 10px;  
+    -moz-border-radius: 10px;
+    
+    cursor:normal;
+  display:-moz-inline-stack;
+  display:inline-block;
+  font-size:12px;
+  font-family:arial;
+  padding:.5em 1em;
+  position:relative;
+  text-align:center;
+  /*text-shadow:0 -1px 1px #111111;*/
+  -webkit-border-top-left-radius:4px ;
+  -webkit-border-top-right-radius:4px ;
+  -webkit-border-bottom-right-radius:4px ;
+  -webkit-border-bottom-left-radius:4px ;
+  -khtml-border-top-left-radius:4px ;
+  -khtml-border-top-right-radius:4px ;
+  -khtml-border-bottom-right-radius:4px ;
+  -khtml-border-bottom-left-radius:4px ;
+  -moz-border-radius-topleft:4px ;
+  -moz-border-radius-topright:4px ;
+  -moz-border-radius-bottomright:4px ;
+  -moz-border-radius-bottomleft:4px ;
+  border-top-left-radius:4px ;
+  border-top-right-radius:4px ;
+  border-bottom-right-radius:4px ;
+  border-bottom-left-radius:4px ;
+  -o-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -moz-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -khtml-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -webkit-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  background-color:#bfeb8a;
+  background-image:-moz-linear-gradient(top,#bfeb8a,#fff);
+  background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#bfeb8a),color-stop(1,#fff));*/
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#bfeb8a,EndColorStr=#fff);
+  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#bfeb8a,EndColorStr=#fff);
+    
+    
+    }
+    
+     /*color:#ffffff;
+  cursor:normal;
+  display:-moz-inline-stack;
+  display:inline-block;
+  font-size:12px;
+  font-family:arial;
+  padding:.5em 1em;
+  position:relative;
+  text-align:center;
+  text-shadow:0 -1px 1px #111111;
+  -webkit-border-top-left-radius:4px ;
+  -webkit-border-top-right-radius:4px ;
+  -webkit-border-bottom-right-radius:4px ;
+  -webkit-border-bottom-left-radius:4px ;
+  -khtml-border-top-left-radius:4px ;
+  -khtml-border-top-right-radius:4px ;
+  -khtml-border-bottom-right-radius:4px ;
+  -khtml-border-bottom-left-radius:4px ;
+  -moz-border-radius-topleft:4px ;
+  -moz-border-radius-topright:4px ;
+  -moz-border-radius-bottomright:4px ;
+  -moz-border-radius-bottomleft:4px ;
+  border-top-left-radius:4px ;
+  border-top-right-radius:4px ;
+  border-bottom-right-radius:4px ;
+  border-bottom-left-radius:4px ;
+  -o-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -moz-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -khtml-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  -webkit-box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  box-shadow:0 1px 2px #000000, inset 0 0 0 1px #222222, inset 0 2px #666666, inset 0 -2px 2px #444444;
+  background-color:#3b3b3b;
+  background-image:-moz-linear-gradient(top,#555555,#222222);
+  background-image:-webkit-gradient(linear,left top,left bottom,color-stop(0,#555555),color-stop(1,#222222));
+  filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#555555,EndColorStr=#222222);
+  -ms-filter:progid:DXImageTransform.Microsoft.gradient(startColorStr=#555555,EndColorStr=#222222);
+}
+.tooltip:after, .tooltip-top:after, .tooltip-right:after, .tooltip-bottom:after, .tooltip-left:after {
+  content:"\25B8";
+  display:block;
+  font-size:2em;
+  height:0;
+  line-height:0;
+  position:absolute;
+}
+.tooltip:after, .tooltip-bottom:after {
+  color:#2a2a2a;
+  bottom:0;
+  left:1px;
+  text-align:center;
+  text-shadow:1px 0 2px #000000;
+  -o-transform:rotate(90deg);
+  -moz-transform:rotate(90deg);
+  -khtml-transform:rotate(90deg);
+  -webkit-transform:rotate(90deg);
+  width:100%;
+}
+.tooltip-top:after {
+  bottom:auto;
+  color:#4f4f4f;
+  left:-2px;
+  top:0;
+  text-align:center;
+  text-shadow:none;
+  -o-transform:rotate(-90deg);
+  -moz-transform:rotate(-90deg);
+  -khtml-transform:rotate(-90deg);
+  -webkit-transform:rotate(-90deg);
+  width:100%;
+}
+.tooltip-right:after {
+  color:#222222;
+  right:-0.375em;
+  top:50%;
+  margin-top:-.05em;
+  text-shadow:0 1px 2px #000000;
+  -o-transform:rotate(0);
+  -moz-transform:rotate(0);
+  -khtml-transform:rotate(0);
+  -webkit-transform:rotate(0);
+}
+.tooltip-left:after {
+  color:#222222;
+  left:-0.375em;
+  top:50%;
+  margin-top:.1em;
+  text-shadow:0 -1px 2px #000000;
+  -o-transform:rotate(180deg);
+  -moz-transform:rotate(180deg);
+  -khtml-transform:rotate(180deg);
+  -webkit-transform:rotate(180deg);
+}
+
+    
+    
+.tooltip-image{
+    float:left;
+    margin-right:5px;
+    margin-bottom:5px;
+    margin-top:3px;}    
+    
+    
+    .tooltip span{font-weight:700;
+color:#ffea00;}
+
+
+
+
+li{
+    margin-bottom:30px;}
+#con{
+        overflow:hidden;
+        float:left;
+        height:auto;
+        width:100px;
+        margin-right:5px;
+    }    
+    #imagcon{
+        overflow:hidden;
+        float:left;
+        height:100px;
+        width:100px;
+        margin-right:5px;
+    }
+    #imagcon img{
+        max-width:100px;
+    }
+    #wrapper{
+        margin:0 auto;
+        width:500px;
+        margin-top: 99px;
+    }*/
+
+
+/* FIN TOOLTIP PARA CONSULTAS MYSQL. */

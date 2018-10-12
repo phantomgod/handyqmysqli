@@ -1,0 +1,6 @@
+[30-Sep-2013 13:24:06] PHP Warning:  file_get_contents(http://miproma.valoryempresa.com/?seccion=docmanager_print&amp;aktion=print_id&amp;id=9) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Authorization Required
+ in /home/avazquez/public_html/uploads/otros/email-extractor.php on line 25
+[30-Sep-2013 13:32:00] PHP Warning:  file_get_contents(http://miproma.valoryempresa.com/?seccion=docmanager_print&amp;aktion=print_id&amp;id=9) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Authorization Required
+ in /home/avazquez/public_html/uploads/otros/email-extractor.php on line 25
+[30-Sep-2013 13:32:10] PHP Warning:  file_get_contents(http://miproma.valoryempresa.com/?seccion=docmanager_print&amp;aktion=print_id&amp;id=9) [<a href='function.file-get-contents'>function.file-get-contents</a>]: failed to open stream: HTTP request failed! HTTP/1.1 401 Authorization Required
+ in /home/avazquez/public_html/uploads/otros/email-extractor.php on line 25

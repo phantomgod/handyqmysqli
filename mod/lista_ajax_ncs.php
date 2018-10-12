@@ -1,0 +1,1 @@
+<iframe src="mod/listaajaxncs.php" height="600px" width="100%" seamless></iframe>

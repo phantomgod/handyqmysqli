@@ -1,0 +1,19 @@
+/* This is the style-sheet file for the SmartReferer display tables.
+/* $Id: sr.css,v 1.2 2004/07/20 09:30:39 jfenin Exp $ */
+
+/* id="srr" for the referer table */
+table#srr { border:thin solid blue; border-spacing:5px; border-collapse:collapse;} 
+th#srr { border:thin solid blue; font-size:12px; font-family:sans-serif;
+         background-color:#66ffcc; }
+td#srr { border:thin solid blue; font-size:11px; font-family:sans-serif;}
+caption#srr { caption-side:top; border:thin solid blue; font-family:sans-serif;
+              font-size:11px; background-color:#99ffcc; }
+
+/* id="sru" for the useragent table */
+table#sru { border:thin solid red; border-spacing:5px; border-collapse:collapse;} 
+th#sru { border:thin solid red; font-size:12px; font-family:sans-serif;
+       }
+td#sru { border:thin solid red; font-size:11px; font-family:sans-serif; }
+caption#sru { caption-side:top; border:thin solid red; font-size:11px;
+              font-family:sans-serif; background-color:#ffcc66 }
+

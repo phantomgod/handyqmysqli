@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "sdl"
+AuthUserFile "/home/phantom/.htpasswds/public_html/sdl/passwd"
+require valid-user

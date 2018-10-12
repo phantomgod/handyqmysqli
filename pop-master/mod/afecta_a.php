@@ -1,0 +1,1 @@
+<iframe height="700px" width="100%" src="phpMyEdit-5.7.1/afectaa.php" seamless ></iframe>

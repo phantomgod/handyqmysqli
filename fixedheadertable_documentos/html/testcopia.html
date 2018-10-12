@@ -1,0 +1,304 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+    <head>
+        <title>FixedHeaderTable Test</title>
+        <link href="css/960.css" rel="stylesheet" media="screen" />
+        <link href="../css/defaultTheme.css" rel="stylesheet" media="screen" />
+        <link href="css/myTheme.css" rel="stylesheet" media="screen" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+		<script src="../jquery.fixedheadertable.js"></script>
+        <script src="demo.js"></script>
+    </head>
+    <body>
+    	
+		<div class="container_12 divider">
+        	<div class="grid_4">
+        		<pre>
+        			<code>
+						$('#myTable04').fixedHeaderTable({
+							altClass: 'odd',
+							footer: true,
+							cloneHeadToFoot: true,
+							fixedColumn: 3,
+						});
+        			</code>
+        		</pre>
+        	</div>
+        	<div class="grid_4 height400">
+				<?php  
+				 $connect = mysqli_connect("localhost", "root", "", "loginregistermaster");  
+				 $output = '';  
+				 $sql = "SELECT * FROM analiticas ORDER BY id DESC";  
+				 $result = mysqli_query($connect, $sql);  
+				 $output .= '  
+						   <div style="border:6px grey solid;">
+						   <div id="wrap">
+						   <table class="sortable"> 
+							<thead>
+								<tr>  
+									<th>id</th>
+									<th>username</th>
+									<th>nombremuestra</th>
+									<th>tipomuestra</th>
+									<th>origenmuestra</th>
+									<th>aportadapor</th>
+									<th>tipoenvasado</th>
+									<th>numlote</th>
+									<th>zonarecogida</th>
+									<th>fechaentradamuestra</th>
+									<th>fechasalidamuestra</th>
+									<th>fechainicioensayo</th>
+									<th>fechafinalensayo</th>
+									<th>temprecogida</th>
+									<th>temprecepcion</th>
+									<th>parametroamedir</th>
+									<th>limitemedida</th>
+									<th>resultadomedida</th>
+									<th>metodotrabajo</th>
+									<th>dosificacion</th>
+									<th>bbiocida</th>
+									<th>bredox</th>
+									<th>bph</th>
+									<th>btds</th>
+									<th>bec</th>
+									<th>bdureza</th>
+									<th>lbiocida</th>
+									<th>lredox</th>
+									<th>lph</th>
+									<th>ltds</th>
+									<th>lec</th>
+									<th>ldureza</th>
+									<th><div style="width:500px; border:1px grey solid; text-align: center;">observaciones</div></th>
+									<th>pbiocida</th>
+									<th>predox</th>
+									<th>pph</th>
+									<th>ptds</th>
+									<th>pec</th>
+									<th>pdureza</th>
+									<th>obiocida</th>
+									<th>oredox</th>
+									<th>oph</th>
+									<th>otds</th>
+									<th>oec</th>
+									<th>odureza</th>
+									<th>potros</th>
+									<th>lotros</th>
+									<th>botros</th>
+									<th>ootros</th>
+									<th>integradora</th>
+									<th>tempozo</th>
+									<th>tempalmacenam</th>
+									<th>tempbebedero</th>
+									<th>tempotros</th>
+									<th>visitador</th>
+									<th>cliente</th>
+									<th>xph</th>
+									<th>xconductividad</th>
+									<th>xdurezatotal</th>
+									<th>xsolidosdisueltos</th>
+									<th>xcloruros</th>
+									<th>xcarbonatos</th>
+									<th>xbicarbonatos</th>
+									<th>xsulfatos</th>
+									<th>xcalcio</th>
+									<th>xmagnesio</th>
+									<th>xsodio</th>
+									<th>xpotasio</th>
+									<th>xnitratos</th>
+									<th>xnitritos</th>
+									<th>xcoliformestotales</th>
+									<th>xcoliformesfecales</th>
+									<th>xcoliformes</th>
+									<th>xescherichiacoli</th>
+									<th>xenterococosfecales</th>
+									<th>xclostridiumsulfitoreductores</th>
+									<th>xsalmonelaenteridis</th>
+									<th>Delete</th>
+								</tr></thead>';  
+				 if(mysqli_num_rows($result) > 0)  
+				 {  
+					  while($row = mysqli_fetch_array($result))  
+					  {  
+						   $output .= '  
+								<tbody><tr>  
+									<td>'.$row["id"].'</td>  
+									<td class="username"" data-id1="'.$row["id"].'" contenteditable>'.$row["username"].'</td>
+									<td class="nombremuestra"" data-id2="'.$row["id"].'" contenteditable>'.$row["nombremuestra"].'</td>
+									<td class="tipomuestra"" data-id3="'.$row["id"].'" contenteditable>'.$row["tipomuestra"].'</td>
+									<td class="origenmuestra" data-id4="'.$row["id"].'" contenteditable>'.$row["origenmuestra"].'</td>
+									<td class="aportadapor" data-id5="'.$row["id"].'" contenteditable>'.$row["aportadapor"].'</td>
+									<td class="tipoenvasado" data-id6="'.$row["id"].'" contenteditable>'.$row["tipoenvasado"].'</td>
+									<td class="numlote" data-id7="'.$row["id"].'" contenteditable>'.$row["numlote"].'</td>
+									<td class="zonarecogida" data-id8="'.$row["id"].'" contenteditable>'.$row["zonarecogida"].'</td>
+									<td class="fechaentradamuestra" data-id9="'.$row["id"].'" contenteditable>'.$row["fechaentradamuestra"].'</td>
+									<td class="fechasalidamuestra" data-id10="'.$row["id"].'" contenteditable>'.$row["fechasalidamuestra"].'</td>
+									<td class="fechainicioensayo" data-id11="'.$row["id"].'" contenteditable>'.$row["fechainicioensayo"].'</td>
+									<td class="fechafinalensayo" data-id12="'.$row["id"].'" contenteditable>'.$row["fechafinalensayo"].'</td>
+									<td class="temprecogida" data-id13="'.$row["id"].'" contenteditable>'.$row["temprecogida"].'</td>
+									<td class="temprecepcion" data-id14="'.$row["id"].'" contenteditable>'.$row["temprecepcion"].'</td>
+									<td class="parametroamedir" data-id15="'.$row["id"].'" contenteditable>'.$row["parametroamedir"].'</td>
+									<td class="limitemedida" data-id16="'.$row["id"].'" contenteditable>'.$row["limitemedida"].'</td>
+									<td class="resultadomedida" data-id17="'.$row["id"].'" contenteditable>'.$row["resultadomedida"].'</td>
+									<td class="metodotrabajo" data-id18="'.$row["id"].'" contenteditable>'.$row["metodotrabajo"].'</td>
+									<td class="dosificacion" data-id19="'.$row["id"].'" contenteditable>'.$row["dosificacion"].'</td>
+									<td class="bbiocida" data-id20="'.$row["id"].'" contenteditable>'.$row["bbiocida"].'</td>
+									<td class="bredox" data-id21="'.$row["id"].'" contenteditable>'.$row["bredox"].'</td>
+									<td class="bph" data-id22="'.$row["id"].'" contenteditable>'.$row["bph"].'</td>
+									<td class="btds" data-id23="'.$row["id"].'" contenteditable>'.$row["btds"].'</td>
+									<td class="bec" data-id24="'.$row["id"].'" contenteditable>'.$row["bec"].'</td>
+									<td class="bdureza" data-id25="'.$row["id"].'" contenteditable>'.$row["bdureza"].'</td>
+									<td class="lbiocida" data-id26="'.$row["id"].'" contenteditable>'.$row["lbiocida"].'</td>
+									<td class="lredox" data-id27="'.$row["id"].'" contenteditable>'.$row["lredox"].'</td>
+									<td class="lph" data-id28="'.$row["id"].'" contenteditable>'.$row["lph"].'</td>
+									<td class="ltds" data-id29="'.$row["id"].'" contenteditable>'.$row["ltds"].'</td>
+									<td class="lec" data-id30="'.$row["id"].'" contenteditable>'.$row["lec"].'</td>
+									<td class="ldureza" data-id31="'.$row["id"].'" contenteditable>'.$row["ldureza"].'</td>
+									<td class="observaciones" data-id32="'.$row["id"].'" contenteditable><div style="width:500px; text-align: left;">'.$row["observaciones"].'</div></td>
+									<td class="pbiocida" data-id33="'.$row["id"].'" contenteditable>'.$row["pbiocida"].'</td>
+									<td class="predox" data-id34="'.$row["id"].'" contenteditable>'.$row["predox"].'</td>
+									<td class="pph" data-id35="'.$row["id"].'" contenteditable>'.$row["pph"].'</td>
+									<td class="ptds" data-id36="'.$row["id"].'" contenteditable>'.$row["ptds"].'</td>
+									<td class="pec" data-id37="'.$row["id"].'" contenteditable>'.$row["pec"].'</td>
+									<td class="pdureza" data-id38="'.$row["id"].'" contenteditable>'.$row["pdureza"].'</td>
+									<td class="obiocida" data-id39="'.$row["id"].'" contenteditable>'.$row["obiocida"].'</td>
+									<td class="oredox" data-id40="'.$row["id"].'" contenteditable>'.$row["oredox"].'</td>
+									<td class="oph" data-id41="'.$row["id"].'" contenteditable>'.$row["oph"].'</td>
+									<td class="otds" data-id42="'.$row["id"].'" contenteditable>'.$row["otds"].'</td>
+									<td class="oec" data-id43="'.$row["id"].'" contenteditable>'.$row["oec"].'</td>
+									<td class="odureza" data-id44="'.$row["id"].'" contenteditable>'.$row["odureza"].'</td>
+									<td class="potros" data-id45="'.$row["id"].'" contenteditable>'.$row["potros"].'</td>
+									<td class="lotros" data-id46="'.$row["id"].'" contenteditable>'.$row["lotros"].'</td>
+									<td class="botros" data-id47="'.$row["id"].'" contenteditable>'.$row["botros"].'</td>
+									<td class="ootros" data-id48="'.$row["id"].'" contenteditable>'.$row["ootros"].'</td>
+									<td class="integradora" data-id49="'.$row["id"].'" contenteditable>'.$row["integradora"].'</td>
+									<td class="tempozo" data-id50="'.$row["id"].'" contenteditable>'.$row["tempozo"].'</td>
+									<td class="tempalmacenam" data-id51="'.$row["id"].'" contenteditable>'.$row["tempalmacenam"].'</td>
+									<td class="tempbebedero" data-id52="'.$row["id"].'" contenteditable>'.$row["tempbebedero"].'</td>
+									<td class="tempotros" data-id53="'.$row["id"].'" contenteditable>'.$row["tempotros"].'</td>
+									<td class="visitador" data-id54="'.$row["id"].'" contenteditable>'.$row["visitador"].'</td>
+									<td class="cliente" data-id55="'.$row["id"].'" contenteditable>'.$row["cliente"].'</td>
+									<td class="xph" data-id56="'.$row["id"].'" contenteditable>'.$row["xph"].'</td>
+									<td class="xconductividad" data-id57="'.$row["id"].'" contenteditable>'.$row["xconductividad"].'</td>
+									<td class="xdurezatotal" data-id58="'.$row["id"].'" contenteditable>'.$row["xdurezatotal"].'</td>
+									<td class="xsolidosdisueltos" data-id59="'.$row["id"].'" contenteditable>'.$row["xsolidosdisueltos"].'</td>
+									<td class="xcloruros" data-id60="'.$row["id"].'" contenteditable>'.$row["xcloruros"].'</td>
+									<td class="xcarbonatos" data-id61="'.$row["id"].'" contenteditable>'.$row["xcarbonatos"].'</td>
+									<td class="xbicarbonatos" data-id62="'.$row["id"].'" contenteditable>'.$row["xbicarbonatos"].'</td>
+									<td class="xsulfatos" data-id63="'.$row["id"].'" contenteditable>'.$row["xsulfatos"].'</td>
+									<td class="xcalcio" data-id64="'.$row["id"].'" contenteditable>'.$row["xcalcio"].'</td>
+									<td class="xmagnesio" data-id65="'.$row["id"].'" contenteditable>'.$row["xmagnesio"].'</td>
+									<td class="xsodio" data-id66="'.$row["id"].'" contenteditable>'.$row["xsodio"].'</td>
+									<td class="xpotasio" data-id67="'.$row["id"].'" contenteditable>'.$row["xpotasio"].'</td>
+									<td class="xnitratos" data-id68="'.$row["id"].'" contenteditable>'.$row["xnitratos"].'</td>
+									<td class="xnitritos" data-id69="'.$row["id"].'" contenteditable>'.$row["xnitritos"].'</td>
+									<td class="xcoliformestotales" data-id70="'.$row["id"].'" contenteditable>'.$row["xcoliformestotales"].'</td>
+									<td class="xcoliformesfecales" data-id71="'.$row["id"].'" contenteditable>'.$row["xcoliformesfecales"].'</td>
+									<td class="xcoliformes" data-id72="'.$row["id"].'" contenteditable>'.$row["xcoliformes"].'</td>
+									<td class="xescherichiacoli" data-id73="'.$row["id"].'" contenteditable>'.$row["xescherichiacoli"].'</td>
+									<td class="xenterococosfecales" data-id74="'.$row["id"].'" contenteditable>'.$row["xenterococosfecales"].'</td>
+									<td class="xclostridiumsulfitoreductores" data-id75="'.$row["id"].'" contenteditable>'.$row["xclostridiumsulfitoreductores"].'</td>
+									<td class="xsalmonelaenteridis" data-id76="'.$row["id"].'" contenteditable>'.$row["xsalmonelaenteridis"].'</td>
+									 
+									 <td><button type="button" name="delete_btn"" data-id77="'.$row["id"].'" class="btn btn-xs btn-danger btn_delete">x</button></td>  
+								</tr></tbody>
+						   ';  
+					  }  
+					  $output .= '  
+								<tbody><tr>  
+								<td></td>  
+								<td id="username" contenteditable></td>
+								<td id="nombremuestra" contenteditable></td>
+								<td id="tipomuestra" contenteditable></td>
+								<td id="origenmuestra" contenteditable></td>
+								<td id="aportadapor" contenteditable></td>
+								<td id="tipoenvasado" contenteditable></td>
+								<td id="numlote" contenteditable></td>
+								<td id="zonarecogida" contenteditable></td>
+								<td id="fechaentradamuestra" contenteditable></td>
+								<td id="fechasalidamuestra" contenteditable></td>
+								<td id="fechainicioensayo" contenteditable></td>
+								<td id="fechafinalensayo" contenteditable></td>
+								<td id="temprecogida" contenteditable></td>
+								<td id="temprecepcion" contenteditable></td>
+								<td id="parametroamedir" contenteditable></td>
+								<td id="limitemedida" contenteditable></td>
+								<td id="resultadomedida" contenteditable></td>
+								<td id="metodotrabajo" contenteditable></td>
+								<td id="dosificacion" contenteditable></td>
+								<td id="bbiocida" contenteditable></td>
+								<td id="bredox" contenteditable></td>
+								<td id="bph" contenteditable></td>
+								<td id="btds" contenteditable></td>
+								<td id="bec" contenteditable></td>
+								<td id="bdureza" contenteditable></td>
+								<td id="lbiocida" contenteditable></td>
+								<td id="lredox" contenteditable></td>
+								<td id="lph" contenteditable></td>
+								<td id="ltds" contenteditable></td>
+								<td id="lec" contenteditable></td>
+								<td id="ldureza" contenteditable></td>
+								<td id="observaciones" contenteditable><div style="width:500px; text-align: left;"></div></td>
+								<td id="pbiocida" contenteditable></td>
+								<td id="predox" contenteditable></td>
+								<td id="pph" contenteditable></td>
+								<td id="ptds" contenteditable></td>
+								<td id="pec" contenteditable></td>
+								<td id="pdureza" contenteditable></td>
+								<td id="obiocida" contenteditable></td>
+								<td id="oredox" contenteditable></td>
+								<td id="oph" contenteditable></td>
+								<td id="otds" contenteditable></td>
+								<td id="oec" contenteditable></td>
+								<td id="odureza" contenteditable></td>
+								<td id="potros" contenteditable></td>
+								<td id="lotros" contenteditable></td>
+								<td id="botros" contenteditable></td>
+								<td id="ootros" contenteditable></td>
+								<td id="integradora" contenteditable></td>
+								<td id="tempozo" contenteditable></td>
+								<td id="tempalmacenam" contenteditable></td>
+								<td id="tempbebedero" contenteditable></td>
+								<td id="tempotros" contenteditable></td>
+								<td id="visitador" contenteditable></td>
+								<td id="cliente" contenteditable></td>
+								<td id="xph" contenteditable></td>
+								<td id="xconductividad" contenteditable></td>
+								<td id="xdurezatotal" contenteditable></td>
+								<td id="xsolidosdisueltos" contenteditable></td>
+								<td id="xcloruros" contenteditable></td>
+								<td id="xcarbonatos" contenteditable></td>
+								<td id="xbicarbonatos" contenteditable></td>
+								<td id="xsulfatos" contenteditable></td>
+								<td id="xcalcio" contenteditable></td>
+								<td id="xmagnesio" contenteditable></td>
+								<td id="xsodio" contenteditable></td>
+								<td id="xpotasio" contenteditable></td>
+								<td id="xnitratos" contenteditable></td>
+								<td id="xnitritos" contenteditable></td>
+								<td id="xcoliformestotales" contenteditable></td>
+								<td id="xcoliformesfecales" contenteditable></td>
+								<td id="xcoliformes" contenteditable></td>
+								<td id="xescherichiacoli" contenteditable></td>
+								<td id="xenterococosfecales" contenteditable></td>
+								<td id="xclostridiumsulfitoreductores" contenteditable></td>
+								<td id="xsalmonelaenteridis" contenteditable></td>
+								<td><button type="button" name="btn_add" id="btn_add" class="btn btn-xs btn-success">+</button></td>  
+						   </tr></tbody> 
+					  ';  
+				 }  
+				 else  
+				 {  
+					  $output .= '<tr>  
+										  <td colspan="75">Data not Found</td>  
+									 </tr>';  
+				 }  
+				 $output .= '</tbody></table></div></div>';  
+				 echo $output;  
+				 
+				  $connect->close();
+				?>
+        	</div>
+        	<div class="clear"></div>
+        </div>
+    </body>
+</html>

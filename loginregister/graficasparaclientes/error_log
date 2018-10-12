@@ -1,0 +1,477 @@
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(../class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(../class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(): Failed opening '../class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(../class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(../class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(): Failed opening '../class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(../class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(../class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:37:24 America/Chicago] PHP Warning:  include(): Failed opening '../class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:37:24 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(../class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(../class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(): Failed opening '../class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(../class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(../class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(): Failed opening '../class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(../class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(../class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:38:07 America/Chicago] PHP Warning:  include(): Failed opening '../class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:38:07 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.1.4/class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.1.4/class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:38:26 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.1.4/class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 05:38:26 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 19
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:39:09 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php:19) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 19
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:04 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:05 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:05 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:05 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:05 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:05 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php:19) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 19
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:40:55 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php:19) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, object given in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 19
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 05:43:41 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php:19) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.1.4/class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.1.4/class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(../pChart2.1.4/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 10:23:03 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.1.4/class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 10:23:03 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:46 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php:1) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 10:24:58 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php:1) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(../class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(../class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(): Failed opening '../class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(../class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(../class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(): Failed opening '../class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(../class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(../class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:25:23 America/Chicago] PHP Warning:  include(): Failed opening '../class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:25:23 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(../class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(../class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(): Failed opening '../class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(../class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(../class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(): Failed opening '../class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(../class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(../class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:25:38 America/Chicago] PHP Warning:  include(): Failed opening '../class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:25:38 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(): Failed opening '../../pChart2.4.1/class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(): Failed opening '../../pChart2.4.1/class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:29:05 America/Chicago] PHP Warning:  include(): Failed opening '../../pChart2.4.1/class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:29:05 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(): Failed opening '../../pChart2.4.1/class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(): Failed opening '../../pChart2.4.1/class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(../../pChart2.4.1/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:31:00 America/Chicago] PHP Warning:  include(): Failed opening '../../pChart2.4.1/class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:31:00 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(../pChart2.4.1/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(../pChart2.4.1/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.4.1/class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(../pChart2.4.1/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(../pChart2.4.1/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.4.1/class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(../pChart2.4.1/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(../pChart2.4.1/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:31:51 America/Chicago] PHP Warning:  include(): Failed opening '../pChart2.4.1/class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:31:51 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(./pChart2.4.1/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(./pChart2.4.1/class/pData.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(): Failed opening './pChart2.4.1/class/pData.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 4
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(./pChart2.4.1/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(./pChart2.4.1/class/pDraw.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(): Failed opening './pChart2.4.1/class/pDraw.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 5
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(./pChart2.4.1/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(./pChart2.4.1/class/pImage.class.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:32:31 America/Chicago] PHP Warning:  include(): Failed opening './pChart2.4.1/class/pImage.class.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 6
+[08-Aug-2017 11:32:31 America/Chicago] PHP Fatal error:  Class 'pData' not found in /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php on line 9
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:33:31 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php:211) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:48 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:34:49 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php:1) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettfbbox(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 211
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  imagettftext(): Could not find/open font in /home/biovazquez/public_html/pChart2.1.4/class/pDraw.class.php on line 1023
+[08-Aug-2017 11:45:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/loginregister/graficasparaclientes/barchart_SESSION_USERNAME.php:1) in /home/biovazquez/public_html/pChart2.1.4/class/pImage.class.php on line 166

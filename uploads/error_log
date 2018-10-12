@@ -1,0 +1,14 @@
+[10-Oct-2018 10:48:52 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 10:50:43 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 10:51:00 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 10:52:27 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 10:53:48 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 10:58:09 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 10:58:27 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 10:59:26 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 11:00:25 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 11:01:09 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 11:02:43 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 11:03:48 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 42
+[10-Oct-2018 11:10:31 America/Chicago] PHP Warning:  require_once(includes/mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 2
+[10-Oct-2018 11:10:31 America/Chicago] PHP Fatal error:  require_once(): Failed opening required 'includes/mysqli.php' (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/uploads/tothorasforportrab.php on line 2

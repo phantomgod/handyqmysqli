@@ -1,0 +1,1 @@
+<iframe height="600px" width="100%" frameborder="0" src="uploads/index.php" seamless></iframe>

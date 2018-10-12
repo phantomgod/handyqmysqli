@@ -1,0 +1,53 @@
+<!--
+/*************************************************************
+ * This script is developed by Arturs Sosins aka ar2rsawseen, http://webcodingeasy.com
+ * Feel free to distribute and modify code, but keep reference to its creator
+ *
+ * Image Selector class creates an image selector input with image preview based on select element.
+ * Images can be changed using select element itself or by clicking on image.
+ * Additionally this class provides API to select first, last, next or previous images or an image with specific index.
+ * It also can regenerate preview images for dynamical input manipulations.
+ *
+ * For more information, examples and online documentation visit:
+ * http://webcodingeasy.com/JS-classes/Input-for-selecting-images-with-preview
+**************************************************************/
+-->
+<html>
+<head>
+<style>
+#image_selector_wrapper
+{
+    display: inline-block;
+}
+</style>
+</head>
+<body>
+<div style='width:600px;'>This package provides an input for images with image preview and API that allows you to, go to first or last image, browse images using previous and next, change to next image by clicking on image and even using dropdown box</div>
+<form method='post' action='' onsubmit='alert(this.image.value)'>
+<a href='javascript:void(0);' onclick='imgs.first()'>first</a>&nbsp;&nbsp;&nbsp;
+<a href='javascript:void(0);' onclick='imgs.prev()'>prev</a>&nbsp;&nbsp;&nbsp;
+<select name='image' id='images'>
+<option value='http://aux3.iconpedia.net/uploads/677166248.png'>Facebook</option>
+<option value='http://w3mag.com/wp-content/uploads/2009/08/Twitter-256x256.jpg'>Twitter</option>
+<option value='http://www.gofor.lv/images/app_icons/iPhone/Draugiem_icon.jpg'>Draugiem</option>
+<option value='http://mediamemo.allthingsd.com/files/2009/03/redditguy.jpg'>Reddit</option>
+</select>
+<a href='javascript:void(0);' onclick='imgs.next()'>next</a>&nbsp;&nbsp;&nbsp;
+<a href='javascript:void(0);' onclick='imgs.last()'>last</a>
+<p><input type='submit'/></p>
+</form>
+<script type="text/javascript" src="./image_selector.packed.js" ></script>
+<script type="text/javascript">
+var imgs = new image_selector("images", {
+    //width of images
+    width: 100,
+    //height of images
+    height: 100,
+    //change image on click
+    changeOnClick: true,
+    //hide original input
+    hideInput: false,
+});
+</script>
+</body>
+</html>

@@ -1,0 +1,2862 @@
+<html>
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=Generator content="Microsoft Word 11 (filtered)">
+<title>iso90001</title>
+
+<style id="dynCom" type="text/css"><!-- --></style>
+<script language="JavaScript"><!--
+function msoCommentShow(anchor_id, com_id)
+{
+	if(msoBrowserCheck()) 
+		{
+		c = document.all(com_id);
+		a = document.all(anchor_id);
+		if (null != c && null == c.length && null != a && null == a.length)
+			{
+			var cw = c.offsetWidth;
+			var ch = c.offsetHeight;
+			var aw = a.offsetWidth;
+			var ah = a.offsetHeight;
+			var x  = a.offsetLeft;
+			var y  = a.offsetTop;
+			var el = a;
+			while (el.tagName != "BODY") 
+				{
+				el = el.offsetParent;
+				x = x + el.offsetLeft;
+				y = y + el.offsetTop;
+				}
+			var bw = document.body.clientWidth;
+			var bh = document.body.clientHeight;
+			var bsl = document.body.scrollLeft;
+			var bst = document.body.scrollTop;
+			if (x + cw + ah / 2 > bw + bsl && x + aw - ah / 2 - cw >= bsl ) 
+				{ c.style.left = x + aw - ah / 2 - cw; }
+			else 
+				{ c.style.left = x + ah / 2; }
+			if (y + ch + ah / 2 > bh + bst && y + ah / 2 - ch >= bst ) 
+				{ c.style.top = y + ah / 2 - ch; }
+			else 
+				{ c.style.top = y + ah / 2; }
+			c.style.visibility = "visible";
+}	}	}
+function msoCommentHide(com_id) 
+{
+	if(msoBrowserCheck())
+		{
+		c = document.all(com_id);
+		if (null != c && null == c.length)
+		{
+		c.style.visibility = "hidden";
+		c.style.left = -1000;
+		c.style.top = -1000;
+		} } 
+}
+function msoBrowserCheck()
+{
+	ms = navigator.appVersion.indexOf("MSIE");
+	vers = navigator.appVersion.substring(ms + 5, ms + 6);
+	ie4 = (ms > 0) && (parseInt(vers) >= 4);
+	return ie4;
+}
+if (msoBrowserCheck())
+{
+	document.styleSheets.dynCom.addRule(".msocomanchor","background: infobackground");
+	document.styleSheets.dynCom.addRule(".msocomoff","display: none");
+	document.styleSheets.dynCom.addRule(".msocomtxt","visibility: hidden");
+	document.styleSheets.dynCom.addRule(".msocomtxt","position: absolute");
+	document.styleSheets.dynCom.addRule(".msocomtxt","top: -1000");
+	document.styleSheets.dynCom.addRule(".msocomtxt","left: -1000");
+	document.styleSheets.dynCom.addRule(".msocomtxt","width: 33%");
+	document.styleSheets.dynCom.addRule(".msocomtxt","background: infobackground");
+	document.styleSheets.dynCom.addRule(".msocomtxt","color: infotext");
+	document.styleSheets.dynCom.addRule(".msocomtxt","border-top: 1pt solid threedlightshadow");
+	document.styleSheets.dynCom.addRule(".msocomtxt","border-right: 2pt solid threedshadow");
+	document.styleSheets.dynCom.addRule(".msocomtxt","border-bottom: 2pt solid threedshadow");
+	document.styleSheets.dynCom.addRule(".msocomtxt","border-left: 1pt solid threedlightshadow");
+	document.styleSheets.dynCom.addRule(".msocomtxt","padding: 3pt 3pt 3pt 3pt");
+	document.styleSheets.dynCom.addRule(".msocomtxt","z-index: 100");
+}
+// --></script>
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:"Bookman Old Style";
+	panose-1:2 5 6 4 5 5 5 2 2 4;}
+@font-face
+	{font-family:Verdana;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+@font-face
+	{font-family:Tahoma;
+	panose-1:2 11 6 4 3 5 4 4 2 4;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+h1
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:14.0pt;
+	font-family:Arial;}
+h2
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:12.0pt;
+	font-family:Arial;}
+h3
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	page-break-after:avoid;
+	text-autospace:none;
+	font-size:11.0pt;
+	font-family:Arial;}
+h4
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	page-break-after:avoid;
+	font-size:11.0pt;
+	font-family:Arial;
+	font-style:italic;}
+h5
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:10.0pt;
+	font-family:Arial;}
+h6
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	page-break-after:avoid;
+	font-size:18.0pt;
+	font-family:"Bookman Old Style";
+	color:red;
+	text-shadow:auto;}
+p.MsoHeading7, li.MsoHeading7, div.MsoHeading7
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:center;
+	page-break-after:avoid;
+	font-size:10.0pt;
+	font-family:Arial;
+	font-weight:bold;}
+p.MsoHeading8, li.MsoHeading8, div.MsoHeading8
+	{margin-top:12.0pt;
+	margin-right:0cm;
+	margin-bottom:3.0pt;
+	margin-left:0cm;
+	font-size:12.0pt;
+	font-family:"Times New Roman";
+	font-style:italic;}
+p.MsoToc1, li.MsoToc1, div.MsoToc1
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc2, li.MsoToc2, div.MsoToc2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:12.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoToc3, li.MsoToc3, div.MsoToc3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:24.0pt;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoCommentText, li.MsoCommentText, div.MsoCommentText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoHeader, li.MsoHeader, div.MsoHeader
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoFooter, li.MsoFooter, div.MsoFooter
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoList, li.MsoList, div.MsoList
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:14.15pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoList2, li.MsoList2, div.MsoList2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:28.3pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoList3, li.MsoList3, div.MsoList3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:42.45pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoList4, li.MsoList4, div.MsoList4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:56.6pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoList5, li.MsoList5, div.MsoList5
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:70.75pt;
+	margin-bottom:.0001pt;
+	text-indent:-14.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoBodyText, li.MsoBodyText, div.MsoBodyText
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoBodyTextIndent, li.MsoBodyTextIndent, div.MsoBodyTextIndent
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:0cm;
+	margin-left:3.0pt;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";}
+p.MsoListContinue, li.MsoListContinue, div.MsoListContinue
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:14.15pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoListContinue2, li.MsoListContinue2, div.MsoListContinue2
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:28.3pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoListContinue3, li.MsoListContinue3, div.MsoListContinue3
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:42.45pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+p.MsoListContinue4, li.MsoListContinue4, div.MsoListContinue4
+	{margin-top:0cm;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:56.6pt;
+	font-size:12.0pt;
+	font-family:"Times New Roman";}
+a:link, span.MsoHyperlink
+	{color:blue;
+	text-decoration:underline;}
+a:visited, span.MsoHyperlinkFollowed
+	{color:purple;
+	text-decoration:underline;}
+p.MsoCommentSubject, li.MsoCommentSubject, div.MsoCommentSubject
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:10.0pt;
+	font-family:"Times New Roman";
+	font-weight:bold;}
+p.MsoAcetate, li.MsoAcetate, div.MsoAcetate
+	{margin:0cm;
+	margin-bottom:.0001pt;
+	font-size:8.0pt;
+	font-family:Tahoma;}
+span.Ttulo4Car
+	{font-family:Arial;
+	font-weight:bold;
+	font-style:italic;}
+p.ttulo, li.ttulo, div.ttulo
+	{margin-top:6.0pt;
+	margin-right:0cm;
+	margin-bottom:6.0pt;
+	margin-left:0cm;
+	text-align:justify;
+	font-size:12.0pt;
+	font-family:Arial;}
+ /* Page Definitions */
+ @page Section1
+	{size:595.3pt 841.9pt;
+	margin:70.85pt 55.3pt 62.9pt 72.0pt;}
+div.Section1
+	{page:Section1;}
+ /* List Definitions */
+ ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+
+</head>
+
+<body bgcolor="#cccccc" lang=ES link=blue vlink=purple>
+
+<div class=Section1>
+
+<h3 align=right style='text-align:right'><a name="_Toc140510924"><span
+style='font-size:22.0pt'>UNE-EN ISO 9001</span></a></h3>
+
+<p class=MsoToc3><span
+style='font-family:Arial'><span class=MsoHyperlink><a href="#_Toc140510924">UNE-EN
+ISO 9001<span style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>1</span></a></span></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510925">SISTEMAS DE GESTIÓN DE LA CALIDAD. REQUISITOS<span
+style='color:windowtext;display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>2</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510926">4.1. Requisitos Generales<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>2</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510927">4.2. Requisitos de la documentación<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>3</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510928">4.2.1 Generalidades.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>3</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510929">4.2.2 Manual de Calidad.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>4</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510930">4.2.3 Control de los Documentos.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>4</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510931">4.2.4 Control de los registros.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></span></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510932">5. RESPONSABILIDADES DE LA DIRECCIÓN<span
+style='color:windowtext;display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510933">5.1 Compromiso de la dirección<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>5</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510934">5.2 Enfoque al cliente<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>6</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510935">5.3 Política de la calidad<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>6</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510936">5.4 Planificación<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>6</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510937">5.4.1 Objetivos de la calidad.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>6</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510938">5.4.2 Planificación del sistema de gestión de la calidad.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>6</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510939">5.5 Responsabilidades, autoridad y comunicación<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>7</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510940">5.5.1 Responsabilidades y autoridad.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>7</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510941">5.5.2 Representante de la dirección.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>7</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510942">5.5.3 Comunicación interna.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>7</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510943">5.6 Revisión por la dirección<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>7</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510944">5.6.1 Generalidades.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>7</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510945">5.6.2 Información para la revisión.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510946">5.6.3 Resultados de la revisión.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></span></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510947">6. GESTIÓN DE LOS RECURSOS<span style='color:windowtext;
+display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510948">6.1 Provisión de recursos<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510949">6.2 Recursos humanos<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>8</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510950">6.2.1 Generalidades.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>9</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510951">6.2.2 Competencia, toma de conciencia y formación.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>9</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510952">6.3 Infraestructura<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>9</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510953">6.4 Ambiente de trabajo<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>9</span></a></span></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510954">7. REALIZACIÓN DEL PRODUCTO<span style='color:windowtext;
+display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>9</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510955">7.1 Planificación de la realización del producto<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>10</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510956">7.2 Procesos relacionados con el cliente<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>10</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510957">7.2.1 Determinaciones de los requisitos relacionados con
+el producto.<span style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>10</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510958">7.2.2 Revisión de los requisitos relacionados con el
+producto.<span style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>11</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510959">7.2.3 Comunicación con el cliente.<span style='color:
+windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>11</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510960">7.3 Diseño y desarrollo<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>12</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510961">7.3.1 Planificación del diseño y desarrollo.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>12</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510962">7.3.2 Elementos de entrada para el diseño y desarrollo.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>12</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510963">7.3.3 Resultados del diseño y desarrollo.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>12</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510964">7.3.4 Revisión del diseño y desarrollo.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>13</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510965">7.3.5 Verificación del diseño y desarrollo.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>13</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510966">7.3.6 Validación del diseño y desarrollo.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>13</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510967">7.3.7 Control de los cambios del diseño y desarrollo.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>14</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510968">7.4 Compras<span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>14</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510969">7.4.1 Proceso de compras.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>14</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510970">7.4.2 Información de las compras.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>14</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510971">7.4.3 Verificación de los productos comprados.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>15</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510972">7.5 Producción y prestación del servicio<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>15</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510973">7.5.1 Control de la producción y de la prestación del
+servicio.<span style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>15</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510974">7.5.2 Validación de los procesos de la producción y de la
+prestación del servicio.<span style='color:windowtext;display:none;text-decoration:
+none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>16</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510975">7.5.3 Identificación y trazabilidad.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>16</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510976">7.5.4 Propiedades del cliente.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>16</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510977">7.5.5 Preservación del producto.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>18</span></a></span></span></p>
+
+<p class=MsoToc1><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510978">8 MEDICIÓN, ANÁLISIS Y MEJORA<span style='color:windowtext;
+display:none;text-decoration:none'>.. </span><span
+style='color:windowtext;display:none;text-decoration:none'>19</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510979">8.1 Generalidades<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>19</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510980">8.2 Seguimiento y medición<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>19</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510981">8.2.1 Satisfacción del cliente.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>19</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510982">8.2.2 Auditoría interna.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>19</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510983">8.2.3 Seguimiento y medición de los procesos.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>20</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510984">8.2.4 Seguimiento y medición del producto.<span
+style='color:windowtext;display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>20</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510985">8.3 Control del producto no conforme<span
+style='color:windowtext;display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>21</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510986">8.4 Análisis de datos<span style='color:windowtext;
+display:none;text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>22</span></a></span></span></p>
+
+<p class=MsoToc2><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510987">8.5 Mejora<span style='color:windowtext;display:none;
+text-decoration:none'>. </span><span
+style='color:windowtext;display:none;text-decoration:none'>24</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510988">8.5.1 Mejora continua.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>24</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510989">8.5.2 Acciones correctivas.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>24</span></a></span></span></p>
+
+<p class=MsoToc3><span class=MsoHyperlink><span style='font-family:Arial'><a
+href="#_Toc140510990">8.5.3 Acciones preventivas.<span style='color:windowtext;
+display:none;text-decoration:none'> </span><span
+style='color:windowtext;display:none;text-decoration:none'>24</span></a></span></span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h1><a name="_Toc140510925"><span style='font-family:Verdana'>SISTEMAS DE
+GESTIÓN DE </span></a><span style='font-family:Verdana'>LA CALIDAD. REQUISITOS</span></h1>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><b><span style='font-family:Verdana'>4.
+SISTEMA DE GESTIÓN DE LA CALIDAD</span></b></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510926">4.1. Requisitos Generales</a></h2>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+organización debe establecer, documentar, implementar y mantener un sistema de
+gestión de la calidad y mejorar continuamente su eficacia de acuerdo con los
+requisitos de esta norma internacional.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+organización debe:</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>identificar los procesos
+necesarios para la gestión de la calidad y su aplicación a través de la
+organización (véase 1.2),</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>determinar la secuencia e
+interacción de estos procesos,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>determinar los criterios y
+métodos necesarios para asegurarse de que tanto la operación como el control de
+estos procesos sean eficaces,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>d)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurarse de la disponibilidad
+de recursos e información necesarios para apoyar la operación y el seguimiento
+de estos procesos,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>e)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>realizar el seguimiento, la
+medición y el análisis de estos procesos, e</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>f)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>implementar las acciones
+necesarias para alcanzar los resultados planificados y la mejora continua de
+estos procesos.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+organización debe gestionar estos procesos de acuerdo con los requisitos de
+esta norma internacional.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>En
+los casos en que la organización opte por contratar externamente cualquier
+proceso que afecte la conformidad del producto con los requisitos, la
+organización debe asegurarse de controlar tales procesos. El control sobre
+dichos procesos contratados externamente debe estar identificado dentro del
+sistema de gestión de la calidad.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>Nota-
+Los procesos necesarios para el sistema de gestión de la calidad a los que se
+ha hecho referencia anteriormente deberían incluir los procesos para las
+actividades de gestión, la provisión de recursos, la realización del producto y
+las mediciones.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510927">4.2. Requisitos de la documentación</a></h2>
+
+<p class=MsoNormal style='margin-left:3.0pt;text-align:justify'><span
+style='font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510928">4.2.1 Generalidades.</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'> La
+documentación del sistema de gestión de la calidad de incluir:</span></p>
+
+<p class=MsoNormal style='margin-left:3.0pt;text-align:justify'><span
+style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>declaraciones documentadas de
+una política de calidad y de objetivos de la calidad,</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>un manual de la calidad,</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>los procedimientos documentados
+requeridos en esta norma internacional,</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>d)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>los documentos necesitados por
+la organización para asegurarse de la eficaz planificación, operación y control
+de sus procesos, y</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>e)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>los registros requeridos por
+esta norma internacional (véase 4.2.4).</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyTextIndent style='text-align:justify'><span style='font-family:
+Verdana'>NOTA 1 – Cuando aparezca el término “PROCEDIMIENTOS DOCUMENTADOS”
+dentro de esta norma internacional, significa que el procedimiento sea
+establecido, documentado, implementado y mantenido.</span></p>
+
+<p class=MsoNormal style='margin-left:3.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:3.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Verdana'>NOTA 2 – La extensión de la
+documentación del sistema de gestión de la calidad puede diferir de una
+organización a otra debido a</span></p>
+
+<p class=MsoNormal style='margin-left:3.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.0pt;font-family:Verdana'>el tamaño de la organización y el
+tipo de actividades.</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.0pt;font-family:Verdana'>La complejidad de los procesos y
+sus interacciones, y</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:10.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:10.0pt;font-family:Verdana'>La competencia del personal.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:3.0pt;text-align:justify'><span
+style='font-size:10.0pt;font-family:Verdana'>NOTA 3 – La documentación puede
+estar en cualquier formato o tipo de medio.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-size:10.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510929">4.2.2 Manual de Calidad.</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+organización debe establecer y mantener un manual de la calidad que incluya:</span></p>
+
+<p class=MsoNormal style='margin-left:3.0pt;text-align:justify'><span
+style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>el alcance del sistema de
+gestión de la calidad, incluyendo los detalles y la justificación de cualquier
+exclusión (véase 1.2)</span></p>
+
+<p class=MsoNormal style='margin-left:3.0pt;text-align:justify'><span
+style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>los procedimientos documentados
+establecidos para el sistema de gestión de la calidad, o referencia a los
+mismos, y</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:21.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>una descripción de la
+interacción entre los procesos del sistema de gestión de la calidad.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510930">4.2.3 Control de los Documentos.</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>Los
+documentos requeridos por el sistema de la calidad deben controlarse. Los
+registros son un tipo especial de documentos y deben controlarse de acuerdo con
+los requisitos citados en 4.2.4.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>Debe
+establecerse un <a><span style='background:lime'>procedimiento</span></a></span><span
+class=MsoCommentReference><span style='font-size:8.0pt'><a class=msocomanchor
+id="_anchor_1" onmouseover="msoCommentShow('_anchor_1','_com_1')"
+onmouseout="msoCommentHide('_com_1')" href="#_msocom_1" language=JavaScript
+name="_msoanchor_1">[JJM1]</a>&nbsp;</span></span><span style='font-family:
+Verdana;background:lime'> documentado</span><span style='font-family:Verdana'>
+que defina los controles necesarios para:</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>aprobar los documentos en
+cuanto a su adecuación antes de su emisión,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>revisar y actualizar los
+documentos cuando sea necesario y aprobarlos nuevamente,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurase de que se identifican
+los cambios y el estado de revisión actual de los documentos,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>d)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurarse de que las versiones
+pertinentes de los documentos aplicables se encuentran disponibles en los
+puntos de uso,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>e)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurarse de que los
+documentos permanecen legibles y fácilmente identificables,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>f)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurarse de que se
+identifican los documentos de origen externo y se controla su distribución,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>g)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>prevenir el uso no intencionado
+de documentos obsoletos, y aplicarles una identificación adecuada en el caso de
+que se mantengan por cualquier razón.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510931">4.2.4 Control de los registros.</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>Los
+registros deben establecerse y mantenerse para proporcionar evidencia de la
+conformidad con los requisitos así como de la operación eficaz del sistema de
+gestión de la calidad. Los registros deben permanecer legibles, fácilmente
+identificables y recuperables. Debe establecerse un <span style='background:
+lime'>procedimiento <a>documentado</a></span></span><span
+class=MsoCommentReference><span style='font-size:8.0pt'><a class=msocomanchor
+id="_anchor_2" onmouseover="msoCommentShow('_anchor_2','_com_2')"
+onmouseout="msoCommentHide('_com_2')" href="#_msocom_2" language=JavaScript
+name="_msoanchor_2">[JJM2]</a>&nbsp;</span></span><span style='font-family:
+Verdana'> para definir los controles necesarios para la identificación, el
+almacenamiento, la protección, la recuperación, el tiempo de retención y la
+disposición de los registros.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h1><a name="_Toc140510932">5. RESPONSABILIDADES DE </a>LA DIRECCIÓN</h1>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510933">5.1 Compromiso de la dirección</a></h2>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+alta dirección debe proporcionar evidencia de su compromiso con el desarrollo e
+implementación del sistema de gestión de la calidad, así como con la mejora
+continua de su eficacia.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>comunicando a la organización
+la importancia de satisfacer tanto los requisitos del cliente como los legales
+y reglamentarios,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>estableciendo la política de
+calidad,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurando que se establecen
+los objetivos de la calidad,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>d)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>llevando a cabo las revisiones
+por la dirección,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>e)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurando la disponibilidad de
+los recursos.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<span style='font-size:12.0pt;font-family:Verdana'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510934">5.2 Enfoque al cliente</a></h2>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+alta dirección debe asegurarse de que los requisitos del cliente se determinan
+y se cumplen con el propósito de aumentar la satisfacción del cliente (véanse
+7.2.1 y 8.2.1).</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510935">5.3 Política de la calidad</a></h2>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+alta dirección debe asegurarse de que la política de la calidad</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>es adecuada al propósito de la
+organización,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>incluye un compromiso de
+cumplir con los requisitos y de mejorar continuamente la eficacia del sistema de
+gestión de la calidad,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>proporcionar un marco de
+referencia para establecer y revisar los objetivos de la calidad,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>d)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>es comunicada y entendida
+dentro de la organización, y</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>e)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>es revisada para su continua
+adecuación.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510936">5.4 Planificación</a></h2>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510937">5.4.1 Objetivos de la calidad.</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+alta dirección debe asegurarse de que los objetivos de la calidad, incluyendo
+aquéllos necesarios para cumplir los requisitos para el producto [véase 7.1 a)], se establecen en las funciones y niveles pertinentes dentro de la organización. Los objetivos
+de la calidad deben ser medibles y coherente con la política de la calidad.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510938">5.4.2 Planificación del sistema de gestión de la
+calidad.</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+alta dirección debe asegurarse de que</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>la planificación del sistema de
+gestión de la calidad se realiza con el fin de cumplir los requisitos citados
+en 4.1, así como los objetivos de la calidad, y</span></p>
+
+<p class=MsoNormal style='margin-left:18.0pt;text-align:justify'><span
+style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>se mantiene la integridad del
+sistema de gestión de la calidad cuando se planifican e implementan cambios en
+éste.</span></p>
+
+<span style='font-size:12.0pt;font-family:Verdana'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510939">5.5 Responsabilidades, autoridad y comunicación</a></h2>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510940">5.5.1 Responsabilidades y autoridad.</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+alta dirección debe asegurarse de que las responsabilidades y autoridades están
+definidas y son comunicadas dentro de la organización.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510941">5.5.2 Representante de la dirección.</a></h3>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>La
+alta dirección debe designar un miembro de la dirección quien, con
+independencia de otras responsabilidades, debe tener la responsabilidad y
+autoridad que incluya:</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>a)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurarse de que se
+establecen, implementan y mantienen los procesos necesarios para el sistema de
+gestión de la calidad,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>b)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>informar a la alta dirección
+sobre el desempeño del sistema de gestión de la calidad y de cualquier
+necesidad de mejorar,</span></p>
+
+<p class=MsoNormal style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-family:Verdana'>c)<span style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span><span style='font-family:Verdana'>asegurar de que se promueve la
+toma de conciencia de los requisitos del cliente en todos los niveles de la
+organización.</span></p>
+
+<p class=MsoNormal style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>NOTA
+– La responsabilidad del representante de la dirección puede incluir relaciones
+con partes externas sobre asuntos relacionados con el sistema de gestión de la
+calidad.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510942">5.5.3 Comunicación interna.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La alta dirección debe asegurarse de que establecen los
+procesos de comunicación apropiados dentro de la organización y de que la
+comunicación se efectúa considerando la eficacia del sistema de gestión de la
+calidad.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510943">5.6 Revisión por la dirección</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510944">5.6.1 Generalidades.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La alta dirección debe, a intervalos planificados, revisar
+el sistema de gestión de la calidad de la organización, para asegurarse de su
+conveniencia, adecuación y eficacia continuas. La revisión debe incluir la
+evaluación de las oportunidades de mejora y la necesidad de efectuar cambios en
+el sistema de gestión de la calidad, incluyendo la política de la calidad y los
+objetivos de la calidad.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Deben mantenerse registros de las revisiones por la
+dirección (véase 4.2.4).</span></p>
+
+<span style='font-size:12.0pt;font-family:Verdana'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510945">5.6.2 Información para la revisión.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La información de entrada para la revisión por la
+dirección debe incluir</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>resultados de auditorías,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>retroalimentación del cliente,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>desempeño de los procesos y
+conformidad del producto,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>estado de las acciones correctoras
+y preventivas,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>acciones de seguimiento de
+revisiones por la dirección previas,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>f)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>cambios que podrían afectar al
+sistema de gestión de la calidad,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>g)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>recomendaciones para la mejora.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510946">5.6.3 Resultados de la revisión.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Los resultados de la revisión por la dirección deben
+incluir todas las decisiones y acciones relacionadas con</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la mejora de la eficacia del sistema
+de gestión de la calidad y sus procesos,</span></p>
+
+<p class=MsoBodyText style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:12.0pt;font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la mejora del producto en relación
+con los requisitos del cliente, y</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>las necesidades de recursos.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h1><a name="_Toc140510947">6. GESTIÓN DE LOS RECURSOS</a></h1>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510948">6.1 Provisión de recursos</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe determinar y proporcionar los recursos
+necesarios para:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>implementar y mantener el sistema
+de gestión de la calidad y mejorar continuamente su eficacia, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>aumentar la satisfacción del
+cliente mediante el cumplimiento de sus requisitos.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510949">6.2 Recursos humanos</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510950">6.2.1 Generalidades.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>El personal que realice trabajos que afecten a la calidad
+del producto debe ser competente con base en la educación, formación,
+habilidades y experiencia apropiadas.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510951">6.2.2 Competencia, toma de conciencia y formación.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>determinar la competencia
+necesaria para el personal que realiza trabajos que afectan a la calidad del
+producto,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>proporcionar formación o tomar
+otras acciones para satisfacer dichas necesidades,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>evaluar la eficacia de las
+acciones tomadas,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>asegurarse de que su personal es
+conciente de la pertinencia e importancia de sus actividades y de cómo
+contribuyen al logro de los objetivos de la calidad, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>mantener los registros apropiados
+de la educación, formación, habilidades y experiencia (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510952">6.3 Infraestructura</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe determinar, proporcionar y mantener
+la infraestructura necesaria para lograr la conformidad con los requisitos del
+producto. La infraestructura incluye, cuando sea aplicable:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>edificios, espacios de trabajo y
+servicios asociados,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>equipo para los procesos, (tanto
+hardware como software), y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>servicios de apoyo tales (como
+transporte o comunicación).</span></p>
+
+<p class=MsoBodyText style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:12.0pt;font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510953">6.4 Ambiente de trabajo</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe determinar y gestionar el ambiente de
+trabajo necesario para lograr la conformidad con los requisitos del producto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h1><a name="_Toc140510954">7. REALIZACIÓN DEL PRODUCTO</a></h1>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510955">7.1 Planificación de la realización del producto</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></b></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe planificar y desarrollar los procesos
+necesarios para la realización del producto. La planificación de la realización
+del producto debe ser coherente con los requisitos de los otros procesos del
+sistema de gestión de la calidad (véase 4.1).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Durante la planificación de la realización del producto,
+la organización debe determinar, cuando sea apropiado, lo siguiente:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los objetivos de la calidad y los
+requisitos para los productos (p.e. las especificaciones de servicios y
+productos);</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>La necesidad de establecer
+procesos, documentos y de proporcionar recursos específicos para el producto;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>Las actividades requeridas de
+verificación, validación, seguimiento, inspección y ensayo/prueba específicas
+para el producto así como los criterios para la aceptación del mismo;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>Los registros que sean necesarios
+para proporcionar evidencias de que los procesos de realización y el producto
+resultante cumplen los requisitos (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>El resultado de esta planificación debe presentarse de
+forma adecuada para la metodología de operación de la organización.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>NOTA
+– 1 Un documento que especifica los procesos del sistema de gestión de la
+calidad (incluyendo los procesos de realización del producto) y los recursos
+que deben aplicarse a un producto, proyecto o contrato específico, puede
+denominarse como un plan de la calidad.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>NOTA
+– 2 La organización también puede aplicar los requisitos citados en 7.3 para el
+desarrollo de los procesos de realización del producto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510956">7.2 Procesos relacionados con el cliente</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></b></p>
+
+<h3><a name="_Toc140510957">7.2.1 Determinaciones de los requisitos
+relacionados con el producto.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe determinar:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los requisitos especificados por
+el cliente, incluyendo los requisitos para las actividades de entrega y las
+posteriores a la misma;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los requisitos no establecidos por
+el cliente pero necesarios para el uso especificado o para el uso previsto,
+cuando sea conocido;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los requisitos legales y
+reglamentarios relacionados con el producto, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>cualquier requisito adicional
+determinado por la organización.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510958">7.2.2 Revisión de los requisitos relacionados con
+el producto.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe revisar los requisitos relacionados
+con el producto. Esta revisión debe efectuarse antes de que la organización se
+comprometa a proporcionar un producto al cliente (por ejemplo envío de oferta,
+aceptación de contratos o pedidos, aceptación de cambios en los contratos o
+pedidos) y debe asegurarse de que</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>están definidos los requisitos del
+producto,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>están resueltas las diferencias
+existentes entre los requisitos del contrato o pedido y los expresados
+previamente, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la organización tiene la capacidad
+para cumplir con los requisitos definidos.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Deben mantenerse registros de los resultados de la revisión
+y de las acciones originadas por la misma (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Cuando el cliente no proporcione una declaración
+documentada de los requisitos, la organización debe confirmar los requisitos
+del cliente antes de la aceptación.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Cuando se cambien los requisitos del producto, la
+organización debe asegurarse de que la documentación pertinente sea modificada
+y de que el personal correspondiente sea conciente de los requisitos
+modificados.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>NOTA
+– 1 En algunas situaciones, tales como las ventas por internet, no resulta
+práctico efectuar un revisión formal de cada pedido. En su lugar, la revisión
+puede cubrir la información pertinente del producto, como son los catálogos o
+el material publicitario.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510959">7.2.3 Comunicación con el cliente.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe determinar e implementar
+disposiciones eficaces para la comunicación con los clientes, relativas a</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la información sobre el producto,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>las consultas, contratos o
+atención de pedidos, incluyendo las modificaciones, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la retroalimentación del cliente,
+incluyendo sus quejas.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510960">7.3 Diseño y desarrollo</a></h2>
+
+<h3><a name="_Toc140510961">7.3.1 Planificación del diseño y desarrollo.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe planificar y controlar el diseño y
+desarrollo del producto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Durante la planificación del diseño y desarrollo la
+organización debe determinar</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>las etapas del diseño y
+desarrollo.</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>La revisión, verificación y
+validación, apropiadas para cada etapa del diseño y desarrollo, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>Las responsabilidades y
+autoridades para el diseño y desarrollo.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe gestionar las interfaces entre los
+diferentes grupos involucrados en el diseño y desarrollo para asegurarse de una
+comunicación eficaz y una clara asignación de responsabilidades.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Los resultados de la planificación deben actualizarse,
+según sea apropiado, a medida que progresa el diseño y desarrollo.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510962">7.3.2 Elementos de entrada para el diseño y
+desarrollo.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Deben determinarse los elementos de entrada relacionados
+con los requisitos del producto y mantenerse registro (véase 4.2.4). Estos
+elementos de entrada deben incluir:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los requisitos funcionales y de desempeño,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los requisitos legales y
+reglamentarios aplicables,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la información proveniente de
+diseños previos similares, cuando sea aplicable, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>cualquier otro requisito esencial
+para el diseño y desarrollo.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Estos elementos deben revisarse para verificar su
+adecuación. Los requisitos deben estar completos, sin ambigüedades y no deben
+ser contradictorios.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510963">7.3.3 Resultados del diseño y desarrollo.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Los resultados del diseño y desarrollo deben
+proporcionarse de tal manera que permitan la verificación respecto a los
+elementos de entrada para el diseño y desarrollo, y deben aprobarse antes de su
+liberación.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Los resultados del diseño y desarrollo deben</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>cumplir los requisitos de los
+elementos de entrada para el diseño y desarrollo,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>proporcionar información apropiada
+para la compra, la producción y la prestación del servicio,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>contener o hacer referencia a los
+criterios de aceptación del producto, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>especificar las características
+del producto que son esenciales para el uso seguro y correcto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510964">7.3.4 Revisión del diseño y desarrollo.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>En las etapas adecuadas, deben realizarse revisiones
+sistemáticas del diseño y desarrollo de acuerdo con lo planificado (véase
+7.3.1)</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>evaluar la capacidad de los
+resultados de diseño y desarrollo para cumplir los requisitos, e</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>identificar cualquier problema y
+proponer las acciones necesarias.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Los participantes en dichas revisiones deben incluir
+representantes de las funciones relacionadas con la(s) etapa(s) de diseño y
+desarrollo que está(n) revisando. Deben mantenerse registro de los resultados
+de las revisiones y de cualquier acción necesaria (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510965">7.3.5 Verificación del diseño y desarrollo.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Se debe realizar la verificación, de acuerdo con lo
+planificado(véase 7.3.1), para asegurarse de que los resultados del diseño y
+desarrollo cumplen los requisitos de los elementos de entrada del diseño y
+desarrollo. Deben mantenerse registros de los resultados de la verificación y
+de cualquier acción que sea necesaria (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510966">7.3.6 Validación del diseño y desarrollo.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Se debe realizar la validación del diseño y desarrollo de
+acuerdo con lo planificado (véase 7.3.1) para asegurarse de que el producto
+resultante es capaz de satisfacer los requisitos para su aplicación
+especificada o uso previsto, cuando sea conocido. Siempre que sea factible, la
+validación debe completarse antes de la entrega o implementación del producto.
+Deben mantenerse registros de las resultados de la validación y de cualquier
+acción que sea necesaria (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510967">7.3.7 Control de los cambios del diseño y desarrollo.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Los cambios del diseño y desarrollo deben identificarse y
+deben mantenerse registro. Los cambios deben revisarse, verificarse y
+validarse, según sea apropiado, y aprobarse antes de su implementación. La
+revisión de los cambios del diseño y desarrollo debe incluir la evaluación del
+efecto de los cambios en laspartes constitutivas y en el producto ya entregado.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Deben mantenerse registros de los resultados de la
+revisión de los cambios y de cualquier acción que sea necesaria (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510968">7.4 Compras</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></b></p>
+
+<h3><a name="_Toc140510969">7.4.1 Proceso de compras.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe asegurase de que el producto
+adquirido cumple los requisitos de compra especificados. El tipo y alcance del
+control aplicado al proveedor y al producto adquirido debe depender del impacto
+del producto adquirido en la posterior realización del producto o sobre el
+producto final.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe evaluar y seleccionar los proveedores
+en función de us capacidad para suministrar productos de acuerdo con los
+requisitos de la organización. Deben establecerse los criterios para la
+selección, la evaluación y la re-evaluación. Deben mantenerse los registros de
+los resultados de las evaluaciones y de cualquier acción necesaria que se
+derive de las mismas (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510970">7.4.2 Información de las compras.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La información de las compras debe describir el producto a
+comprar, incluyendo, cuando sea apropiado</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>requisitos para la aprobación del
+producto, procedimientos, procesos y equipos,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>requisitos para la calificación
+del personal, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>requisitos del sistema de gestión
+de la calidad.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe asegurarse de la adecuación de los
+requisitos de compra especificados antes de comunicárselos al proveedor.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510971">7.4.3 Verificación de los productos comprados.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe establecer e implementar la
+inspección u otras actividades necesarias para asegurarse de que el producto
+comprado cumple los requisitos de compra especificados.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Cuando la organización o su cliente quieran llevar a cabo
+la verificación en las instalaciones del proveedor, la organización debe establecer
+en la información de compra las disposiciones para la verificación pretendida y
+el método para la liberación del producto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510972">7.5 Producción y prestación del servicio</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></b></p>
+
+<h3><a name="_Toc140510973">7.5.1 Control de la producción y de la prestación
+del servicio.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe planificar y llevar a cabo la
+producción y la prestación del servicio bajo condiciones controladas. Las
+condiciones controladas deben incluir, cuando sea aplicable</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la disponibilidad de información
+que describe las características del producto,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la disponibilidad de instrucciones
+de trabajo, cuando sea necesario,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>el uso del equipo apropiado,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la disponibilidad y uso de
+dispositivos de seguimiento y medición,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la implementación del seguimiento
+y de la medición, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>f)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la implementación de actividades
+de liberación, entrega y posteriores a la entrega.</span></p>
+
+<span style='font-size:12.0pt;font-family:Verdana'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510974">7.5.2 Validación de los procesos de la producción y
+de la prestación del servicio.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe validar aquellos procesos de
+producción y de prestación del servicio donde los productos resultantes no
+puedan verificarse mediante actividades de seguimiento o medición posteriores.
+Esto incluye a cualquier proceso en el que las deficiencias se hagan aparentes
+únicamente después de que el producto esté siendo utilizado o se haya prestado
+el servicio.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La validación debe demostrar la capacidad de estos
+procesos para alcanzar los resultados planificados.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe establecer las disposiciones para
+estos procesos, incluyendo, cuando sea aplicable</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los criterios definidos para la
+revisión y aprobación de los procesos,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la aprobación de equipos y
+calificaciones del personal,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>el uso de métodos y procedimientos
+específicos,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los requisitos de los registros
+(véase 4.2.4), y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la revalidación.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510975">7.5.3 Identificación y trazabilidad.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Cuando sea apropiado, la organización debe identificar el
+producto por medios adecuados, a través de toda la realización del producto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe identificar el estado del producto
+con respecto a los requisitos de seguimiento y medición.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Cuando la trazabilidad sea un requisito, la organización
+debe controlar y registrar la identificación única del producto (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>NOTA
+– En algunos sectores industriales, la gestión de la cofiguración es un medio
+para mantener la identificación y la trazabilidad.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510976">7.5.4 Propiedades del cliente.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe cuidar los bienes que son propiedad
+del cliente mientras estén bajo el control de la organización o estén siendo
+utilizados por la misma. La organización debe identificar, verificar, proteger
+y salvaguardar los bienes que son propiedad del cliente suministrados para su
+utilización o incorporación dentro del producto. Cualquier bien que sea
+propiedad del cliente que se pierda, deteriore o que de algún otro modo se
+considere inadecuado para su uso debe ser registrado (véase 4.2.4) y comunicado
+al cliente.</span></p>
+
+<span style='font-size:12.0pt;font-family:Verdana'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>NOTA
+– La propiedad del cliente puede incluir la propiedad intelectual.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510977">7.5.5 Preservación del producto.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe preservar la conformidad del producto
+durante el proceso interno y la entrega al destino previsto. Esta preservación
+debe incluir la identificación, manipulación, embalaje, almacenamiento y
+protección. La preservación debe aplicarse también, a las partes constitutivas
+de un producto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:12.0pt;
+font-family:Verdana'>7.6 Control de los dispositivos de seguimiento y de
+medición</span></b></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe determinar el seguimiento y la
+medición a realizar, y los dispositivos de medición y seguimiento necesarios
+para proporcionar la evidencia de la conformidad del producto con los
+requisitos determinados (véase 7.2.1).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe establecer procesos para asegurarse
+de que el seguimiento y medición pueden realizarse y se realizan de una manera
+coherente con los requisitos de seguimiento y medición.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Cuando sea necesario asegurarse de la validez de los
+resultados, el equipo de medición debe:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>calibrarse o verificarse a
+intervalos especificados o antes de su utilización, comparado con patrones de
+medición trazables a patrones de medición nacionales o internacionales; cuando
+no existan tales patrones debe registrarse la base utilizada para la
+calibración o la verificación;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>ajustarse o reajustarse según sea
+necesario;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>identificarse para poder
+determinar el estado de calibración;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>protegerse contra ajustes que
+pudieran invalidar el resultados de la medición;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>protegerse contra los daños y el
+deterioro durante la manipulación, el mantenimiento y el almacenamiento.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Además, la organización debe evaluar y registrar la
+validez de los resultados de las mediciones anteriores cuando se detecte que el
+equipo no está conforme con los requisitos. La organización debe tomar las
+acciones apropiadas sobre el equipo y sobre cualquier producto afectado. Deben
+mantenerse registros de los resultados de la calibración y la verificación
+(véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Debe confirmarse la capacidad de los programas
+informáticos para satisfacer su aplicación prevista cuando éstos se utilicen en
+las actividades de seguimiento y medición de los requisitos especificados. Esto
+debe llevarse a cabo antes de iniciar su utilización y confirmarse de nuevo
+cuando sea necesario.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>NOTA
+– Véanse las Normas ISO 10012-1 e 10012-2 a modo de orientación.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h1><a name="_Toc140510978">8 MEDICIÓN, ANÁLISIS Y MEJORA</a></h1>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></b></p>
+
+<h2><a name="_Toc140510979">8.1 Generalidades</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe planificar e implementar los procesos
+de seguimiento, medición, análisis y mejora necesarios para</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>demostrar la conformidad del
+producto,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>asegurarse la conformidad del
+sistema de gestión de la calidad, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>mejorar continuamente la eficacia
+del sistema de gestión de la calidad.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Esto debe comprender la determinación de los métodos
+aplicados, incluyendo las técnicas estadísticas, y el alcance de su
+utilización.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510980">8.2 Seguimiento y medición</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></b></p>
+
+<h3><a name="_Toc140510981">8.2.1 Satisfacción del cliente.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Como una de las medidas del desempeño del sistema de
+gestión de la calidad, la organización debe realizar el seguimiento de la
+información relativa a la percepción del cliente con respecto al cumplimiento
+de sus requisitos por parte de la organización. Deben determinarse los métodos
+para obtener y utilizar dicha información.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510982">8.2.2 Auditoría interna.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe llevar a cabo a intervalos
+planificados auditorías internas para determinar si el sistema de gestión de la
+calidad:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>es conforme con las disposiciones
+planificadas (véase 7.1), con los requisitos de esta norma internacional y con
+los requisitos del sistema de gestión de la calidad establecidos por la organización,
+y</span></p>
+
+<p class=MsoBodyText style='margin-left:18.0pt;text-align:justify'><span
+style='font-size:12.0pt;font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>se ha implementado y se mantiene
+de manera eficaz.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Se debe planificar un programa de auditorías tomando en
+consideración el estado y la importancia de los procesos y las áreas a auditar,
+así como los resultados de auditorías previas. Se deben definir los criterios
+de auditorías, el alcance de la misma, su frecuencia y metodología. La
+selección de los auditores y la realización de las auditorías deben asegurar la
+objetividad e imparcialidad del proceso de auditoría. Los auditores no deben auditar
+su propio trabajo.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Deben definirse, en un <span style='background:lime'>procedimiento
+<a>documentado</a></span></span><span class=MsoCommentReference><span
+style='font-size:8.0pt'><a class=msocomanchor id="_anchor_3"
+onmouseover="msoCommentShow('_anchor_3','_com_3')"
+onmouseout="msoCommentHide('_com_3')" href="#_msocom_3" language=JavaScript
+name="_msoanchor_3">[JJM3]</a>&nbsp;</span></span><span style='font-size:12.0pt;
+font-family:Verdana'>, las responsabilidades y requisitos para la planificación
+y la realización de auditorías, para informar de los resultados y para mantener
+los registros (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La dirección responsable del área que esté siendo auditada
+debe asegurarse de que se toman acciones sin demora injustificada para eliminar
+las no conformidades detectadas y sus causas. Las actividades de seguimiento
+deben incluir la verificación de las acciones tomadas y el informe de los
+resultados de la verificación (véase 8.5.2).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-family:Verdana'>NOTA
+– Véase las Normas ISO 10011-1, ISO 10011-2 e 10011-3 a modo de orientación.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510983">8.2.3 Seguimiento y medición de los procesos.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe aplicar métodos apropiados para el seguimiento,
+y cuando sea aplicable, la medición de los procesos del sistema de gestión de
+la calidad. Estos métodos deben demostrar la capacidad de los procesos para
+alcanzar los resultados planificados. Cuando no se alcancen los resultados
+planificados, deben llevarse a cabo correcciones y acciones correctivas, según
+sea conveniente, para asegurarse de la conformidad del producto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510984">8.2.4 Seguimiento y medición del producto.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe medir y hacer un seguimiento de las
+características del producto para verificar que se cumplen los requisitos del
+mismo. Esto debe realizarse en las etapas apropiadas del proceso de realización
+del producto de acuerdo con las disposiciones planificadas (véase 7.1).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Debe mantenerse evidencia de la conformidad con los
+criterios de aceptación. Los registros deben indicar la(s) persona(s) que
+autorizan) la liberación del producto (véase 4.2.4).</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La liberación del producto y la prestación del servicio no
+deben llevarse a cabo hasta que se hayan completado satisfactoriamente las
+disposiciones planificadas (véase 7.1), a menos que sean aprobados de otra
+manera por una autoridad pertinente y, cuando corresponda, por el cliente.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510985">8.3 Control del producto no conforme</a></h2>
+
+<span style='font-size:12.0pt;font-family:Verdana'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe asegurar de que el producto que no sea
+conforme con los requisitos, se identifica y controla para prevenir su uso o
+entrega no intencional. Los controles, las responsabilidades y autoridades
+relacionadas con el tratamiento del producto no conforme deben estar en un <span
+style='background:lime'>procedimiento <a>documentado</a></span></span><span
+class=MsoCommentReference><span style='font-size:8.0pt'><a class=msocomanchor
+id="_anchor_4" onmouseover="msoCommentShow('_anchor_4','_com_4')"
+onmouseout="msoCommentHide('_com_4')" href="#_msocom_4" language=JavaScript
+name="_msoanchor_4">[JJM4]</a>&nbsp;</span></span><span style='font-size:12.0pt;
+font-family:Verdana'>.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe tratar los productos no conformes
+medianteuna o más de las siguientes manera:</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>tomando acciones para eliminar la
+no conformidad detectada;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>autorizando su uso, liberación o
+aceptación bajo concesión por una autoridad pertinente y, cuando sea aplicable,
+por el cliente;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>tomando acciones para impedir su
+uso o aplicación originalmente previsto.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Se deben mantener registros (véase 4.2.4) de la naturaleza
+de las no conformidades y de cualquier acción tomada posteriormente, incluyendo
+las concesiones que se hayan obtenido</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Cuando se corrige un producto no conforme, debe someterse
+a una nueva verificación para demostrar su conformidad con los requisitos.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Cuando se detecta un producto no conforme después de la
+entrega o cuando ha comenzado su uso, la organización debe tomar las acciones
+apropiadas respecto a los efectos, o efectos potenciales, de la no conformidad.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510986">8.4 Análisis de datos</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe determinar, recopilar y analizar los
+datos apropiados para demostrar la idoneidad y la eficacia del sistema de
+gestión de la calidad y para evaluar dónde puede realizarse la mejora continua
+de la eficacia del sistema de gestión de la calidad. Esto debe incluir los
+datos generados del resultado del seguimiento y medición y de cualesquiera otras
+fuentes pertinentes.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>El análisis de datos debe proporcionar información sobre</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la satisfacción del cliente (véase
+8.2.1),</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>la conformidad con los requisitos
+del producto (véase 7.2.1),</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>las características y tendencias
+de los procesos y de los productos, incluyendo las oportunidades para llevar a
+cabo acciones preventivas, y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>los proveedores.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<span style='font-size:12.0pt;font-family:Verdana'><br clear=all
+style='page-break-before:always'>
+</span>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h2><a name="_Toc140510987">8.5 Mejora</a></h2>
+
+<p class=MsoBodyText style='text-align:justify'><b><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></b></p>
+
+<h3><a name="_Toc140510988">8.5.1 Mejora continua.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe mejorar continuamente la eficacia del
+sistema de gestión de la calidad mediante el uso de la política de la calidad,
+los objetivos de la calidad, los resultados de las auditorías, el análisis de
+datos, las acciones correctivas y preventivas y la revisión por la dirección.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510989">8.5.2 Acciones correctivas.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe tomar acciones para eliminar la causa
+de no conformidades con objeto de prevenir que vuelvan a ocurrir. Las acciones
+correctivas deben ser apropiadas a los efectos de las no conformidades
+encontradas.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Debe establecerse un <span style='background:lime'>procedimiento
+<a>documentado</a></span></span><span class=MsoCommentReference><span
+style='font-size:8.0pt'><a class=msocomanchor id="_anchor_5"
+onmouseover="msoCommentShow('_anchor_5','_com_5')"
+onmouseout="msoCommentHide('_com_5')" href="#_msocom_5" language=JavaScript
+name="_msoanchor_5">[JJM5]</a>&nbsp;</span></span><span style='font-size:12.0pt;
+font-family:Verdana'> para definir los requisitos para</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>revisar las no conformidades
+(incluyendo las quejas de los clientes),</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>determinar las causas de las no
+conformidades,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>evaluar la necesidad de adoptar
+acciones para asegurarse de que las no conformidades no vuelvan a ocurrir,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>determinar e implementar las
+acciones necesarias,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>registrar los resultados de las
+acciones tomadas (véase 4.2.4), y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>f)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>revisar las acciones correctivas
+tomadas.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<h3><a name="_Toc140510990">8.5.3 Acciones preventivas.</a></h3>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>La organización debe determinar acciones para eliminar las
+causas de no conformidades potenciales para prevenir su ocurrencia. Las
+acciones preventivas deben ser apropiadas a los efectos de los problemas
+potenciales.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>Debe establecerse un <span style='background:lime'>procedimiento
+<a>documentado</a></span></span><span class=MsoCommentReference><span
+style='font-size:8.0pt'><a class=msocomanchor id="_anchor_6"
+onmouseover="msoCommentShow('_anchor_6','_com_6')"
+onmouseout="msoCommentHide('_com_6')" href="#_msocom_6" language=JavaScript
+name="_msoanchor_6">[JJM6]</a>&nbsp;</span></span><span style='font-size:12.0pt;
+font-family:Verdana'> para definir los requisitos para</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>a)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>determinar las no conformidades
+potenciales y sus causas,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>b)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>evaluar la necesidad de actuar
+para prevenir la ocurrencia de no conformidades,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>c)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>determinar e implementar las
+acciones necesarias,</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>d)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>registrar los resultados de las
+acciones tomadas (véase 4.2.4), y</span></p>
+
+<p class=MsoBodyText style='margin-left:36.0pt;text-align:justify;text-indent:
+-18.0pt'><span style='font-size:12.0pt;font-family:Verdana'>e)<span
+style='font:7.0pt "Times New Roman"'>&nbsp;&nbsp;&nbsp; </span></span><span
+style='font-size:12.0pt;font-family:Verdana'>revisar las acciones preventivas
+tomadas.</span></p>
+
+<p class=MsoBodyText style='text-align:justify'><span style='font-size:12.0pt;
+font-family:Verdana'>&nbsp;</span></p>
+
+</div>
+
+<div>
+
+<hr class=msocomoff align=left size=1 width="33%">
+
+<div>
+
+<div id="_com_1" class=msocomtxt language=JavaScript
+onmouseover="msoCommentShow('_anchor_1','_com_1')"
+onmouseout="msoCommentHide('_com_1')"><a name="_msocom_1"></a>
+
+<p class=MsoCommentText><span class=MsoCommentReference><span style='font-size:
+8.0pt'>&nbsp;<a href="#_msoanchor_1" class=msocomoff>[JJM1]</a></span></span>4.2.3</p>
+
+</div>
+
+</div>
+
+<div>
+
+<div id="_com_2" class=msocomtxt language=JavaScript
+onmouseover="msoCommentShow('_anchor_2','_com_2')"
+onmouseout="msoCommentHide('_com_2')"><a name="_msocom_2"></a>
+
+<p class=MsoCommentText><span class=MsoCommentReference><span style='font-size:
+8.0pt'>&nbsp;<a href="#_msoanchor_2" class=msocomoff>[JJM2]</a></span></span>4.2.4</p>
+
+</div>
+
+</div>
+
+<div>
+
+<div id="_com_3" class=msocomtxt language=JavaScript
+onmouseover="msoCommentShow('_anchor_3','_com_3')"
+onmouseout="msoCommentHide('_com_3')"><a name="_msocom_3"></a>
+
+<p class=MsoCommentText><span class=MsoCommentReference><span style='font-size:
+8.0pt'>&nbsp;<a href="#_msoanchor_3" class=msocomoff>[JJM3]</a></span></span>8.2.2</p>
+
+</div>
+
+</div>
+
+<div>
+
+<div id="_com_4" class=msocomtxt language=JavaScript
+onmouseover="msoCommentShow('_anchor_4','_com_4')"
+onmouseout="msoCommentHide('_com_4')"><a name="_msocom_4"></a>
+
+<p class=MsoCommentText><span class=MsoCommentReference><span style='font-size:
+8.0pt'>&nbsp;<a href="#_msoanchor_4" class=msocomoff>[JJM4]</a></span></span>8.3</p>
+
+</div>
+
+</div>
+
+<div>
+
+<div id="_com_5" class=msocomtxt language=JavaScript
+onmouseover="msoCommentShow('_anchor_5','_com_5')"
+onmouseout="msoCommentHide('_com_5')"><a name="_msocom_5"></a>
+
+<p class=MsoCommentText><span class=MsoCommentReference><span style='font-size:
+8.0pt'>&nbsp;<a href="#_msoanchor_5" class=msocomoff>[JJM5]</a></span></span>8.5.2</p>
+
+</div>
+
+</div>
+
+<div>
+
+<div id="_com_6" class=msocomtxt language=JavaScript
+onmouseover="msoCommentShow('_anchor_6','_com_6')"
+onmouseout="msoCommentHide('_com_6')"><a name="_msocom_6"></a>
+
+<p class=MsoCommentText><span class=MsoCommentReference><span style='font-size:
+8.0pt'>&nbsp;<a href="#_msoanchor_6" class=msocomoff>[JJM6]</a></span></span>8.5.3</p>
+
+</div>
+
+</div>
+
+</div>
+
+</body>
+
+</html>

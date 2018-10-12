@@ -1,0 +1,1 @@
+Unzip this ajaximage.zip file into this /ajaximage folder

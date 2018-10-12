@@ -1,0 +1,1544 @@
+/* IE6 css fixer v0.95: Fri, 22 Nov 2013 13:23:11 +0100 */
+
+/* ============================================= */
+/* safe settings                                 */
+
+/* add display:inline to floated elements */
+﻿#cabecera,#topmenu,#acciones,#dir,ul#tabs li,#flotante,.ToolTextHover span,#container .pagination ul li,.total
+    {
+    display: inline;
+}
+
+img {
+    border: 0;
+}
+
+/* fix negative margins */
+.go_button {
+    position: relative;
+    zoom: 1;
+}
+
+/* add zoom:1 to overflow:hidden */
+div#panel #paneles,#contenedor {
+    zoom: 1;
+}
+
+/* add zoom:1 to pos:relative elements */
+div#panel,#rightChildLayer,.ToolText,.ToolTextHover {
+    zoom: 1;
+}
+
+/* add transparancy */
+﻿#cabecera {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+}
+
+#bloque {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+}
+
+#variante {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=85);
+}
+
+#variantepxlr {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+#fileupload {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+select {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=75);
+}
+
+.tooltip {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=90);
+}
+
+.ToolTextHover span {
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=80);
+}
+
+/* add zoom:1; display:inline; to inline-block elements */
+﻿#cabecera,#topmenu,#acciones,#dir,#image_selector_wrapper,ul#tabs li a,select
+    {
+    zoom: 1;
+    display: inline;
+}
+
+/* add overflow:visible to (submit) buttons */
+input,button {
+    overflow: visible;
+}
+
+
+
+body.top {
+/*background-image: url(../images/spotlight.jpg), url(../images/bg_tiled_darker.gif);
+background-repeat: no-repeat, repeat;
+background-position: top center, top left;*/
+
+background: rgba(23, 23, 23, 1);
+font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+font-size: 14px;
+color: #8A8989;
+margin: 0px;
+padding: 20px 0px 0px 0px;
+line-height: 1.6;
+}
+
+
+#cabecera {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    float: left;
+    width: 100%;
+    height: 20%;
+    display: inline-block;
+    z-index: -10;
+    /*filter: alpha(opacity =   75) -moz-opacity:0.75;
+    opacity: 0.75;
+    border: 2px solid black;
+    border: 1px solid #696;
+    padding: 5px 0;
+    text-align: center;
+    -webkit-box-shadow: #666 0px 2px 3px;
+    -moz-box-shadow: #666 0px 2px 3px;
+    box-shadow: #666 0px 2px 3px;
+    background: #301736;
+    behavior: url("pie/PIE.htc");*/
+}
+
+#topmenu {
+    position: fixed;
+    left: 700px;
+    top: 80px;
+    float: left;
+    width: 500px;
+    height: 25px;
+    display: inline-block;
+    z-index: -1;
+    /*border: 1px solid #696;padding: 5px 0;text-align: center;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;-webkit-box-shadow: #666 0px 2px 3px;-moz-box-shadow: #666 0px 2px 3px;box-shadow: #666 0px 2px 3px;background: #ff8f32;behavior: url(pie/PIE.htc);*/
+}
+
+#bloque {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    height: auto;
+    z-index: -10;
+    width: 10%;
+    text-indent: 5px;
+    margin: 0px;
+    padding: 5px;
+    /*filter: alpha(opacity =   75) -moz-opacity:0.75;
+    opacity: 0.75;*/
+    /*border: 2px solid black;
+    border: 1px solid #404040;*/
+    text-align: center;
+    /*-webkit-box-shadow: #666 0px 5px 7px;
+    -moz-box-shadow: #666 0px 5px 7px;
+    box-shadow: #666 0px 5px 7px;
+    background: #b567fc;
+    behavior: url("pie/PIE.htc");*/
+}
+
+#variante {
+    position: absolute;
+    left: 15%;
+    top: 16%;
+    width: 82%;
+    height: auto;
+    z-index: -9;
+    margin: 5px;
+    text-indent: 20px;
+    padding: 20px;
+    background: #FFF;
+    /*background: url(../images/bg_300643.png);    
+    filter: alpha(opacity =   85) -moz-opacity:0.85;
+    opacity: 0.85;
+    border: 1px solid #404040;
+    text-align: left;
+    -webkit-box-shadow: #666 0px 5px 7px;
+    -moz-box-shadow: #666 0px 5px 7px;
+    box-shadow: #666 0px 5px 7px;
+    behavior: url("pie/PIE.htc");*/
+}
+
+#variantepxlr {
+    position: absolute;
+    left: 8%;
+    top: 12%;
+    width: 87%;
+    height: 800px;
+    z-index: -9;
+    margin: 5px;
+    text-indent: 20px;
+    padding: 20px;
+    filter: alpha(opacity =   90) -moz-opacity:0.90;
+    opacity: 0.90;
+    border: 1px solid #404040;
+    text-align: left;
+    -webkit-box-shadow: #666 0px 5px 7px;
+    -moz-box-shadow: #666 0px 5px 7px;
+    box-shadow: #666 0px 5px 7px;
+    background: #FFF;
+    behavior: url("pie/PIE.htc");
+}
+
+#fileupload {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    width: 60%;
+    height: auto;
+    margin: 5px;
+    text-indent: 20px;
+    padding: 20px;
+    filter: alpha(opacity =   90) -moz-opacity:0.90;
+    opacity: 0.90;
+}
+
+#lang {
+    top: 2%;
+    left: 76%;
+    position: absolute;
+    width: 150px;
+    z-index: 3;
+}
+
+#print {
+    top: 20%;
+    left: 67%;
+    position: absolute;
+    width: 50px;
+    z-index: 2;
+}
+
+#backup {
+    top: 20%;
+    left: 72%;
+    position: absolute;
+    width: 20px;
+    z-index: 3;
+}
+
+#admin {
+    top: 4%;
+    left: 77%;
+    position: absolute;
+    width: 120px;
+    z-index: 3;
+}
+
+#escarabajo {
+    top: 2%;
+    left: 77%;
+    position: relative;
+    width: 180px;
+    z-index: 12;
+}
+
+#avion {
+    top: 3%;
+    left: 10%;
+    position: absolute;
+    width: 300px;
+    z-index: 15;
+}
+
+#contactiframe {
+    top: 3%;
+    left: 70%;
+    height: 210px;
+    position: absolute;
+    z-index: 14;
+}
+
+#acciones {
+    position: absolute;
+    left: 35%;
+    top:55%;
+    float: left;
+    width: 20%;
+    height: 2%;
+    display: inline-block;
+    z-index: -10;
+}
+
+#skeleton {
+    position: absolute;
+    left: 60%;
+    top: 5%;
+}
+
+#dir {
+    background-color: #cccccc;
+    display: inline-block;
+    vertical-align: top;
+    clear: left;
+    float: left;
+    left: 0%;
+    top: 0%;
+    height: 100px;
+    z-index: -10;
+}
+
+p {
+    display: block;
+    padding: 0.2cm;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.img {
+    border: 0;
+}
+
+.documenttitle {
+    color: #E91594;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.darkorange {
+    color: #ba746c;
+    font-family: arial;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.yellow {
+    color: #FFFF00;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.spangreen {
+    color: #50AB00;
+    font-family: arial;
+    font-size: 20px;
+}
+
+.spanred {
+    color: #FF2B47;
+    font-family: arial;
+    font-size: 16px;
+}
+
+.analisis_revsistema {
+    color: #b5a694;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.resaltartexto {
+    color: #889393;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.resaltartexto2 {
+    color: #FD3220;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.resaltartexto3 {
+    color: #26B500;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.resaltartexto4 {
+    color: #076BE9;
+    font-family: arial;
+    font-size: 14px;
+}
+
+.even {
+    background-color: #CCCCCC;
+}
+
+/*---------BUTTONS--------------------------*/
+input {
+    padding: 5px 5px;
+    background: #fff;
+    border: #aliceblue;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    font-family: verdana;
+}
+
+.buttons {
+    text-align: center;
+    clear: both;
+    margin: 10px 0 20px 0;
+    padding: 0;
+    font-size: 100%;
+}
+
+.buttons a,button {
+    float: left;
+    margin: 0 7px 0 0;
+    text-decoration: none;
+    background-color: #f5f5f5;
+    border: 1px solid #dedede;
+    border-top: 1px solid #eee;
+    border-left: 1px solid #eee;
+    padding: 5px 10px 6px 7px;
+    display: block;
+    cursor: pointer;
+    font-size: 100%;
+    line-height: 130%;
+    color: #333;
+    font-weight: bold;
+}
+
+.button {
+    background-color: #86C340;
+    height: 24px;
+    width: 50px;
+    color: #fff;
+    border: 0;
+    font-family: verdana;
+}
+
+/*--------- END BUTTONS--------------------------*/
+#para1 {
+    text-align: center;
+    color: green;
+}
+
+#pright {
+    text-align: right;
+}
+
+#pcenter {
+    text-align: center;
+}
+
+#pleft {
+    text-align: left;
+}
+.left
+{
+text-align: left;
+
+}
+
+
+
+/*IMAGE SELECTOR*/
+#image_selector_wrapper {
+    display: inline-block;
+}
+
+/*FIN IMAGE SELECTOR*/
+
+/*SISTEMA DE PESTAÑAS*/
+
+/* tamaño y forma del panel principal */
+div#panel {
+    position: relative;
+    width: 100%;
+    height: 150px;
+}
+
+/* configuracion de las pestañas */
+ul#tabs {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 24px;
+    z-index: 20;
+}
+
+ul#tabs li {
+    float: left;
+    height: 23px;
+    padding-left: 8px;
+    list-style: none;
+    margin-right: 1px;
+    background: url("../images/tabs.png") left -48px;
+}
+
+ul#tabs li.actual {
+    height: 24px;
+    background: url("../images/tabs.png") left -72px;
+}
+
+ul#tabs li a {
+    display: block;
+    /* hack para ie6 */ .
+    display: inline-block;
+    /* fin del hack */
+    height: 23px;
+    line-height: 23px;
+    padding-right: 8px;
+    outline: 0px none;
+    font-family: arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    background: url("../images/tabs.png") right 0px;
+}
+
+ul#tabs li.actual a {
+    height: 24px;
+    line-height: 24px;
+    background: url("../images/tabs.png") right -24px;
+    cursor: default;
+}
+
+/* Configuración de los paneles */
+div#panel #paneles {
+    position: absolute;
+    left: 0px;
+    top: 23px;
+    width: 100%;
+    height: 500px;
+    border: 1px solid #91a7b4;
+    background: #fff;
+    overflow: hidden;
+    z-index: 10;
+}
+
+div#panel #paneles div {
+    margin: 10px;
+    width: 1000px;
+    height: 1000px;
+    font-family: arial;
+    font-size: 12px;
+    text-decoration: none;
+    color: #000;
+    overflow: auto;
+}
+
+/*FIN.....................SISTEMA DE PESTAÑAS*/
+
+/*Estilos para la edición de datos desde las tablas*/
+.editbox {
+    display: none
+}
+
+td {
+    padding: 7px;
+}
+
+iframe {
+    background-color: transparent;
+}
+
+.editbox {
+    font-size: 14px;
+    width: 270px;
+    background-color: #ffffcc;
+    border: solid 1px #000;
+    padding: 4px;
+}
+
+.edit_tr:hover {
+    background: url("edit.png") right no-repeat #80C8E5;
+    cursor: pointer;
+}
+
+/*FIN de Estilos para la edición de datos desde las tablas*/
+#cab1 {
+    top: 35px;
+    left: 27%;
+    position: absolute;
+    width: 160px;
+    z-index: 4;
+}
+
+#cab11 {
+    top: 6px;
+    left: 48%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab12 {
+    top: 6px;
+    left: 52%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab13 {
+    top: 6px;
+    left: 56%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab14 {
+    top: 6px;
+    left: 60%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab15 {
+    top: 6px;
+    left: 64%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab16 {
+    top: 6px;
+    left: 68%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab17 {
+    top: 6px;
+    left: 72%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab18 {
+    top: 6px;
+    left: 76%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab19 {
+    top: 6px;
+    left: 80%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab20 {
+    top: 6px;
+    left: 84%;
+    position: absolute;
+    width: 20px;
+}
+
+#cab2 {
+    top: 35px;
+    left: 42%;
+    position: absolute;
+    width: 20px;
+    z-index: 5;
+}
+
+#cab3 {
+    top: 35px;
+    left: 44%;
+    position: absolute;
+    width: 20px;
+    z-index: 6;
+}
+
+#cab4 {
+    top: 35px;
+    left: 46%;
+    position: absolute;
+    width: 20px;
+    z-index: 7;
+}
+
+#cab5 {
+    top: 35px;
+    left: 48%;
+    position: absolute;
+    width: 20px;
+    z-index: 8;
+}
+
+#handyq {
+    top: 20px;
+    left: 75%;
+    z-index: 11;
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    z-index: 9;
+}
+
+#wc3 {
+    top: 20px;
+    left: 30%;
+    z-index: 11;
+    position: absolute;
+    width: 150px;
+    height: 75px;
+    z-index: 9;
+}
+
+/* Estilo que muestra la capa flotante */
+#flotante {
+    /*position: absolute;
+    left: 50px;
+    top: 0px;
+    display: none;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+    width: 15%;
+    border: 1px solid #59A7FC;
+    background-color: #59A7FC;
+    box-shadow: 3px 3px 3px #000;
+    padding: 10px;
+    z-index: 10;*/
+    
+    border-bottom: 1px dotted #000000; color: #000000; outline: none;
+    cursor: help; text-decoration: none;
+    position: relative;
+    background: Gold; 
+    border: 1px solid Goldenrod;
+    margin-left: -999em;
+    position: absolute;
+    color: #000;
+    border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+    font-family: Calibri, Tahoma, Geneva, sans-serif;
+    position: absolute; left: 1em; top: 2em; z-index: 99;
+    margin-left: 0; width: 250px;
+    padding: 0.5em 0.8em 0.8em 2em;
+    z-index: 10;
+    display: none;
+    behavior: url(pie/PIE.htc);
+}
+        
+
+#contenedor {
+    position: absolute;
+    left: 5%;
+    /*border: 1px solid #473c55;*/
+    width: 900px;
+    overflow: hidden;
+    float: none;
+}
+
+#rightChildLayer {
+  position: relative;
+  height: 1000px;
+  left: 256px;
+  top: 30px;
+  width: 78%;
+}
+
+#leftChildLayer {
+  position: absolute;
+  top: 40px;
+  left: 30px;
+  height: 1000px;
+  width: 20%;
+}
+
+.titulonormal1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.linkStyle {
+    font-size: 12px;
+    color: #00F;
+    text-decoration: underline;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+
+h1 small,
+h2 small,
+h3 small,
+h4 small,
+h5 small,
+h6 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999999;
+}
+
+h1,
+h2,
+h3 {
+  line-height: 40px;
+}
+
+h1 {
+  font-size: 38.5px;
+}
+
+h2 {
+  font-size: 31.5px;
+}
+
+h3 {
+  font-size: 24.5px;
+}
+
+h4 {
+  font-size: 17.5px;
+}
+
+h5 {
+  font-size: 14px;
+}
+
+h6 {
+  font-size: 11.9px;
+}
+
+h1 small {
+  font-size: 24.5px;
+}
+
+h2 small {
+  font-size: 17.5px;
+}
+
+h3 small {
+  font-size: 14px;
+}
+
+h4 small {
+  font-size: 14px;
+}
+
+.framefont_red {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: lighter;
+    color: #FF0033;
+}
+
+.framefont_green {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: lighter;
+    color: #E14732;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+
+.textareasmall {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    border: 2px dashed #9995ec;
+    background-color: transparent;
+    height: 60px;
+    width: 150px;
+}
+
+.textareanormal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border: 2px dashed #9995ec;
+    background-color: transparent;
+    height: 100px;
+    width: 80%;
+}
+
+.textareagrande {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border: 2px dashed #9995ec;
+    background-color: transparent;
+    height: 400px;
+    width: 80%;
+}
+
+.textareacambiarinspeccion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border: 2px dashed #9995ec;
+    background-color: transparent;
+    height: 100px;
+    width: 150px;
+}
+
+.textareapartes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    border: 2px dashed #9995ec;
+    background-color: transparent;
+    height: 55px;
+    width: 540px;
+}
+
+.inputfecha {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 20%;
+    height: auto;
+}
+
+.inputpartes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 30%;
+    height: auto;
+}
+
+.inputid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 10%;
+    height: auto;
+}
+
+.inputnormal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 25%;
+    height: auto;
+}
+
+.inputlargo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 80%;
+    height: auto;
+}
+
+#mainDiv {
+    margin-top: 100px;
+    padding: 10px;
+}
+
+#diseno1 {
+    border: 1px solid #000;
+}
+
+.link2c2 {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:hover.link2c2 {
+    color: #FF0000;
+}
+
+.titulonormal1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.normal2bl {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {
+        padding-right: 35px
+    }
+}
+
+/*select language cabecera index dentro del div id=lang*/
+
+/* The CSS */
+select {
+    padding: 4px;
+    margin: 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    filter: alpha(opacity =   75) -moz-opacity:0.75;
+    opacity: 0.75;
+    background: #14777B;
+    color: #fff;
+    border: none;
+    outline: none;
+    display: inline-block;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+}
+
+/*a:link {
+    text-decoration: none;
+    color: #2E8CEF;
+}
+
+a:visited {
+    text-decoration: none;
+    color: hotpink;
+}
+
+a:active {
+    text-decoration: none
+}
+
+a:hover {
+    font-size: 14px;
+    color: #FF0000;
+}*/
+
+table.empty {
+}
+
+
+/*Tabla print*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xx  CSS Table Gallery            xx
+xx  Author: Mauricio Samy Silva  xx
+xx  URL: http://www.maujor.com/  xx
+xx  Country: Brazil              xx
+xx  Date: 2005-09-28             xx
+xx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.print {
+    width: 100%;
+    margin: 0px;
+    padding: 10px;
+}
+.print td  {
+    vertical-align: middle;
+    /**    background-color: #ffffff;
+    border:1px solid #b2b2b2;
+    border-width:0px 1px 1px 0px;*/
+    
+    text-align: left;
+    padding: 2px;
+
+    
+    font-family: Arial;
+    font-weight: normal;
+    color: #000000;
+}
+
+.print th  {
+    vertical-align: middle;
+    background-color: #ccc;
+    /**border:1px solid #b2b2b2;
+    border-width:0px 1px 1px 0px;*/
+    text-align: left;
+    padding: 7px;
+    width: 15%;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* fin de la tabla print*/
+
+
+
+
+
+/*Tabla print2*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xx  CSS Table Gallery            xx
+xx  Author: Mauricio Samy Silva  xx
+xx  URL: http://www.maujor.com/  xx
+xx  Country: Brazil              xx
+xx  Date: 2005-09-28             xx
+xx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+
+.print2 {
+    width: 98%;
+    height: 100%;
+    margin: 10px;
+    padding: 10px;
+}
+.print2 td  {
+    vertical-align: middle;
+    /**    background-color: #ffffff;
+    border:1px solid #b2b2b2;
+    border-width:0px 1px 1px 0px;*/
+    
+    text-align: left;
+    padding: 7px;
+    /*width: 100%;*/
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: normal;
+    color: #000000;
+}
+
+.print2 th  {
+    vertical-align: middle;
+    background-color: #D4EBF8;
+    /**border:1px solid #b2b2b2;
+    border-width:0px 1px 1px 0px;*/
+    text-align: left;
+    padding: 7px;
+    width: 20%;
+    font-size: 12px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+}
+
+/* fin de la tabla print2*/
+
+
+
+
+
+/* Sortable tables */
+.sortable {
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    box-shadow: 10px 10px 5px #888888;
+    border:1px solid #b2b2b2;
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.sortable table {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.sortable tr:last-child td:last-child {
+    -moz-border-radius-bottomright: 0px;
+    -webkit-border-bottom-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.sortable table tr:first-child td:first-child {
+    -moz-border-radius-topleft: 0px;
+    -webkit-border-top-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+
+.sortable table tr:first-child td:last-child {
+    -moz-border-radius-topright: 0px;
+    -webkit-border-top-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.sortable tr:last-child td:first-child {
+    -moz-border-radius-bottomleft: 0px;
+    -webkit-border-bottom-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.sortable tr:hover td {
+    background-color: #E8E8E8;
+}
+
+.sortable td {
+    vertical-align: middle;
+    background-color: #ffffff;
+    border:1px solid #b2b2b2;
+    border-width:0px 1px 1px 0px;
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: normal;
+    color: #000000;
+}
+
+.sortable th {
+    vertical-align: middle;
+    background-color: #ccc;
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #000000;
+}
+
+.sortable tr:last-child td {
+    /**border-width:0px 1px 0px 0px;*/
+
+}
+
+.sortable tr td:last-child {
+    /**border-width:0px 0px 1px 0px;*/
+
+}
+
+.sortable tr:last-child td:last-child {
+    /**border-width:0px 0px 0px 0px;*/
+
+}
+
+.sortable tr:first-child td {
+    vertical-align: middle;
+    background-color: #ffffff;
+    /**border:1px solid #b2b2b2;
+    border-width:0px 1px 1px 0px;*/
+    text-align: center;
+    padding: 7px;
+    font-size: 14px;
+    font-family: Arial;
+    font-weight: normal;
+    color: #000000;
+}
+
+.sortable tr:first-child:hover td {
+    background: -o-linear-gradient(bottom, #b2b2b2 5%, #b2b2b2 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #b2b2b2
+        ), color-stop(1, #b2b2b2));
+    background: -moz-linear-gradient(center top, #b2b2b2 5%, #b2b2b2 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#b2b2b2",
+        endColorstr="#b2b2b2");
+    background: -o-linear-gradient(top, #b2b2b2, b2b2b2);
+}
+
+/* FIN DE LA TABLA SORTABLE */
+
+/* TOOLTIP2 <a class="tooltip2" href="#">Critical<span class="custom critical"><img src="Critical.png" alt="Error" height="48" width="48" /> */
+
+.tooltip2 {
+            /*border-bottom: 1px dotted #000000; color: #000000; outline: none;*/
+            cursor: help; text-decoration: none;
+            position: relative;
+        }
+        .tooltip2 span {
+            margin-left: -999em;
+            position: absolute;
+            color: #000;
+        }
+        .tooltip2:hover span {
+            border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);
+            font-family: Calibri, Tahoma, Geneva, sans-serif;
+            position: absolute; left: 1em; top: 2em; z-index: 99;
+            margin-left: 0; width: 250px;
+            behavior: url(pie/PIE.htc);
+        }
+        .tooltip2:hover img {
+            border: 0; margin: -10px 0 0 -55px;
+            float: left; position: absolute;
+        }
+        .tooltip2:hover em {
+            font-family: Candara, Tahoma, Geneva, sans-serif; font-size: 1em; font-weight: bold;
+            display: block; padding: 0.2em 0 0.6em 0;
+        }
+        .classic { padding: 0.8em 1em; }
+        .custom { padding: 0.5em 0.8em 0.8em 2em; }
+        * html a:hover { background: transparent; }
+        .classic {background: #FFFFAA; border: 1px solid #FFAD33; }
+        .critical { background: #FFCCAA; border: 1px solid #FF3334;    }
+        .help { background: #ffdc73; border: 1px solid #2BB0D7;    }
+        .info { background: #ffdc73; border: 1px solid #2BB0D7;    }
+        .warning { background: #FFFFAA; border: 1px solid #FFAD33; }
+        
+/* FINB TOOLTIP2 <a class="tooltip2" href="#">Critical<span class="custom critical"><img src="Critical.png" alt="Error" height="48" width="48" /> */
+
+
+
+/* TOOLTIP PARA CONSULTAS MYSQL. */
+.tooltip {
+    position: absolute;
+    width: 700px;
+    padding: 5px 5px 5px 18px;
+    z-index: 1100;
+    font-family: Verdana, Geneva, sans-serif;
+    filter: alpha(opacity =   90) -moz-opacity:0.90;
+    opacity: 0.90;
+    border: 1px solid #404040;
+    text-align: center;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    -webkit-box-shadow: #666 0px 5px 7px;
+    -moz-box-shadow: #666 0px 5px 7px;
+    box-shadow: #666 0px 5px 7px;
+    background: #fff;
+    behavior: url("pie/PIE.htc");
+}
+
+.tooltip th {
+    font-weight: 900;
+    color: #2e6c9e;
+    font-size: 14px;
+    text-transform: none;
+}
+
+.tooltip td {
+    font-weight: 700;
+    color: #505050;
+    font-size: 12px;
+    text-transform: none;
+}
+
+/* FIN TOOLTIP PARA CONSULTAS MYSQL. */
+
+/* TOOLTIP PARA INSTALL (TOOLTEXT). */
+
+
+/*.ToolText {
+    position: relative;
+}
+
+.ToolTextHover {
+    position: relative;
+}
+
+.ToolText span {
+    display: none;
+}
+
+.ToolTextHover span {
+    zoom: 1;
+    filter: alpha(opacity =   80);
+    opacity: 0.8;
+    position: absolute;
+    /*border:1px solid black;*/
+    /*top: 1.3em;
+    left: 5px;
+    background-color: #1E3EC8;
+    color: black;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: #fff;
+    margin: 10px;
+    width: 150%;
+    padding: 10px;
+    box-shadow: 3px 3px 3px #000;
+}*/
+
+
+
+
+.ToolText {
+
+            position: relative;        
+        }
+        
+        .ToolText {
+            position: relative;
+        }
+
+        .ToolTextHover {
+            position: relative;
+        }
+
+        .ToolText span {
+            display: none;
+        
+        }
+        .ToolTextHover span {
+            /*border-radius: 5px 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; 
+            box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1); -webkit-box-shadow: 5px 5px rgba(0, 0, 0, 0.1); -moz-box-shadow: 5px 5px rgba(0, 0, 0, 0.1);*/
+            font-family: Calibri, Tahoma, Geneva, sans-serif;
+            position: absolute; 
+            left: -1em; 
+            top: 3.5em; 
+            z-index: 99;
+            margin-left: 0; 
+            width: 600px;
+            zoom: 1;
+            filter: alpha(opacity =   80);
+            opacity: 1;
+            /*border:1px solid black;*/
+            /*background-color: #6B422C;*/
+            background-color:rgba(255,255,255,0.7);
+            color: rgb(131, 131, 131);
+            float: left;
+            font-weight: bold;
+            font-size: 1em;
+            margin: 10px;
+            padding: 10px;
+        }
+
+        
+
+/* FIN TOOLTIP PARA INSTALL (TOOLTEXT). */
+
+/**
+* Generated by www.formstylegenerator.com
+**/
+
+/** You can use this style for your INPUT, TEXTAREA, SELECT elements **/
+.myinputstyle {
+    border: 1px solid #5b047b;
+    /** remember to change image path **/
+    background: url("none") no-repeat #d2def2;
+    font-family: tahoma, helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #454743;
+}
+
+/** You can use this style for your LABEL elements **/
+.mylabelstyle {
+    font-family: tahoma, helvetica, sans-serif;
+    font-style: bold;
+    font-size: 13px;
+    color: #82983e;
+}
+
+/**
+*  You can use this style for your INPUT, TEXTAREA, SELECT elements
+*  for onmousehover event
+**/
+.myinputstyle:hover {
+    border: 1px solid #FFFFFF;
+    /** remember to change image path **/
+    background: url("none") no-repeat #FFFFFF;
+    color: #454743;
+}
+
+/* FIN.........DE TOOLTIP PARA INSTALL (TOOLTEXT). */
+
+/** Edit-delete de ajax. */
+#loading {
+    width: 100%;
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    margin-top: 0px;
+}
+
+#container .pagination ul li.inactive,#container .pagination ul li.inactive:hover
+    {
+    background-color: #ededed;
+    color: #bababa;
+    border: 1px solid #bababa;
+    cursor: default;
+}
+
+#container .data ul li {
+    list-style: none;
+    font-family: verdana;
+    margin: 5px 0 5px 0;
+    color: #000;
+    font-size: 13px;
+}
+
+#container .pagination {
+    width: 800px;
+    height: 25px;
+}
+
+#container .pagination ul li {
+    list-style: none;
+    float: left;
+    border: 1px solid #006699;
+    padding: 2px 6px 2px 6px;
+    margin: 0 3px 0 3px;
+    font-family: arial;
+    font-size: 14px;
+    color: #006699;
+    font-weight: bold;
+    background-color: #f2f2f2;
+}
+
+#container .pagination ul li:hover {
+    color: #fff;
+    background-color: #006699;
+    cursor: pointer;
+}
+
+.go_button {
+    background-color: #f2f2f2;
+    border: 1px solid #006699;
+    color: #cc0000;
+    padding: 2px 6px 2px 6px;
+    cursor: pointer;
+    position: absolute;
+    margin-top: -1px;
+}
+
+.total {
+    float: right;
+    font-family: arial;
+    color: #999;
+}
+
+.editbox {
+    display: none;
+    font-size: 14px;
+    width: 150px;
+    background-color: #ffffcc;
+    border: solid 1px #000;
+    padding: 4px;
+}
+
+.editbox2 {
+    display: none;
+    font-size: 14px;
+    width: 300px;
+    background-color: #ffffcc;
+    border: solid 1px #000;
+    padding: 4px;
+}
+
+
+
+
+.edit_tr:hover {
+    background: url("edit.png") right no-repeat #80C8E5;
+    cursor: pointer;
+}
+
+/*FIN de Estilos para la edición de datos desde las tablas*/
+
+/** FIN Edit-delete de ajax. */

@@ -1,0 +1,57 @@
+[04-Oct-2018 00:32:53 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 4
+[04-Oct-2018 00:32:53 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 5
+[04-Oct-2018 00:32:53 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:32:53 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/biovazquez/public_html/ajaxbootpagbasic/config.inc.php on line 10
+[04-Oct-2018 00:33:27 America/Chicago] PHP Warning:  include(includes/mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:33:27 America/Chicago] PHP Warning:  include(includes/mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:33:27 America/Chicago] PHP Warning:  include(): Failed opening 'includes/mysqli.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:33:27 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 4
+[04-Oct-2018 00:33:27 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 5
+[04-Oct-2018 00:33:27 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:33:28 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/biovazquez/public_html/ajaxbootpagbasic/config.inc.php on line 10
+[04-Oct-2018 00:33:49 America/Chicago] PHP Warning:  include(./includes/mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:33:49 America/Chicago] PHP Warning:  include(./includes/mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:33:49 America/Chicago] PHP Warning:  include(): Failed opening './includes/mysqli.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:33:49 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 4
+[04-Oct-2018 00:33:49 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 5
+[04-Oct-2018 00:33:49 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:33:50 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/biovazquez/public_html/ajaxbootpagbasic/config.inc.php on line 10
+[04-Oct-2018 00:34:06 America/Chicago] PHP Warning:  include(../../includes/mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:34:06 America/Chicago] PHP Warning:  include(../../includes/mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:34:06 America/Chicago] PHP Warning:  include(): Failed opening '../../includes/mysqli.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 2
+[04-Oct-2018 00:34:06 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 4
+[04-Oct-2018 00:34:06 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 5
+[04-Oct-2018 00:34:06 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:34:07 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/biovazquez/public_html/ajaxbootpagbasic/config.inc.php on line 10
+[04-Oct-2018 00:35:11 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 4
+[04-Oct-2018 00:35:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 5
+[04-Oct-2018 00:35:11 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:35:11 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/biovazquez/public_html/ajaxbootpagbasic/config.inc.php on line 10
+[04-Oct-2018 00:35:58 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:35:59 America/Chicago] PHP Warning:  mysqli_connect(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/biovazquez/public_html/ajaxbootpagbasic/config.inc.php on line 10
+[04-Oct-2018 00:38:31 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:38:32 America/Chicago] PHP Warning:  include(../mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 2
+[04-Oct-2018 00:38:32 America/Chicago] PHP Warning:  include(../mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 2
+[04-Oct-2018 00:38:32 America/Chicago] PHP Warning:  include(): Failed opening '../mysqli.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 2
+[04-Oct-2018 00:38:32 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 16
+[04-Oct-2018 00:38:32 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 00:39:02 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:39:03 America/Chicago] PHP Warning:  include(../../mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 2
+[04-Oct-2018 00:39:03 America/Chicago] PHP Warning:  include(../../mysqli.php): failed to open stream: No such file or directory in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 2
+[04-Oct-2018 00:39:03 America/Chicago] PHP Warning:  include(): Failed opening '../../mysqli.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 2
+[04-Oct-2018 00:39:03 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 16
+[04-Oct-2018 00:39:03 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 00:39:38 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:39:38 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 16
+[04-Oct-2018 00:39:38 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 00:41:11 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:41:11 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 00:41:47 America/Chicago] PHP Warning:  Division by zero in /home/biovazquez/public_html/ajaxbootpagbasic/index.php on line 8
+[04-Oct-2018 00:41:48 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 00:54:13 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 01:10:13 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 01:10:46 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 01:15:10 America/Chicago] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 16
+[04-Oct-2018 01:15:10 America/Chicago] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 20
+[04-Oct-2018 01:21:01 America/Chicago] PHP Fatal error:  Call to a member function set_charset() on a non-object in /home/biovazquez/public_html/ajaxbootpagbasic/config.inc.php on line 9
+[04-Oct-2018 12:21:54 America/Chicago] PHP Parse error:  syntax error, unexpected '}' in /home/biovazquez/public_html/ajaxbootpagbasic/fetch_pages.php on line 77

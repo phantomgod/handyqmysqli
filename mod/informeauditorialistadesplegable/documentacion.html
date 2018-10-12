@@ -1,0 +1,122 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Untitled Document</title>
+</head>
+
+<body>
+<div class='contenido_texto' style="margin-top:10px;"><p>En esta oportunidad abordaremos nuevamente el tema de consulta a base de datos MySql haciendo uso de ajax + php. Pero la forma de realizar la consulta ser&aacute; distinta al <a href="http://www.ribosomatic.com/articulos/70/ajax-php-mysql-consulta-de-registros/">anterior ejemplo</a>.</p>
+<h4>Objetivo</h4>
+
+<p>Deseamos hacer lo siguiente: Mostrar en una lista desplegable los nombres de todos los clientes y al momento de hacer clic en el deseado, en la parte inferior, se muestren sus datos. </p>
+<h4>Consideraciones previas</h4>
+<p>Analicemos que parte o partes programaremos en PHP o en JavaScript. Necesitamos el objeto <em>XMLHttpRequest</em> (eso ni dudarlo) asi que  lo incluiremos en un archivo llamado <strong>ajax.js</strong>. </p>
+<p>Ahora seguimos analizando y como se nos pide que los nombres de los <em>clientes</em> se muestren en la<em> lista desplegable</em>, entonces escribiremos en PHP un script que se conecte a la base de datos y muestre solo los nombres de todos los clientes, llamaremos a &eacute;ste <strong>lista.php</strong>. </p>
+
+<p>Pero se indica que al <em>hacer clic</em> en el nombre del cliente deseado se <em>muestre</em> sus datos. Esto implica 2 procesos, 1) trabajar con un evento tal que al hacer clic realize el proceso, esto puede ser una funci&oacute;n en JavaScript y lo podemos incluir en el archivo ajax.js, llamaremos a la funci&oacute;n<em><strong> pedirDatos()</strong></em>; y 2) un script PHP que se conecte a la base de datos y <em>muestre</em> todos los datos del cliente deseado, llamamos a este script <strong>datoscliente.php</strong>.</p>
+
+<p>Ya que<em> lista.php</em> y <em>datoscliente.php</em> se conectan a la base de datos, escribimos un script para que realice una sola conexi&oacute;n, llam&eacute;mosla <strong>conexion.php</strong>. </p>
+<p>Finalmente creamos un<strong> index.php</strong> que contendr&aacute; la parte principal de nuestro ejemplo a desarrollar.</p>
+
+<h4>Manos a la obra </h4>
+<p>Aqu&iacute; la tabla clientes con algunos datos. </p>
+
+<pre>
+CREATE TABLE `clientes` (
+  `id` INTEGER NOT NULL AUTO_INCREMENT,
+  `nombres` VARCHAR(45) NOT NULL DEFAULT '',
+  `direccion` VARCHAR(45) NOT NULL DEFAULT '',
+  `telefono` VARCHAR(10) NOT NULL DEFAULT '',
+  `email` VARCHAR(45) NOT NULL DEFAULT '',
+  PRIMARY KEY(`id`)
+)
+ENGINE = InnoDB;
+
+INSERT INTO clientes (nombres, direccion, telefono, email) VALUES
+('Victor Jimenez','Av Union 234','457522','victor_j@latin.com'),
+('Ivan Fernandez','Jr Mansiche 4564','329005','fernivan@surper.net'),
+('Carlos Salazar','Av Peru 878','457845','salazar_234@minerva.viz'),
+('Ever Mendez','Av Arequipa 1258','220585','webmaster@yaohi.com.pe'),
+('Juan Linares','Pj Villar Int 2','9654563','gutiman@coolmain.ru'),
+('Julio Gutierrez','Almendros 984','9784512','juliter@menzat.nu.pe'),
+('Manuel Villalobos','Av Cortijo 8282','220578','manu@latin.es');
+</pre>
+<p>Empezemos con el script que realizar&aacute; la conexi&oacute;n a la Base de Datos.</p>
+<p><strong>conexion.php</strong></p>
+
+<pre>
+&lt;?php<br />    //Configuracion de la conexion a base de datos<br />    $bd_host = &quot;localhost&quot;; <br />    $bd_usuario = &quot;root&quot;; <br />    $bd_password = &quot;&quot;; <br />    $bd_base = &quot;ribosomatic&quot;; <br />    $con = mysql_connect($bd_host, $bd_usuario, $bd_password); <br />    mysql_select_db($bd_base, $con); <br />?&gt;
+
+</pre>
+<p>Escribimos dos funciones en JavaScript para 1) usar el objeto XMLHttpRequest y 2) pedir el resultado de la consulta el cual se mostrara en una capa indicada. </p>
+<p><strong>ajax.js</strong></p>
+<pre>
+function objetoAjax() {
+    var xmlhttp=false;
+    try {
+        xmlhttp = new ActiveXObject("Msxml2.XMLHTTP");
+    } catch (e) {
+        try {
+           xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+        } catch (E) {
+            xmlhttp = false;
+          }
+    }
+
+    if (!xmlhttp &amp;&amp; typeof XMLHttpRequest!='undefined') {
+        xmlhttp = new XMLHttpRequest();
+    }
+    return xmlhttp;
+}
+
+function pedirDatos() {
+    //donde se mostrará el resultado
+    divResultado = document.getElementById('resultado');
+    //tomamos el valor de la lista desplegable
+    nom=document.formulario.lista.value;
+
+    //instanciamos el objetoAjax
+    ajax=objetoAjax();
+    //usamos el medoto POST
+    //archivo que realizará la operacion
+ //datoscliente.php
+    ajax.open("POST", "datoscliente.php",true);
+    ajax.onreadystatechange=function() {
+        if (ajax.readyState==4) {
+            //mostrar resultados en esta capa
+            divResultado.innerHTML = ajax.responseText
+        }
+    }
+    ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded");
+    //enviando los valores
+ ajax.send("nombres="+nom)
+}
+</pre>
+<p>Ahora a listar los nombres de los empleados. Este script realizar un SELECT ... FROM ... del campo NOMBRES de la tabla clientes e incluye los elementos en una lista desplegable. N&oacute;tese que a la lista desplegable se le incluye, en el evento <em><strong>onchange</strong></em>, la funci&oacute;n <strong><em>pedirDatos()</em></strong>, la cual especificamos en el archivo <em><strong>ajax.js</strong></em>. </p>
+
+<p><strong>lista.php</strong></p>
+<pre>
+&lt;?php<br />require('conexion.php');<br />//seleccionamos solo el nombre de los clientes<br />$sql=mysql_query(&quot;SELECT nombres FROM clientes&quot;,$con);<br />?&gt;<br />&lt;select name=&quot;lista&quot; onchange=&quot;pedirDatos()&quot;&gt;<br />&lt;?php<br />while ($row = mysql_fetch_array($sql)) {<br />    echo &quot;&lt;option value=\&quot;&quot;.$row['nombres'].&quot;\&quot;&gt;&quot;.$row['nombres'].&quot;&lt;/option&gt;&quot;;<br />}<br />?&gt;<br />&lt;/select&gt;<br />
+
+</pre>
+<p>Seguimos con mostrar los resultados, para ello hacemos un SELECT ... FROM ... de los campos direcci&oacute;n, telefono y email, a trav&eacute;s del nombre del cliente, el cual ser&aacute; capturado cuando lo seleccionemos de la lista desplegable.</p>
+<p><strong>datoscliente.php</strong></p>
+<pre>
+&lt;?php<br />require('conexion.php');<br />//capturar el nombre del cliente<br />$nom=$_POST['nombres'];<br />//seleccionamos los datos del cliente por su nombre<br />$sql=mysql_query(&quot;SELECT * FROM clientes WHERE nombres='&quot;.$nom.&quot;'&quot;,$con);<br />$row = mysql_fetch_array($sql);<br />//mostrando el resultado<br />echo     &quot;&lt;p&gt;&lt;strong&gt;Direccion&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&quot;.$row['direccion'].&quot;&lt;/p&gt;&quot;;<br />echo     &quot;&lt;p&gt;&lt;strong&gt;Telefono&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&quot;.$row['telefono'].&quot;&lt;/p&gt;&quot;;<br />echo     &quot;&lt;p&gt;&lt;strong&gt;Email&lt;/strong&gt;&lt;/p&gt;&lt;p&gt;&quot;.$row['email'].&quot;&lt;/p&gt;&quot;;<br />?&gt;
+
+</pre>
+<p>Finalmente, un archivo index.php que contendr&aacute; la parte principal de nuestro desarrollo.  </p>
+<p><strong>index.php</strong></p>
+<pre>
+&lt;html&gt;<br />&lt;head&gt;<br />&lt;title&gt;Consulta de datos&lt;/title&gt;<br />&lt;script language=&quot;JavaScript&quot; type=&quot;text/javascript&quot; src=&quot;ajax.js&quot;&gt;&lt;/script&gt;<br />&lt;/head&gt;<br />&lt;body&gt;<br />&lt;p&gt;Este ejemplo muestra como realizar una consulta de los registros de una tabla usando un control de lista.&lt;/p&gt;<br />&lt;form name=&quot;formulario&quot; action=&quot;&quot;&gt;<br />&lt;?php<br />    include('lista.php');<br />?&gt;<br />&lt;/form&gt;<br />&lt;div id=&quot;resultado&quot; style=&quot;border:1px solid #FF0000; color:#000099;width:400px;&quot;&gt;<br />&lt;/div&gt;<br />&lt;/body&gt;<br />&lt;/html&gt;
+
+</pre>
+<p>El resultado: Cuando seleccionamos un nombre de cliente de la lista desplegable, en la parte inferior de la pagina se mostrar&aacute; los datos de &eacute;ste, como su direcci&oacute;n, tel&eacute;fono y email. Si desean ver el resultado pueden <a href="http://www.ribosomatic.com/ejemplos/lista_desplegable/listadesplegable.zip">descargarlo</a> o apreciarlo en la secci&oacute;n <a href="http://www.ribosomatic.com/ejemplos/">Ejemplos</a>.</p>
+<h4>Actualizacion [25&middot;09&middot;06] </h4>
+<p>Seg&uacute;n algunos comentarios (abajo expuestos) la aplicaci&oacute;n no funciona en Internet Explorer, sin embargo corregimos el error. A continuaci&oacute;n detallamos donde fue la falla.</p>
+<p>Corriga el archivo lista.php por el siguiente c&oacute;digo:</p>
+<p>Como se dar&aacute; cuenta, anteriormente no especificamos ninguno atributo value para las opciones (&lt;option&gt;)  de la etiqueta &lt;select&gt;, es por ello que IE no reconoc&iacute;a ninguno valor de la lista y cuando realizaba la consulta no ocurr&iacute;a nada. El archivo comprimido del ejemplo tambi&eacute;n esta corregido. Gracias por su paciencia. </p>
+</div>
+</body>
+</html>

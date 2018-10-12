@@ -1,0 +1,17 @@
+[06-Jan-2017 04:47:29 America/Chicago] PHP Warning:  include(../../includes/mysql.php): failed to open stream: No such file or directory in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 2
+[06-Jan-2017 04:47:29 America/Chicago] PHP Warning:  include(../../includes/mysql.php): failed to open stream: No such file or directory in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 2
+[06-Jan-2017 04:47:29 America/Chicago] PHP Warning:  include(): Failed opening '../../includes/mysql.php' for inclusion (include_path='.:/opt/php54/lib/php') in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 2
+[06-Jan-2017 04:47:29 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/antenast/public_html/mod/ajaximage/ajaximage.php:2) in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 3
+[06-Jan-2017 04:47:29 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'antenast'@'localhost' (using password: NO) in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:47:29 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:51:14 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/antenast/public_html/includes/mysqli.php:21) in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 3
+[06-Jan-2017 04:51:14 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'antenast'@'localhost' (using password: NO) in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:51:14 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:52:16 America/Chicago] PHP Warning:  session_start(): Cannot send session cache limiter - headers already sent (output started at /home/antenast/public_html/mod/ajaximage/ajaximage.php:1) in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 3
+[06-Jan-2017 04:52:16 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'antenast'@'localhost' (using password: NO) in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:52:16 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:53:08 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'antenast'@'localhost' (using password: NO) in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:53:08 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:53:57 America/Chicago] PHP Warning:  mysql_query(): Access denied for user 'antenast'@'localhost' (using password: NO) in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:53:57 America/Chicago] PHP Warning:  mysql_query(): A link to the server could not be established in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25
+[06-Jan-2017 04:54:47 America/Chicago] PHP Warning:  mysqli_query() expects at least 2 parameters, 1 given in /home/antenast/public_html/mod/ajaximage/ajaximage.php on line 25

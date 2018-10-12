@@ -1,0 +1,117 @@
+.titulo {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 18px;
+	font-weight: bolder;
+	color: #990000;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-bottom-width: 1px;
+	border-top-style: solid;
+	border-bottom-style: solid;
+	border-top-color: #D4D0C8;
+	border-bottom-color: #D4D0C8;
+	text-align: left;
+	padding-left: 30px;
+}
+.casilla {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #666666;
+	text-decoration: none;
+	border: 1px solid #D4D0C8;
+}
+.boton {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #000000;
+	text-decoration: none;
+	vertical-align: middle;
+}
+.subtitulo {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 16px;
+	font-weight: bolder;
+	color: #999999;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 30px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #D4D0C8;
+}
+.infsub {
+
+	font-family: "Trebuchet MS", Verdana;
+	text-decoration: none;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #D4D0C8;
+}
+.text {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 10px;
+}
+.link {
+
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #990000;
+	text-decoration: none;
+	text-align: center;
+}
+a.link:hover {
+
+
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: bolder;
+	color: #990000;
+	text-decoration: underline;
+	text-align: center;
+}
+.linkli {
+
+
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0000C0;
+	text-decoration: none;
+}
+a.linkli:hover {
+
+
+
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #0000C0;
+	text-decoration: underline;
+}
+img {
+	border: 1px solid #D4D0C8;
+	padding: 5px;
+	margin: 5px;
+}
+.textinf {
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	font-weight: normal;
+	color: #999999;
+	text-decoration: none;
+	text-align: left;
+	padding-left: 30px;
+	padding-top: 10px;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #D4D0C8;
+}

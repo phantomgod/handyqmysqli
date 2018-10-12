@@ -1,0 +1,104 @@
+$Id: install.txt,v 1.1 2004/07/20 11:58:12 jfenin Exp $
+
+Installation guide
+==================
+
+1. upload and installation
+--------------------------
+
+- unzip the archive
+- edit config.inc.php
+  - set the first four parameters as necessary for your MySQL database
+  - set the language as necessary (currently only english and german are provided)
+  - you will only need to set $mysql_date_format if the format of a DATETIME field is
+    somewhat different
+  - $browserstring holds the format for the output of the browser information
+    %1: browser
+    %2: operating system
+- upload the whole folder 'smartreferer' to your webserver (preferably into the root directory)
+  (you may delete the doc folder before or after the upload)
+- be sure to set read permissions to what is necessary for the user that runs the webserver
+- import the file createtables.sql into your database with a tool like phpMyAdmin (there may be
+  a real install script later). This file creates the necessary tables
+- import the file sr_browser.sql into your database. This file will contain a lot of already known
+  user agent strings in the the table "sr_browser".
+
+
+2. usage
+2.1 adding information
+----------------------
+
+To use smartreferer you first need to store the visitors' information in the database. Therefore put the following code somewhere in your index.php:
+
+  <?php
+  // add referer and user agent to database
+  include ('smartreferer/api.php');
+  include ('smartreferer/config.inc.php');
+  require ('smartreferer/debug.php');  
+  $db = new DB($sr_database_host, $sr_database_name, $sr_database_username,
+               $sr_database_password);
+  addReferer($db, $_SERVER['HTTP_REFERER']);
+  addUseragent($db, $_SERVER['HTTP_USER_AGENT']);
+  truncate($db, TBL_REFERER, $truncateCountReferer);
+  truncate($db, TBL_USERAGENT, $truncateCountUseragents);
+  ?>
+
+The addReferer()- and addUseragent()-functions add information about the visitors referer page (i.e. the page where he is coming from) and the visitors browser to the database.
+
+The truncate()-function truncates old records from the database (you can set how many records you want to keep in the config.inc.php file)
+
+
+2.2 displaying information
+--------------------------
+
+On the page where you want to show this information, add the following code:
+
+        <?php
+        require ('smartreferer/api.php');
+        require ('smartreferer/format.php');
+        $db = new DB($sr_database_host, $sr_database_name, $sr_database_username,
+                     $sr_database_password);
+        $result=getData($db,"topreferer",10);
+        formatReferer($result,"Top-Referer");
+        echo("<br>\n");
+        $result=getData($db,"latestreferer",10);
+        formatReferer($result,"latest referer");
+        echo("<br>\n");
+        $result=getData($db,"topuseragents",10);
+        formatUseragents($result,"Top-Browser");
+        echo("<br>\n");
+        $result=getData($db,"latestuseragents",10);
+        formatUseragents($result,"latest browser");
+        ?>
+
+This outputs the following information:
+
+1. The first 10 most used referer pages
+2. The latest 10 referer pages
+3. The first 10 most used browsers
+4. The latest 10 used browsers
+
+
+2.2.1 customizing HTML
+----------------------
+
+you can customize the output by setting the appropriate CSS-tags in the file smartreferer/css/sr.css. There are two ids for the two functionalities:
+- srr: for the referer tables
+- sru: for the useragent (browser) tables
+
+In further versions there may be better options to customize the output (e.g. templates). You may of course edit the file smartreferer/format.php if you are absolutely unhappy
+
+
+2.2.2 customzing browser strings
+--------------------------------
+
+Since there are countless browsers that all have different user agent strings, I choose to edit these user agent strings to bring them in a more readable form. For example the Microsoft Internet explorer identifies itself as something like this:
+
+        Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1)
+        
+This is not - as you may presume - a Mozilla browser but the Internet Explorer 6.0 that runs under Windows XP ("Windows NT 5.1").
+
+When a new (new means: not already in the database) user agent is inserted in the database, Smartreferer will store this user agent as it is shown above. The database field "OS" will be left empty. You can then edit this record with a tool like "phpMyAdmin" to bring it into a more readable
+format (e.g. "Internet Explorer 6.0") with also setting the "OS" field to "Windows XP".
+
+If you don't want to to this yourself, you can download a sr_browser.sql-file from scripts.fenin.de. I will provide new versions of this file from time to time. You still need phpMyAdmin to import this file into your database. There may be a script later that will do that.

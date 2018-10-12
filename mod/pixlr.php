@@ -1,0 +1,1 @@
+<iframe id="pixlr" src="http://pixlr.com/editor/" seamless></iframe>

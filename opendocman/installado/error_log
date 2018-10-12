@@ -1,0 +1,2 @@
+[26-Dec-2012 02:15:05] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DB_HOST' (2) in /home/entro/public_html/docman/install/index.php on line 58
+[25-Aug-2013 02:47:06] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Unknown MySQL server host 'DB_HOST' (2) in /home/avazquez/public_html/opendocman/install/index.php on line 58

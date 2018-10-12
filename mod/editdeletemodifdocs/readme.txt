@@ -1,0 +1,1 @@
+db.php is not in use, because the conection is done trough the includes/mysql, in load_data.php

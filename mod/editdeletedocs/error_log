@@ -1,0 +1,2 @@
+[06-Apr-2013 16:08:34] PHP Warning:  Wrong parameter count for mysql() in /home/donkey/public_html/includes/mysql.php on line 49
+[03-Dec-2013 23:47:16] PHP Warning:  session_start() [<a href='function.session-start'>function.session-start</a>]: Cannot send session cache limiter - headers already sent (output started at /home/antenast/public_html/mod/editdeletedocs/index.php:1) in /home/antenast/public_html/mod/editdeletedocs/index.php on line 1

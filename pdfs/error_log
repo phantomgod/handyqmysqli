@@ -1,0 +1,220 @@
+[12-Dec-2012 15:03:48] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/valcom/public_html/acano/pdfs/php-mysql.php on line 7
+[12-Dec-2012 15:03:48] PHP Warning:  mysql_select_db(): supplied argument is not a valid MySQL-Link resource in /home/valcom/public_html/acano/pdfs/php-mysql.php on line 8
+[12-Dec-2012 15:03:48] PHP Warning:  mysql_query(): supplied argument is not a valid MySQL-Link resource in /home/valcom/public_html/acano/pdfs/php-mysql.php on line 10
+[08-Dec-2013 02:45:03] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/antenast/public_html/includes/mysqlpdf.php on line 43
+[08-Dec-2013 02:45:03] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/antenast/public_html/includes/mysqlpdf.php on line 45
+[08-Dec-2013 02:45:03] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/antenast/public_html/includes/mysqlpdf.php on line 53
+[08-Dec-2013 02:45:49] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/antenast/public_html/includes/mysqlpdf.php on line 43
+[08-Dec-2013 02:45:49] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/antenast/public_html/includes/mysqlpdf.php on line 45
+[08-Dec-2013 02:45:49] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/antenast/public_html/includes/mysqlpdf.php on line 53
+[08-Dec-2013 02:48:46] PHP Warning:  mysqli::mysqli() [<a href='mysqli.mysqli'>mysqli.mysqli</a>]: (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/antenast/public_html/includes/mysqlpdf.php on line 41
+[08-Dec-2013 02:48:46] PHP Warning:  mysqli::set_charset() [<a href='mysqli.set-charset'>mysqli.set-charset</a>]: Couldn't fetch mysqli in /home/antenast/public_html/includes/mysqlpdf.php on line 43
+[08-Dec-2013 02:48:46] PHP Warning:  mysql_connect() [<a href='function.mysql-connect'>function.mysql-connect</a>]: Access denied for user 'root'@'localhost' (using password: NO) in /home/antenast/public_html/includes/mysqlpdf.php on line 51
+[29-Sep-2015 04:21:51 America/Chicago] PHP Warning:  mysqli::mysqli(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/avazquez/public_html/includes/mysqlpdf.php on line 38
+[29-Sep-2015 04:21:51 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/avazquez/public_html/includes/mysqlpdf.php on line 40
+[29-Sep-2015 04:21:51 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/avazquez/public_html/includes/mysqlpdf.php on line 48
+[29-Sep-2015 04:25:58 America/Chicago] PHP Warning:  mysql_connect(): Access denied for user 'root'@'localhost' (using password: NO) in /home/avazquez/public_html/includes/mysqlpdf.php on line 48
+[29-Sep-2015 04:27:47 America/Chicago] PHP Parse error:  syntax error, unexpected 'biouser' (T_STRING) in /home/avazquez/public_html/includes/mysqlpdf.php on line 45
+[25-Aug-2017 11:54:58 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'biovazqu_avazque'@'localhost' to database 'biovazqu_avazque' in /home/biovazquez/public_html/includes/mysqlpdf.php on line 38
+[25-Aug-2017 11:54:58 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/biovazquez/public_html/includes/mysqlpdf.php on line 40
+[25-Aug-2017 11:56:41 America/Chicago] PHP Warning:  mysqli::mysqli(): (42000/1044): Access denied for user 'biovazqu_avazque'@'localhost' to database 'biovazqu_avazque' in /home/biovazquez/public_html/includes/mysqlpdf.php on line 38
+[25-Aug-2017 11:56:41 America/Chicago] PHP Warning:  mysqli::set_charset(): Couldn't fetch mysqli in /home/biovazquez/public_html/includes/mysqlpdf.php on line 40
+[25-Aug-2017 12:03:33 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, resource given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 17
+[25-Aug-2017 12:03:33 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 17
+[25-Aug-2017 12:03:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:17) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1916
+[25-Aug-2017 12:03:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:17) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1917
+[25-Aug-2017 12:03:33 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:17) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1919
+[25-Aug-2017 12:03:40 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, resource given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 17
+[25-Aug-2017 12:03:40 America/Chicago] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, null given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 17
+[25-Aug-2017 12:03:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:17) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1916
+[25-Aug-2017 12:03:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:17) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1917
+[25-Aug-2017 12:03:40 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:17) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1919
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  strip_tags() expects parameter 1 to be string, array given in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  array_merge(): Argument #1 is not an array in /home/biovazquez/public_html/pdfs/ncspdf.php on line 19
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:19) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1916
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:19) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1917
+[25-Aug-2017 12:04:16 America/Chicago] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/biovazquez/public_html/pdfs/ncspdf.php:19) in /home/biovazquez/public_html/pdfs/class.pdf.php on line 1919

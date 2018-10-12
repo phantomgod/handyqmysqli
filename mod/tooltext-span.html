@@ -1,0 +1,32 @@
+?>
+	<div class="ToolText"  onMouseOver="javascript:this.className='ToolTextHover'" onMouseOut="javascript:this.className='ToolText'">
+		<?php echo $row13['13'] ?>
+		
+			<span>
+				<?php
+				
+				echo "<table class=print2>";
+				echo "<tbody>";
+				echo "<tr>";
+				echo "<th>" . ID . "</th><th>" . PROVEEDORES_PROVEEDOR . "</th>";
+				echo "</tr>";
+				echo "<tr>";
+				echo "<td>"; echo $row13['11']; echo "</td><td colspan=2>"; echo $row13['12']; echo "</td>";
+				echo "</tr>";
+				echo "<tr><th>"; echo INCIDENCIA; echo"</th><th colspan=2>"; echo CODIGO; echo "</th>";
+				echo "</tr>";
+				echo "<tr><td>"; echo "$row13[13]"; echo"</td><td>"; echo "$row13[14]"; echo "</td>";
+				echo "</tr>";
+				echo "<tr>";
+				echo "<th>"; echo NCS_AFECTAA; echo "</th><th>"; echo FECHA; echo "</th>";
+				echo "</tr>";
+				echo "<tr>";
+				echo "<td>"; echo "$row13[15]"; echo "</td><td>"; echo "$row13[16]"; echo "</td>";
+				echo "</tr>";
+				echo "</tbody>";
+				echo "</table>'>";
+				
+				?>
+			</span>
+	</div>
+<?php

@@ -1,0 +1,330 @@
+body {
+    
+    margin-top: 30px;
+    margin-right: 40px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    background-color:transparent;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+#variante {
+      position: absolute;
+     left: 16%;
+    top: 16%;    
+    width:81%;
+    height:auto;
+    z-index:-9;
+    background-color: #F2F2F2;
+    
+    text-indent:20px ; margin:0px ; padding:0px ; border:0px
+    }
+
+
+.linkStyle{
+    font-size:12px;
+    color:#00F;
+    text-decoration:underline;
+}
+
+#contenedor{
+    position:absolute;
+    left:5%;
+    border: 1px solid #473c55;
+    width:700px;
+    overflow:hidden;
+    float:none;
+}
+    
+#rightChildLayer {
+    position:relative;
+    height: 1000px;
+    left: 400px;
+    top: 50px;
+    width:auto;
+    
+}
+
+#leftChildLayer {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    left:0px;
+    top:0px;
+    height: 1000px;
+    width:auto;
+    
+}
+
+
+a:link {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #64649b;
+    font-size: 12px;
+}
+
+a:visited {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #99668b;
+}
+
+a:hover {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+a:active {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #f3a30c;
+}
+
+.documenttitle { 
+  color: #0066FF; 
+  font-family:arial; 
+  font-size: 20px; 
+} 
+.darkorange { 
+  color: #833705; 
+  font-family:arial; 
+  font-size: 16px; 
+} 
+.analisis_revsistema{ 
+    color: #b5a694;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+} 
+     
+  .resaltartexto { 
+  color: #889393; 
+  font-family:arial; 
+  font-size: 14px; 
+}    
+
+  .resaltartexto2{ 
+  color: #FD3220; 
+  font-family:arial; 
+  font-size: 14px; 
+} 
+
+  .resaltartexto3{ 
+  color: #26B500; 
+  font-family:arial; 
+  font-size: 14px; 
+} 
+
+  .resaltartexto4{ 
+  color: #076BE9; 
+  font-family:arial; 
+  font-size: 14px; 
+} 
+    
+.even {
+    background-color: #CCCCCC;
+
+}
+
+#para1
+{
+text-align:center;
+color:red;
+}
+
+    /* Estilo que muestra la capa flotante */
+#flotante
+    {
+        position: absolute;
+        left: 50px;
+        top: 0px;
+        display:none;
+        float: left;
+        font-family:Arial;
+        font-weight: bold;
+        font-size:1em;
+        color: #fff;
+        width:15%;
+        border:1px solid #ff8f33;
+        background-color:#ff8f33;
+        box-shadow: 3px 3px 3px #000;
+        padding:10px;
+        z-index: 10;
+    }
+
+#contenedor{
+    position:absolute;
+    left:5%;
+    /*border: 1px solid #473c55;*/
+    width:700px;
+    overflow:hidden;
+    float:none;
+}
+
+
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+    color: #000099;
+}
+
+
+
+/*Tabla print*/
+/* CSS Table Design
+by Divya Manian
+Website: http://nimbupani.com
+E-Mail: divya.manian@gmail.com
+Type: Stylesheet
+Creative Commons Licensed
+*/
+
+div#itsthetable{
+    font-family:        Helvetica, Arial, "Franklin Gothic Medium", sans-serif;
+}
+
+table.print{
+    border-collapse: collapse;
+    text-align:left;
+    margin-left: 20px;
+    margin-right: 20px;
+    width: 90%;
+}
+caption{
+    text-transform:        capitalize;
+    font-size:             2em;
+    color:                #5B047B;
+    text-align:            left;
+    font-weight:        bolder;
+    border-bottom:        5px solid #5B047B;
+}
+
+thead tr th{
+    color:                #66C3FF;
+    text-transform:        uppercase;
+    text-align:            center;    
+    padding:            0.4em 0;
+    border-bottom:        3px solid #000;
+}
+
+tfoot th, tfoot td{
+    border-top:            3px solid #000;
+}
+tr td, tr th{
+    border-bottom:        1px solid #4b8a08;
+    padding:            0.6em 0.4em;
+    line-height:        1.5em;
+}
+tr.odd td, tr.odd th{
+    background:url(tablebkg.jpg) top left repeat-x;
+}
+
+tbody th a{
+    text-transform:uppercase;
+}
+
+tbody th{
+    text-transform:uppercase;
+    color:                #3c71c1;
+    text-transform:        uppercase;
+    text-align:            left;    
+    padding:            0.4em 0;
+}
+
+tbody a, tbody a:link{
+    color:            #a400a4;
+    font-weight:    bold;    
+    text-decoration:none;
+}
+
+tbody a:visited{
+    color:            #d50040;
+}
+
+/* fin de la tabla print*/
+
+
+
+/* Sortable tables */
+table.sortable{ 
+    font: 0.8em Arial, Helvetica, sans-serif;
+    border-collapse:collapse;    
+    background:transparent;
+    color:#000; 
+    width: 100%;
+    }
+#itsthetable > table {width:99%;}
+#itsthetable {
+    height:350px;
+    overflow:auto;
+    background:#c6dbff; 
+    padding-bottom:3px;
+    }
+caption { 
+    height:52px;
+    font-size:3em;  
+    color:#000;
+    text-align: left;
+    background: rgb(197, 197, 197) url("../images/tablaico.png") right top  no-repeat;  
+    }
+caption:hover{ 
+    font-size:3em; 
+    color:#333333;
+    text-align: left;
+    background: #E1ECFF url("../images/tablaico2.png") right top no-repeat;
+    }
+th {font-weight:900; color:#2e6c9e; font-size:1.05em; text-transform: uppercase;}
+tr th, tr td {border-bottom:1px solid #ccc;}
+table a, table a:link {text-decoration:none; color:#1A66EE;}
+table a:visited {color:#9D3399;} 
+table a:hover {color:#f00; background:#fafafa; display:block;} 
+tbody tr th  {
+    width:200px;
+    vertical-align:top;
+    padding-left: 10px;
+    text-align: left;
+    background:transparent url("../images/det1gmail.png") left top no-repeat;
+    }
+tbody tr td  {
+    height:1.7em;
+    vertical-align:top;
+    text-align: left;
+    padding-left:10px; 
+    background:transparent url("../images/det2gmail.png") left top no-repeat; 
+    }
+thead { background:#fff;}
+tr th + td + td + td + td {
+    width:60px; 
+    padding-left:20px;
+    font-size:0.9em; 
+    background:transparent url("http://www.maujor.com/temp/chris/det3gmail.gif") 0 0  no-repeat;
+    } 
+tr.odd th + td + td + td + td {
+    width:60px; 
+    padding-left:20px;
+    font-size:0.9em; 
+    background:none;
+    } 
+tfoot th, tfoot td {
+    height:105px;
+    font-weight:bold; 
+    height:2.0em; 
+    padding-left:10px; 
+    vertical-align: top;
+    }
+tfoot th{
+    height:102px;
+    background:#c6dbff url("footerth.gif") right top no-repeat; 
+    }
+tfoot td {height:102px;
+    background:#c6dbff url("footertd.gif") left top no-repeat; 
+    }
+
+/* fin de la tabla sortable*/
+

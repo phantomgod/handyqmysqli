@@ -1,0 +1,1151 @@
+#cabecera {
+    position: absolute;
+    left:0%;
+    top:0%;
+    float: left;
+    width:100%;
+    height: 20%;
+    display: inline-block;
+    z-index:-10;
+
+    filter: alpha(opacity=75)-moz-opacity:0.75; 
+    opacity: 0.75;
+    border: 2pxsolidblack;
+    border: 1px solid #696;padding: 5px 0;text-align: center;-webkit-box-shadow: #666 0px 2px 3px;-moz-box-shadow: #666 0px 2px 3px;box-shadow: #666 0px 2px 3px;background: #228afb;behavior: url(pie/PIE.htc);
+}
+
+#topmenu {
+    position: fixed;
+    left:700px;
+    top:80px;
+    float: left;
+    width:500px;
+    height: 25px;
+    display: inline-block;
+    z-index:-1;
+    /*border: 1px solid #696;padding: 5px 0;text-align: center;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;-webkit-box-shadow: #666 0px 2px 3px;-moz-box-shadow: #666 0px 2px 3px;box-shadow: #666 0px 2px 3px;background: #ff8f32;behavior: url(pie/PIE.htc);*/
+}
+
+     
+#bloque {
+    position: absolute;
+    left:0%;    
+    top: 0%;
+    height:auto;
+    z-index:-10;    
+    width:10%;
+    text-indent:5px ; margin:0px ; padding:5px ;
+    filter: alpha(opacity=75)-moz-opacity:0.75; 
+    opacity: 0.75;
+    border: 2pxsolidblack;
+    border: 1px solid #404040;text-align: center;-webkit-box-shadow: #666 0px 5px 7px;-moz-box-shadow: #666 0px 5px 7px;box-shadow: #666 0px 5px 7px;background: #5EAF00;behavior: url(pie/PIE.htc);
+    }
+
+#variante {
+    position: absolute;
+    left: 8%;
+    top: 12%;    
+    width:87%;
+    height:auto;
+    z-index:-9;
+    margin:5px;
+    text-indent:20px ; padding:20px ;
+    filter: alpha(opacity=90)-moz-opacity:0.90; 
+    opacity: 0.90;     
+    border: 1px solid #404040;text-align: left;-webkit-box-shadow: #666 0px 5px 7px;-moz-box-shadow: #666 0px 5px 7px;box-shadow: #666 0px 5px 7px;background: #FFF;behavior: url(pie/PIE.htc);
+    }
+    
+#variantepxlr {
+    position: absolute;
+    left: 8%;
+    top: 12%;    
+    width:87%;
+    height:800px;
+    z-index:-9;
+    margin:5px;
+    text-indent:20px ; padding:20px ;
+    filter: alpha(opacity=90)-moz-opacity:0.90; 
+    opacity: 0.90;     
+    border: 1px solid #404040;text-align: left;-webkit-box-shadow: #666 0px 5px 7px;-moz-box-shadow: #666 0px 5px 7px;box-shadow: #666 0px 5px 7px;background: #FFF;behavior: url(pie/PIE.htc);
+    }    
+
+#fileupload {
+    position: absolute;
+    left: 5%;
+    top: 10%;    
+    width:60%;
+    height:auto;
+    margin:5px;
+    text-indent:20px ; padding:20px ;
+    filter: alpha(opacity=90)-moz-opacity:0.90; 
+    opacity: 0.90;     
+    
+    }
+    
+
+
+#lang {
+     top:2%;
+     left:20%;
+     position: absolute;
+     width:150px;
+     z-index:3;
+}
+
+
+#print {
+     top:4%;
+     left:67%;
+     position: absolute;
+     width:50px;
+     z-index:2;
+}
+
+#backup {
+ top:4%;
+ left:72%;
+ position: absolute;
+ width:20px;
+ z-index:3;
+}
+
+#admin{
+ top:4%;
+ left:77%;
+ position: absolute;
+ width:120px;
+ z-index:3;
+}
+
+    
+#escarabajo {
+ top:5%;
+ left:80%;
+ position: fixed;
+ width:180px;
+ z-index:12;
+}
+#avion {
+ top:2%;
+ left:5%;
+ position: absolute;
+ width:200px;
+ z-index:15;
+}
+
+#contactiframe {
+ top:3%;
+ left: 79%;
+ position: absolute;
+ z-index:14;
+}   
+
+#acciones {
+    position: absolute;
+    left:40%;
+    top:7%;
+    float: left;
+    width:20%;
+    height: 2%;
+    display: inline-block;
+    z-index:1000;
+    }
+.documenttitle { 
+  color: #0066FF; 
+  font-family:arial; 
+  font-size: 16px; 
+} 
+.darkorange { 
+  color: #833705; 
+  font-family:arial; 
+  font-size: 16px; 
+} 
+.analisis_revsistema{ 
+    color: #b5a694;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+} 
+     
+  .resaltartexto { 
+  color: #889393; 
+  font-family:arial; 
+  font-size: 14px; 
+}    
+
+  .resaltartexto2{ 
+  color: #FD3220; 
+  font-family:arial; 
+  font-size: 14px; 
+} 
+
+  .resaltartexto3{ 
+  color: #26B500; 
+  font-family:arial; 
+  font-size: 14px; 
+} 
+
+  .resaltartexto4{ 
+  color: #076BE9; 
+  font-family:arial; 
+  font-size: 14px; 
+} 
+    
+.even {
+    background-color: #CCCCCC;
+
+}
+
+
+
+/*---------BUTTONS--------------------------*/
+
+input[type=submit]
+{
+    background-color: #59A7FC;
+    height: 24px;
+    width: 103px;
+    color: #fff;
+    border: 0;
+}
+
+.input[type=submit],
+{
+
+    font-family: Sansation;
+}
+
+
+button
+{
+    background-color: #86C340;
+    height: 24px;
+    width: 103px;
+    color: #fff;
+    border: 0;
+    font-family: arial;    
+}
+
+
+
+/*--------- END BUTTONS--------------------------*/
+
+#para1
+{
+text-align:center;
+color:#9fff30;
+}
+
+#pright
+{
+text-align:right;
+
+}
+
+/*IMAGE SELECTOR*/
+
+#image_selector_wrapper
+{
+    display: inline-block;
+}
+
+/*FIN IMAGE SELECTOR*/
+
+
+
+/*SISTEMA DE PESTAÑAS*/
+
+/* tamaño y forma del panel principal */
+div#panel {
+    position: relative;
+    width:400px;
+    height: 300px;
+}
+
+/* configuracion de las pestañas */
+ul#tabs {
+    position:absolute;
+    left: 0px;
+    top: 0px;
+    margin:0;
+    padding:0;
+    width: 800px;
+    height: 24px;
+    z-index: 20;
+}
+    ul#tabs li {
+        float:left;
+        height: 23px;
+        padding-left: 8px;
+        list-style: none;
+        margin-right: 1px;
+        background: url(../images/tabs.png) left -48px;
+    }
+    ul#tabs li.actual {
+        height: 24px;
+        background: url(../images/tabs.png) left -72px;
+    }
+        ul#tabs li a {
+            display: block;
+                /* hack para ie6 */
+                .display: inline-block;
+                /* fin del hack */
+            height: 23px;
+            line-height: 23px;
+            padding-right: 8px;
+            outline: 0px none;
+            font-family: arial;
+            font-size: 10px;
+            text-decoration: none;
+            color: #000;
+            background: url(../images/tabs.png) right 0px;
+        }
+        
+        ul#tabs li.actual a {
+            height: 24px;
+            line-height: 24px;
+            background: url(../images/tabs.png) right -24px;
+            cursor: default;    
+        }
+
+/* Configuración de los paneles */
+div#panel #paneles {
+    position:absolute;
+    left: 0px;
+    top: 23px;
+    width: 1100px;
+    height: 600px;
+    border: 1px solid #91a7b4;
+    background: #fff;
+    overflow: hidden;
+    z-index: 10px;
+}
+    div#panel #paneles div {
+        margin:10px;
+        width: 1200px;
+        height: 600px;
+        font-family: arial;
+        font-size: 12px;
+        text-decoration: none;
+        color: #000;
+        overflow: auto;
+    }
+
+/*FIN.....................SISTEMA DE PESTAÑAS*/
+
+
+
+
+
+/*Estilos para la edición de datos desde las tablas*/
+
+.editbox
+{
+display:none
+}
+td
+{
+padding:7px;
+}
+body
+{
+font-family:Arial, Helvetica, sans-serif;
+font-size:14px;
+}
+.editbox
+{
+font-size:14px;
+width:270px;
+background-color:#ffffcc;
+
+border:solid 1px #000;
+padding:4px;
+}
+.edit_tr:hover
+{
+background:url(edit.png) right no-repeat #80C8E5;
+cursor:pointer;
+}
+
+
+/*FIN de Estilos para la edición de datos desde las tablas*/
+
+
+#cab1 {
+ top:35px;
+ left:27%;
+ position: absolute;
+ width:160px;
+
+  z-index:4;
+}
+
+#cab11 {
+ top:6px;
+ left:48%;
+ position: absolute;
+ width:20px;
+
+}
+
+#cab12 {
+ top:6px;
+ left:52%;
+ position: absolute;
+ width:20px;
+
+}
+
+#cab13 {
+ top:6px;
+ left:56%;
+ position: absolute;
+ width:20px;
+
+}
+
+#cab14 {
+ top:6px;
+ left:60%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab15 {
+ top:6px;
+ left:64%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab16 {
+ top:6px;
+ left:68%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab17 {
+ top:6px;
+ left:72%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab18 {
+ top:6px;
+ left:76%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab19 {
+ top:6px;
+ left:80%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab20 {
+ top:6px;
+ left:84%;
+ position: absolute;
+ width:20px;
+
+}
+
+
+#cab2 {
+ top:35px;
+ left:42%;
+ position: absolute;
+ width:20px;
+ z-index:5;
+}
+
+#cab3 {
+ top:35px;
+ left:44%;
+ position: absolute;
+ width:20px;
+ z-index:6;
+}
+
+#cab4 {
+ top:35px;
+ left:46%;
+ position: absolute;
+ width:20px;
+
+ z-index:7;
+}
+
+#cab5 {
+ top:35px;
+ left:48%;
+ position: absolute;
+ width:20px;
+
+ z-index:8;
+}
+
+
+#handyq {
+ top:20px;
+ left:75%;
+ z-index:11;
+ position: absolute;
+ width:150px;
+ height: 75px;
+ z-index:9;
+
+}
+
+    
+
+    /* Estilo que muestra la capa flotante */
+#flotante
+    {
+        position: absolute;
+        left: 50px;
+        top: 0px;
+        display:none;
+        float: left;
+        font-family:Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-size:1em;
+        color: #fff;
+        width:15%;
+        border:1px solid #59A7FC;
+        background-color:#59A7FC;
+        box-shadow: 3px 3px 3px #000;
+        padding:10px;
+        z-index: 10;
+    }
+
+#contenedor{
+    position:absolute;
+    left:5%;
+    /*border: 1px solid #473c55;*/
+    width:700px;
+    overflow:hidden;
+    float:none;
+}
+    
+#rightChildLayer {
+    position:relative;
+    height: 1000px;
+    left: 300px;
+    top: 50px;
+    width: 70%;
+    
+}
+
+#leftChildLayer {
+    position:absolute;
+    left: 400px;
+    top: 100px;
+    left:0px;
+    top:100px;
+    height: 1000px;
+    width:100%;
+    
+}
+
+.titulonormal1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.linkStyle{
+    font-size:12px;
+    color:#00F;
+    text-decoration:underline;
+}
+
+
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
+    color: #51020A;
+}
+h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+    color: #542C02;
+}
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: bold;
+    color: #806669;
+}
+
+
+
+.framefont_red {
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: lighter;
+    color: #FF0033;
+}
+
+.framefont_#9fff30 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: lighter;
+    color: #E14732;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: normal;
+    color: #000;
+}
+
+.textareasmall {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    border:2px dashed #9995ec;
+    background-color: transparent;
+    height: 60px;
+    width: 150px;
+}
+
+.textareanormal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border:2px dashed #9995ec;
+    background-color: transparent;
+    height: 100px;
+    width: 80%;
+}
+
+
+.textareagrande {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border:2px dashed #9995ec;
+    background-color: transparent;
+    height: 400px;
+    width: 80%;
+}
+
+
+.textareacambiarinspeccion {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-style: normal;
+    border:2px dashed #9995ec;
+    background-color: transparent;
+    height: 100px;
+    width: 150px;
+}
+
+.textareapartes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    font-style: normal;
+    border:2px dashed #9995ec;
+    background-color: transparent;
+    height: 55px;
+    width: 540px;
+
+}
+
+.inputfecha {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 20%;
+    height: auto;
+}
+
+.inputpartes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 30%;
+    height: auto;
+}
+
+.inputid {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 10%;
+    height: auto;
+}
+
+.inputnormal {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 25%;
+
+    height: auto;
+}
+
+.inputlargo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    background-color: #fff;
+    width: 80%;
+    height: auto;
+}
+
+
+#mainDiv{
+    margin-top:100px;
+    padding:10px;
+}
+
+#diseno1{
+    border:1px solid #000;
+}
+
+.link2c2 {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #0000FF;
+    text-decoration: underline;
+}
+
+a:hover.link2c2 {
+    color:#FF0000;
+}
+
+.titulonormal1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000000;
+    text-decoration: none;
+}
+
+.normal2bl {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #000;
+}
+
+/* Targetting Webkit browsers only. FF will show the dropdown arrow with so much padding. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    select {padding-right:35px}
+}
+
+/*select language cabecera index dentro del div id=lang*/
+
+/* The CSS */
+select {
+    padding:2px;
+    margin: 0;
+    -webkit-border-radius:2px;
+    -moz-border-radius:2px;
+    border-radius:2px;
+    filter: alpha(opacity=75)-moz-opacity:0.75; 
+    opacity: 0.75;    
+    background: #59A3EF;
+    color:#fff;
+    border:none;
+    outline:none;
+    display: inline-block;
+    -webkit-appearance:none;
+    -moz-appearance:none;
+
+    cursor:pointer;
+}
+
+
+
+
+/*Tabla print*/
+
+/* xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+xx  CSS Table Gallery            xx          
+xx  Author: Mauricio Samy Silva  xx
+xx  URL: http://www.maujor.com/  xx
+xx  Country: Brazil              xx
+xx  Date: 2005-09-28             xx
+xx  xxxxxxxxxxxxxxxxxxxxxxxxxxxxx*/
+table.print{ 
+    font: 0.8em Arial, Helvetica, sans-serif;
+    border-collapse:collapse;    
+    background:transparent;
+    color:#000; 
+    width: 100%;
+    }
+#itsthetable > table {width:99%;}
+#itsthetable {
+    height:350px;
+    overflow:auto;
+    background:#B5C6CA; 
+    padding-bottom:3px;
+    }
+caption { 
+    height:52px;
+    font-size:2em;  
+    color:#636600;
+    padding-top:15px;
+    text-align: left;
+    background:#C5F386 url("../images/tablaico.png") right top  no-repeat;  
+    }
+caption:hover{ 
+    font-size:2.4em; 
+    color:#333333;
+    padding-top:15px;
+    text-align: left;
+    background: #CAF492 url("../images/tablaico2.png") right top no-repeat;
+    }
+th {font-weight:900; color:#2e6c9e; font-size:1.05em; text-transform: uppercase;}
+/**tr th, tr td {border-bottom:1px solid #ccc;}*/
+table a, table a:link {text-decoration:none; color:#666;}
+table a:visited {color:#999;} 
+table a:hover {color:#f00; display:block;} 
+tbody tr th  {
+    width:80px;
+    vertical-align:top;
+    padding-left: 10px;
+    text-align: left;
+    background:transparent url("../images/det1gmail.png") left top no-repeat;
+    }
+tbody tr td  {
+    height:1.7em;
+    vertical-align:top;
+    text-align: left;
+    padding-left:10px; 
+    background:transparent url("../images/det2gmail.png") left top no-repeat; 
+    }
+thead { background:#fff;}
+tr th + td + td + td + td {
+    width:60px; 
+    padding-left:20px;
+    font-size:0.9em; 
+    background:transparent url("http://www.maujor.com/temp/chris/det3gmail.gif") 0 0  no-repeat;
+    } 
+tr.odd th + td + td + td + td {
+    width:60px; 
+    padding-left:20px;
+    font-size:0.9em; 
+    background:none;
+    } 
+tfoot th, tfoot td {
+    height:105px;
+    font-weight:bold; 
+    height:2.0em; 
+    padding-left:10px; 
+    vertical-align: top;
+    }
+tfoot th{
+    height:102px;
+    background:#c6dbff url("footerth.gif") right top no-repeat; 
+    }
+tfoot td {height:102px;
+    background:#c6dbff url("footertd.gif") left top no-repeat; 
+    }
+
+
+/* fin de la tabla print*/
+
+
+
+/* Sortable tables */
+.sortable {
+    margin:0px;padding:0px;
+    width:100%;
+    box-shadow: 10px 10px 5px #888888;
+    /**border:1px solid #b2b2b2;*/
+    
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+    
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+    
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+    
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}.sortable table{
+    width:100%;
+    height:100%;
+    margin:0px;padding:0px;
+}.sortable tr:last-child td:last-child {
+    -moz-border-radius-bottomright:0px;
+    -webkit-border-bottom-right-radius:0px;
+    border-bottom-right-radius:0px;
+}
+.sortable table tr:first-child td:first-child {
+    -moz-border-radius-topleft:0px;
+    -webkit-border-top-left-radius:0px;
+    border-top-left-radius:0px;
+}
+.sortable table tr:first-child td:last-child {
+    -moz-border-radius-topright:0px;
+    -webkit-border-top-right-radius:0px;
+    border-top-right-radius:0px;
+}.sortable tr:last-child td:first-child{
+    -moz-border-radius-bottomleft:0px;
+    -webkit-border-bottom-left-radius:0px;
+    border-bottom-left-radius:0px;
+}.sortable tr:hover td{
+    background-color:#cccccc;
+        
+
+}
+.sortable td{
+    vertical-align:middle;
+    
+    background-color:#ffffff;
+
+    /**border:1px solid #b2b2b2;
+    border-width:0px 1px 1px 0px;*/
+    text-align:left;
+    padding:7px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}.sortable tr:last-child td{
+    /**border-width:0px 1px 0px 0px;*/
+}.sortable tr td:last-child{
+    /**border-width:0px 0px 1px 0px;*/
+}.sortable tr:last-child td:last-child{
+    /**border-width:0px 0px 0px 0px;*/
+}
+.sortable tr:first-child td{
+
+    vertical-align:middle;
+    
+    background-color:#ffffff;
+
+    /**border:1px solid #b2b2b2;
+    border-width:0px 1px 1px 0px;*/
+    text-align:left;
+    padding:7px;
+    font-size:14px;
+    font-family:Arial;
+    font-weight:normal;
+    color:#000000;
+}
+.sortable tr:first-child:hover td{
+    background:-o-linear-gradient(bottom, #b2b2b2 5%, #b2b2b2 100%);    background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #b2b2b2), color-stop(1, #b2b2b2) );
+    background:-moz-linear-gradient( center top, #b2b2b2 5%, #b2b2b2 100% );
+    filter:progid:DXImageTransform.Microsoft.gradient(startColorstr="#b2b2b2", endColorstr="#b2b2b2");    background: -o-linear-gradient(top,#b2b2b2,b2b2b2);
+
+    background-color:#b2b2b2;
+}
+
+    
+/* FIN DE LA TABLA SORTABLE */    
+
+    
+/* TOOLTIP PARA CONSULTAS MYSQL. */
+
+.tooltip{
+    position:absolute;
+    width:800px;
+    padding:5px 5px 5px 18px;
+    z-index:1100;
+    font-family:Verdana, Geneva, sans-serif;
+    filter: alpha(opacity=90)-moz-opacity:0.90; 
+    opacity: 0.90;
+    border: 1px solid #404040;text-align: center;-webkit-border-radius: 8px;-moz-border-radius: 8px;border-radius: 8px;-webkit-box-shadow: #666 0px 5px 7px;-moz-box-shadow: #666 0px 5px 7px;box-shadow: #666 0px 5px 7px; background: #fff; behavior: url(pie/PIE.htc);}
+
+    .tooltip th {font-weight:900; color:#2e6c9e; font-size:14px; text-transform: none;}
+    .tooltip td {font-weight:700; color:#505050; font-size:12px; text-transform: none;}
+    
+/* FIN TOOLTIP PARA CONSULTAS MYSQL. */
+
+
+/* TOOLTIP PARA INSTALL (TOOLTEXT). */
+
+.ToolText{position:relative; } 
+.ToolTextHover{position:relative;} 
+.ToolText span{display: none;} 
+
+.ToolTextHover span{ 
+  zoom: 1;
+  filter: alpha(opacity=80);
+  opacity: 0.8;
+
+  position:absolute; 
+  /*border:1px solid black;*/
+  top:1.3em; 
+  left:5px; 
+  background-color:#1E3EC8; color:white ; 
+  float: left;
+  font-family:Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size:1em;
+  color: #fff;
+  margin:10px;
+  width:150%;
+  padding: 10px;
+   box-shadow: 3px 3px 3px #000;
+} 
+
+/** 
+* Generated by www.formstylegenerator.com 
+**/
+
+/** You can use this style for your INPUT, TEXTAREA, SELECT elements **/
+.myinputstyle {
+    border: 1px solid #5b047b;
+    /** remember to change image path **/
+    background: url(none) no-repeat #d2def2;
+    font-family: tahoma, helvetica, sans-serif;
+    font-style: normal;
+    font-size: 14px;
+    color: #454743;
+}
+
+/** You can use this style for your LABEL elements **/
+.mylabelstyle {
+    font-family: tahoma, helvetica, sans-serif;
+    font-style: bold;
+    font-size: 13px;
+    color: #82983e;
+}
+
+/** 
+*  You can use this style for your INPUT, TEXTAREA, SELECT elements 
+*  for onmousehover event
+**/
+.myinputstyle:hover {
+    border: 1px solid #FFFFFF;
+    /** remember to change image path **/
+    background: url(none) no-repeat #FFFFFF;
+    color: #454743;
+}
+
+
+/* FIN.........DE TOOLTIP PARA INSTALL (TOOLTEXT). */
+
+
+/** Edit-delete de ajax. */
+
+            #loading{
+                width: 100%;
+                position: absolute;
+                top: 10px;
+                left: 400px;
+                margin-top:0px;
+            }
+            #container .pagination ul li.inactive,
+            #container .pagination ul li.inactive:hover{
+                background-color:#ededed;
+                color:#bababa;
+                border:1px solid #bababa;
+                cursor: default;
+            }
+            #container .data ul li{
+                list-style: none;
+                font-family: verdana;
+                margin: 5px 0 5px 0;
+                color: #000;
+                font-size: 13px;
+            }
+
+            #container .pagination{
+                width: 800px;
+                height: 25px;
+            }
+            #container .pagination ul li{
+                list-style: none;
+                float: left;
+                border: 1px solid #006699;
+                padding: 2px 6px 2px 6px;
+                margin: 0 3px 0 3px;
+                font-family: arial;
+                font-size: 14px;
+                color: #006699;
+                font-weight: bold;
+                background-color: #f2f2f2;
+            }
+            #container .pagination ul li:hover{
+                color: #fff;
+                background-color: #006699;
+                cursor: pointer;
+            }
+            .go_button
+            {
+            background-color:#f2f2f2;border:1px solid #006699;color:#cc0000;padding:2px 6px 2px 6px;cursor:pointer;position:absolute;margin-top:-1px;
+            }
+            .total
+            {
+            float:right;font-family:arial;color:#999;
+            }
+            .editbox {
+            display:none;
+            font-size:14px;
+            width:150px;
+            background-color:#ffffcc;
+            border:solid 1px #000;
+            padding:4px;
+            }
+            .editbox2 {
+            display:none;
+            font-size:14px;
+            width:300px;
+            background-color:#ffffcc;
+            border:solid 1px #000;
+            padding:4px;
+            }
+            td, th {
+            
+            text-align:left;
+            font-size: 14px;
+            padding:5px;
+            }
+            body {
+            width: 900px;
+            margin: 0 auto;
+            padding: 0;
+            font-family:Arial, Helvetica, sans-serif;
+            font-size:14px;
+            }
+            .edit_tr:hover
+            {
+            background:url(edit.png) right no-repeat #80C8E5;
+            cursor:pointer;
+            }
+
+
+/*FIN de Estilos para la edición de datos desde las tablas*/
+            
+/** FIN Edit-delete de ajax. */
