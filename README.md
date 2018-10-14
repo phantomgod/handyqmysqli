@@ -33,7 +33,7 @@ Here are some images made years ago:
  </p>
  and... what can I tell you?
  This progran is working now; is half updated to mysqli, half updated to pdo, half merged with bootstrap framework... may be a disaster, **but works** (¿five years more without updates made by myself only?). I have been using with my clients for about ten years.
- 
+
 I do not want you to get dizzy for more with my sad explanations, I only want that this software be useful for you, if you are a humble quality management system responsible (of a little-medium) enterprise.
 
 ************************************
@@ -42,5 +42,4 @@ Find wherever there is the datas of the connections with the database. The main 
 
 Change the connection datas with yours (assuming that you have created a Mysql database before). I let you a complete database of example completely false (the datas inside i say). Import this database if you want to begin usin the application with a full sight in the screen (if the tables where empty, would be difficult to begin using the program). If you have some difficulties, i will help (javier@textblock.org).
 
-Thts for today.
- 
+The sql is into the "privatedata" folder.
