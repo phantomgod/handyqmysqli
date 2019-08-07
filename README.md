@@ -40,6 +40,6 @@ I do not want you to get dizzy for more with my sad explanations, I only want th
 Use Notepad++ (or other that was able to fin and replace in folders).
 Find wherever there is the datas of the connections with the database. The main connection is in the includes folder, but there are some more, for some particular modules in the application.
 
-Change the connection datas with yours (assuming that you have created a Mysql database before). I let you a complete database of example completely false (the datas inside i say). Import this database if you want to begin usin the application with a full sight in the screen (if the tables where empty, would be difficult to begin using the program). If you have some difficulties, i will help (javier@textblock.org).
+Change the connection datas with yours (assuming that you have created a Mysql database before). I let you a complete database of example completely false (the datas inside i say). Import this database if you want to begin usin the application with a full sight in the screen (if the tables where empty, would be difficult to begin using the program). If you have some difficulties, i will help (fde_juan@hotmail.com).
 
 The sql is into the "privatedata" folder.
